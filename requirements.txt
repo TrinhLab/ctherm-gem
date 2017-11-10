@@ -1,2 +1,5 @@
 cobra
 memote
+requests
+pandas
+python-libsbml
