@@ -121,7 +121,7 @@ C00167_c,UDP-glucuronate_C15H22N2O18P2,,,[-3],['C15H19N2O18P2'],udpglcur_c,UDP-D
 C00168_c,Hydroxypyruvate_C3H4O4,,,[-1],['C3H3O4'],hpyr_c,Hydroxypyruvate,C3H3O4,-1,C00168,
 C00169_c,Carbamoyl phosphate_CH4NO5P,,,[-2],['CH2NO5P'],cbp_c,Carbamoyl phosphate,CH2NO5P,-2,C00169,
 C00170_c,5'-Methylthioadenosine_C11H15N5O3S,,,[0],['C11H15N5O3S'],5mta_c,5-Methylthioadenosine,C11H15N5O3S,0,C00170,
-C00173_c,Acyl-[acyl-carrier protein]_C3H4OSR2,,,,,aacp_c,Acyl-[acyl-carrier protein],C3H4OSR2,,C00173,generic
+C00173_c,Acyl-[acyl-carrier protein]_C3H4OSR2,,,,,aacp_c,Acyl-[acyl-carrier protein],RHSR,,C00173,generic
 C00179_c,Agmatine_C5H14N4,,,[2],['C5H16N4'],agm_c,Agmatine,C5H16N4,2,C00179,
 C00180_c,Benzoate_C7H6O2,,,"[0, -1]",['C7H5O2'],bz_c,Benzoate,C7H5O2,0,C00180,
 C00183_c,L-Valine_C5H11NO2,,,[0],['C5H11NO2'],val__L_c,L-Valine,C5H11NO2,0,C00183,
@@ -143,7 +143,7 @@ C00217_c,D-Glutamate_C5H9NO4,,,[-1],['C5H8NO4'],glu__D_c,D-Glutamate,C5H8NO4,-1,
 C00221_c,beta-D-Glucose_C6H12O6,,,,,glc__bD_c,beta-D-Glucose,C6H12O6,0,C00221,
 C00224_c,Adenylyl sulfate_C10H14N5O10PS,,,[-2],['C10H12N5O10PS'],aps_c,Adenosine 5'-phosphosulfate,C10H12N5O10PS,-2,C00224,
 C00227_c,Acetyl phosphate_C2H5O5P,,,[-2],['C2H3O5P'],actp_c,Acetyl phosphate,C2H3O5P,-2,C00227,
-C00229_c,Acyl-carrier protein_HSR,,,"[0, -1]","['HX', 'C11H21N2O7PRS', 'C384H603N96O142P1S3', 'X', 'HSR']",ACP_c,Acyl carrier protein,C11H21N2O7PRS,-1,C00229,Formula and charge based on iML. ACP derived compounds must take this into account
+C00229_c,Acyl-carrier protein_HSR,,,"[0, -1]","['HX', 'C11H21N2O7PRS', 'C384H603N96O142P1S3', 'X', 'HSR']",ACP_c,Acyl carrier protein,HSR,-1,C00229,Formula and charge based on iML. ACP derived compounds must take this into account
 C00231_c,D-Xylulose 5-phosphate_C5H11O8P,,,[-2],['C5H9O8P'],xu5p__D_c,D-Xylulose 5-phosphate,C5H9O8P,-2,C00231,
 C00233_c,4-Methyl-2-oxopentanoate_C6H10O3,,,[-1],['C6H9O3'],4mop_c,4-Methyl-2-oxopentanoate,C6H9O3,-1,C00233,
 C00234_c,10-Formyltetrahydrofolate_C20H23N7O7,,,[-2],['C20H21N7O7'],10fthf_c,10-Formyltetrahydrofolate,C20H21N7O7,-2,C00234,
@@ -341,7 +341,7 @@ C01179_c,3-(4-Hydroxyphenyl)pyruvate_C9H8O4,"['2h34hppr', '34hpp']","['2-Hydroxy
 C01181_c,4-Trimethylammoniobutanoate_C7H15NO2,"['gbbtn', '4tmeabutn']","['Gamma-butyrobetaine', '4-Trimethylammoniobutanoate']",[0],['C7H15NO2'],gbbtn_c,Gamma-butyrobetaine,C7H15NO2,0,C01181,
 C01185_c,Nicotinate D-ribonucleotide_C11H14NO9P,,,[-2],['C11H12NO9P'],nicrnt_c,Nicotinate D-ribonucleotide,C11H12NO9P,-2,C01185,
 C01190_c,Glucosylceramide_C25H46NO8R,,,[0],['C24H46NO7RCO'],gluside_cho_c,D-glucosyl-N-acylsphingosine,C24H46NO7RCO,0,C01190,
-C01209_c,Malonyl-[acyl-carrier protein]_C3H3O3SR,,,"[-2, -1]","['C14H22N2O10PRS', 'C3H2O3RS', 'C387H604O145N96P1S3', 'C3H2O3SR']",malACP_c,Malonyl-[acyl-carrier protein],C14H22N2O10PRS,-2,C01209,iML formula
+C01209_c,Malonyl-[acyl-carrier protein]_C3H3O3SR,,,"[-2, -1]","['C14H22N2O10PRS', 'C3H2O3RS', 'C387H604O145N96P1S3', 'C3H2O3SR']",malACP_c,Malonyl-[acyl-carrier protein],C3HO3SR,-2,C01209,iML  charge
 C01212_c,UDP-N-acetylmuramoyl-L-alanine_C23H36N4O20P2,,,[-3],['C23H33N4O20P2'],uama_c,UDP-N-acetylmuramoyl-L-alanine,C23H33N4O20P2,-3,C01212,
 C01217_c,"5,6,7,8-Tetrahydromethanopterin_C30H45N6O16P",,,,['C30H42N6O16P'],h4mpt_c,"5,6,7,8-tetrahydromethanopterin",C30H42N6O16P,,C01217,
 C01219_c,CDP-4-dehydro-6-deoxy-D-glucose_C15H23N3O15P2,,,[-2],['C15H21N3O15P2'],cdp4dh6doglc_c,CDP-4-dehydro-6-deoxy-D-glucose,C15H21N3O15P2,-2,C01219,
@@ -470,7 +470,7 @@ C03561_c,(R)-3-Hydroxybutanoyl-CoA_C25H42N7O18P3S,,,,,r3hbcoa,(R)-3-Hydroxybutan
 C03576_c,2-Mercaptoethanesulfonate_C2H6O3S2,,,,['C2H5O3S2'],com_c,Coenzyme m,C2H5O3S2,,C03576,
 C03657_c,"1,4-Dihydroxy-2-naphthoate_C11H8O4",,,[-1],['C11H7O4'],dhna_c,"1,4-Dihydroxy-2-naphthoate",C11H7O4,-1,C03657,
 C03684_c,6-Pyruvoyltetrahydropterin_C9H11N5O3,,,[0],['C9H11N5O3'],6pthp_c,"6-Pyruvoyl-5,6,7,8-tetrahydropterin",C9H11N5O3,0,C03684,
-C03688_c,Apo-[acyl-carrier-protein]_,,,,,apoACP_c,Apoprotein [acyl carrier protein],RHO,0,C03688,from iML1515
+C03688_c,Apo-[acyl-carrier-protein]_,,,,,apoACP_c,Apoprotein [acyl carrier protein],RHSR,0,C03688,generic (seems blocked in iML1515)
 C03691_c,CMP-N-glycoloylneuraminate_C20H31N4O17P,,,[-2],['C20H29N4O17P'],cmpglna_c,CMP-N-glycoloylneuraminate,C20H29N4O17P,-2,C03691,
 C03722_c,Quinolinate_C7H5NO4,,,[-2],['C7H3NO4'],quln_c,Quinolinate,C7H3NO4,-2,C03722,
 C03741_c,(S)-4-Amino-5-oxopentanoate_C5H9NO3,,,[0],['C5H9NO3'],glu1sa_c,L-Glutamate 1-semialdehyde,C5H9NO3,0,C03741,
@@ -482,7 +482,7 @@ C03871_c,L-2-Amino-6-oxoheptanedioate_C7H11NO5,,,,,am6ohd_c,L-2-Amino-6-oxohepta
 C03892_c,Phosphatidylglycerophosphate_C8H14O13P2R2,,,[-150],['C1986H3698O650P100'],pgp_gen_c,Phosphatidylglycerophosphate,C8H14O13P2R2,,C03892,replaced by generic formula
 C03912_c,(S)-1-Pyrroline-5-carboxylate_C5H7NO2,,,[-1],['C5H6NO2'],1pyr5c_c,1-Pyrroline-5-carboxylate,C5H6NO2,-1,C03912,
 C03920_c,2-(Methylthio)ethanesulfonate_C3H8O3S2,,,,['C3O3S2H7'],mcom_c,Methylcoenzyme m,C3O3S2H7,-1,C03920,charge based on coenzyme m
-C03939_c,Acetyl-[acyl-carrier protein]_C2H3OSR,,,"[0, -1]","['C13H23N2O8PRS', 'C2H3ORS', 'C2H3OSR', 'C386H605O143N96P1S3']",acACP_c,Acetyl-ACP,C13H23N2O8PRS,0,C03939,iML formula
+C03939_c,Acetyl-[acyl-carrier protein]_C2H3OSR,,,"[0, -1]","['C13H23N2O8PRS', 'C2H3ORS', 'C2H3OSR', 'C386H605O143N96P1S3']",acACP_c,Acetyl-ACP,C2H3OSR,0,C03939,iML formula
 C03972_c,"2,3,4,5-Tetrahydrodipicolinate_C7H9NO4",,,[-2],['C7H7NO4'],thdp_c,"2,3,4,5-Tetrahydrodipicolinate",C7H7NO4,-2,C03972,
 C04039_c,"2,3-Dihydroxy-3-methylbutanoate_C5H10O4",,,,,23dhmb2_c,"2,3-Dihydroxy-3-methylbutanoate",C5H9O4,-1,C04039,isomer (not in bigg)
 C04046_c,"3-D-Glucosyl-1,2-diacylglycerol_C11H16O10R2",,,[50],['C1860H3615O292'],3g12dgr_SA2_c,"3-D-Glucosyl-1,2-diacylglycerol",C1860H3615O292,50,C04046,
@@ -498,7 +498,7 @@ C04181_c,3-Hydroxy-3-methyl-2-oxobutanoic acid_C5H8O4,,,,,3hmoa_c, 3-Hydroxy-3-m
 C04188_c,S-Methyl-5-thio-D-ribose 1-phosphate_C6H13O7PS,,,[-2],['C6H11O7PS'],5mdr1p_c,5-Methylthio-5-deoxy-D-ribose 1-phosphate,C6H11O7PS,-2,C04188,
 C04216_c,all-trans-Heptaprenyl diphosphate_C35H60O7P2,,,[-3],['C35H57O7P2'],hepdp_c,All-trans-Heptaprenyl diphosphate,C35H57O7P2,-3,C04216,
 C04236_c,(2S)-2-Isopropyl-3-oxosuccinate_C7H10O5,,,[-2],['C7H8O5'],3c4mop_c,3-Carboxy-4-methyl-2-oxopentanoate,C7H8O5,-2,C04236,
-C04246_c,But-2-enoyl-[acyl-carrier protein]_C4H5OSR,,,"[0, -1]","['C388H607O143N96P1S3', 'C15H25N2O8PRS', 'C4H5OSR']",but2eACP_c,But-2-enoyl-[acyl-carrier protein],C15H25N2O8PRS,-1,C04246,iML formula
+C04246_c,But-2-enoyl-[acyl-carrier protein]_C4H5OSR,,,"[0, -1]","['C388H607O143N96P1S3', 'C15H25N2O8PRS', 'C4H5OSR']",but2eACP_c,But-2-enoyl-[acyl-carrier protein],C4H4OSR,-1,C04246,iML charge
 C04257_c,N-Acetyl-D-mannosamine 6-phosphate_C8H16NO9P,,,[-2],['C8H14NO9P'],acmanap_c,N-Acetyl-D-mannosamine 6-phosphate,C8H14NO9P,-2,C04257,
 C04260_c,O-D-Alanyl-poly(ribitol phosphate)_(C8H16NO8P)n,,,,,oaprp_c,O-D-Alanyl-poly(ribitol phosphate),(C8H16NO8P)n,,C04260,generic
 C04272_c,"(R)-2,3-Dihydroxy-3-methylbutanoate_C5H10O4",,,[-1],['C5H9O4'],23dhmb_c,"(R)-2,3-Dihydroxy-3-methylbutanoate",C5H9O4,-1,C04272,
@@ -534,9 +534,9 @@ C04640_c,2-(Formamido)-N1-(5'-phosphoribosyl)acetamidine_C8H16N3O8P,,,,,fpram_c,
 C04646_c,6-Thioinosine-5'-monophosphate_C10H13N4O7PS,,,,['C10H11N4O7PS'],6tins5mp_c,6-Thioinosine-5'-monophosphate,C10H11N4O7PS,,C04646,only in iRC1080
 C04666_c,D-erythro-1-(Imidazol-4-yl)glycerol 3-phosphate_C6H11N2O6P,,,[-2],['C6H9N2O6P'],eig3p_c,D-erythro-1-(Imidazol-4-yl)glycerol 3-phosphate,C6H9N2O6P,-2,C04666,
 C04677_c,1-(5'-Phosphoribosyl)-5-amino-4-imidazolecarboxamide_C9H15N4O8P,,,[-2],['C9H13N4O8P'],aicar_c,5-Amino-1-(5-Phospho-D-ribosyl)imidazole-4-carboxamide,C9H13N4O8P,-2,C04677,
-C04688_c,(3R)-3-Hydroxytetradecanoyl-[acyl-carrier protein]_C14H27O2SR,,,"[0, -1]","['C25H47N2O9PRS', 'C14H27O2SR', 'C398H629O144N96P1S3']",3hmrsACP_c,(R)-3-Hydroxytetradecanoyl-[acyl-carrier protein],C25H47N2O9PRS,0,C04688,
+C04688_c,(3R)-3-Hydroxytetradecanoyl-[acyl-carrier protein]_C14H27O2SR,,,"[0, -1]","['C25H47N2O9PRS', 'C14H27O2SR', 'C398H629O144N96P1S3']",3hmrsACP_c,(R)-3-Hydroxytetradecanoyl-[acyl-carrier protein],C14H27O2SR,0,C04688,
 C04691_c,2-Dehydro-3-deoxy-D-arabino-heptonate 7-phosphate_C7H13O10P,,,[-3],['C7H10O10P'],2dda7p_c,2-Dehydro-3-deoxy-D-arabino-heptonate 7-phosphate,C7H10O10P,-3,C04691,
-C04702_c,UDPMurAc(oyl-L-Ala-D-gamma-Glu-L-Lys-D-Ala-D-Ala)_C40H65N9O26P2,,,,,�uGgla,UDP-N-acetylmuramoyl-L-alanyl-gamma-D-glutamyl-L-lysyl-D-alanyl-D-alanine,C40H62N9O26P2,-3,C04702,
+C04702_c,UDPMurAc(oyl-L-Ala-D-gamma-Glu-L-Lys-D-Ala-D-Ala)_C40H65N9O26P2,,,,,uGgla,UDP-N-acetylmuramoyl-L-alanyl-gamma-D-glutamyl-L-lysyl-D-alanyl-D-alanine,C40H62N9O26P2,-3,C04702,
 C04732_c,5-Amino-6-(1-D-ribitylamino)uracil_C9H16N4O6,,,[0],['C9H16N4O6'],4r5au_c,4-(1-D-Ribitylamino)-5-aminouracil,C9H16N4O6,0,C04732,
 C04734_c,1-(5'-Phosphoribosyl)-5-formamido-4-imidazolecarboxamide_C10H15N4O9P,,,[-2],['C10H13N4O9P'],fprica_c,5-Formamido-1-(5-phospho-D-ribosyl)imidazole-4-carboxamide,C10H13N4O9P,-2,C04734,
 C04751_c,1-(5-Phospho-D-ribosyl)-5-amino-4-imidazolecarboxylate_C9H14N3O9P,,,[-3],['C9H11N3O9P'],5aizc_c,5-amino-1-(5-phospho-D-ribosyl)imidazole-4-carboxylate,C9H11N3O9P,-3,C04751,
@@ -602,7 +602,7 @@ C05702_c,O-Phosphorylhomoserine_C4H10NO6P,,,,,phser_c,O-Phosphorylhomoserine,C4H
 C05703_c,Methaneselenol_CH4Se,,,,,methsel_c,Methaneselenol,CH4Se,0,C05703,
 C05712_c,Cyanohydrin_C2HNOR2,,,,,cyanh_gen_c,Cyanohydrin,C2HNOR2,,C05712,generic
 C05713_c,Cyanoglycoside_C8H11NO6R2,,,,,cyang_gen_c,Cyanoglycoside,C8H11NO6R2,,C05713,generic
-C05744_c,Acetoacetyl-[acp]_C4H5O2SR,,,"[0, -1]","['C388H607O144N96P1S3', 'C15H25N2O9PRS', 'C4H5O2SR', 'C4H5O2RS']",actACP_c,Acetoacetyl-ACP,C388H607O144N96P1S3,-1,C05744,iML charge
+C05744_c,Acetoacetyl-[acp]_C4H5O2SR,,,"[0, -1]","['C388H607O144N96P1S3', 'C15H25N2O9PRS', 'C4H5O2SR', 'C4H5O2RS']",actACP_c,Acetoacetyl-ACP,C4H4O2SR,-1,C05744,iML charge
 C05745_c,Butyryl-[acp]_C4H7OSR,,,,,butACP_c,Butyryl-[acp],C4H6OSR,-1,C05745,iML charge
 C05746_c,3-Oxohexanoyl-[acp]_C6H9O2SR,,,"[0, -1]","['C6H9O2SR', 'C17H29N2O9PRS', 'C390H611O144N96P1S3']",3ohexACP_c,3-Oxohexanoyl-[acyl-carrier protein],C6H9O2SR,-1,C05746,iML charge
 C05747_c,(R)-3-Hydroxyhexanoyl-[acp]_C6H11O2SR,,,"[0, -1]","['C390H613O144N96P1S3', 'C6H11O2SR', 'C17H31N2O9PRS']",3hhexACP_c,(R)-3-Hydroxyhexanoyl-[acyl-carrier protein],C6H11O2SR,-1,C05747,iML charge
@@ -610,19 +610,19 @@ C05748_c,trans-Hex-2-enoyl-[acp]_C6H9OSR,,,"[0, -1]","['C17H29N2O8PRS', 'C6H9OSR
 C05749_c,Hexanoyl-[acp]_C6H11OSR,,,,,hexACP_c,Hexanoyl-[acp],C6H10OSR,-1,C05749,iML charge
 C05750_c,3-Oxooctanoyl-[acp]_C8H13O2SR,,,"[0, -1]","['C8H13O2SR', 'C19H33N2O9PRS', 'C392H615O144N96P1S3']",3ooctACP_c,3-Oxooctanoyl-[acyl-carrier protein],C8H13O2SR,-1,C05750,iML charge
 C05751_c,trans-Oct-2-enoyl-[acp]_C8H13OSR,,,"[0, -1]","['C8H13OSR', 'C392H615O143N96P1S3', 'C19H33N2O8PRS']",toct2eACP_c,Trans-Oct-2-enoyl-[acyl-carrier protein],C8H13OSR,-1,C05751,iML charge
-C05752_c,Octanoyl-[acp]_C8H15OSR,,,,,,Octanoyl-[acp],C8H15OSR,,C05752,
-C05753_c,3-Oxodecanoyl-[acp]_C10H17O2SR,,,"[0, -1]","['C21H37N2O9PRS', 'C394H619O144N96P1S3', 'C10H17O2SR']",3odecACP_c,3-Oxodecanoyl-[acyl-carrier protein],C21H37N2O9PRS,-1,C05753,iML charge
-C05754_c,trans-Dec-2-enoyl-[acp]_C10H17OSR,,,"[0, -1]","['C394H619O143N96P1S3', 'C21H37N2O8PRS', 'C10H17OSR']",tdec2eACP_c,Trans-Dec-2-enoyl-[acyl-carrier protein],C394H619O143N96P1S3,-1,C05754,iML charge
-C05755_c,Decanoyl-[acp]_C10H19OSR,,,,,,Decanoyl-[acp],C10H19OSR,,C05755,
-C05756_c,3-Oxododecanoyl-[acp]_C12H21O2SR,,,"[0, -1]","['C396H623O144N96P1S3', 'C23H41N2O9PRS', 'C12H21O2SR']",3oddecACP_c,3-Oxododecanoyl-[acyl-carrier protein],C396H623O144N96P1S3,-1,C05756,iML charge
-C05757_c,(R)-3-Hydroxydodecanoyl-[acp]_C12H23O2SR,,,"[0, -1]","['C396H625O144N96P1S3', 'C23H43N2O9PRS', 'C12H23O2SR']",3hddecACP_c,(R)-3-Hydroxydodecanoyl-[acyl-carrier protein],C396H625O144N96P1S3,-1,C05757,iML charge
-C05758_c,trans-Dodec-2-enoyl-[acp]_C12H21OSR,,,"[0, -1]","['C396H623O143N96P1S3', 'C12H21OSR', 'C23H41N2O8PRS']",tddec2eACP_c,Trans-Dodec-2-enoyl-[acyl-carrier protein],C396H623O143N96P1S3,-1,C05758,iML charge
-C05759_c,3-Oxotetradecanoyl-[acp]_C14H25O2SR,,,"[0, -1]","['C14H25O2SR', 'C398H627O144N96P1S3', 'C25H45N2O9PRS']",3omrsACP_c,3-Oxotetradecanoyl-[acyl-carrier protein],C14H25O2SR,-1,C05759,iML charge
-C05760_c,trans-Tetradec-2-enoyl-[acp]_C14H25OSR,,,"[0, -1]","['C14H25OSR', 'C398H627O143N96P1S3', 'C25H45N2O8PRS']",tmrs2eACP_c,Trans-Tetradec-2-enoyl-[acyl-carrier protein],C14H25OSR,-1,C05760,iML charge
-C05761_c,Tetradecanoyl-[acp]_C14H27OSR,,,,,,Tetradecanoyl-[acp],C14H27OSR,,C05761,
-C05762_c,3-Oxohexadecanoyl-[acp]_C16H29O2SR,,,"[0, -1]","['C27H49N2O9PRS', 'C16H29O2SR', 'C16H29O2RS', 'C400H631O144N96P1S3']",3opalmACP_c,3-Oxohexadecanoyl-[acyl-carrier protein],C27H49N2O9PRS,-1,C05762,iML charge
-C05763_c,trans-Hexadec-2-enoyl-[acp]_C16H29OSR,,,"[0, -1]","['C400H631O143N96P1S3', 'C27H49N2O8PRS', 'C16H29OSR']",tpalm2eACP_c,Trans-Hexadec-2-enoyl-[acyl-carrier protein],C400H631O143N96P1S3,-1,C05763,iML charge
-C05764_c,Hexadecanoyl-[acp]_C16H31OSR,,,,,,Hexadecanoyl-[acp],C16H31OSR,,C05764,
+C05752_c,Octanoyl-[acp]_C8H15OSR,,,,,octeACP_c,Octanoyl-[acp],C8H15OSR,,C05752,
+C05753_c,3-Oxodecanoyl-[acp]_C10H17O2SR,,,"[0, -1]","['C21H37N2O9PRS', 'C394H619O144N96P1S3', 'C10H17O2SR']",3odecACP_c,3-Oxodecanoyl-[acyl-carrier protein],C10H16O2SR,-1,C05753,iML charge
+C05754_c,trans-Dec-2-enoyl-[acp]_C10H17OSR,,,"[0, -1]","['C394H619O143N96P1S3', 'C21H37N2O8PRS', 'C10H17OSR']",tdec2eACP_c,Trans-Dec-2-enoyl-[acyl-carrier protein],C10H16OSR,-1,C05754,iML charge
+C05755_c,Decanoyl-[acp]_C10H19OSR,,,,,deceACP_c,Decanoyl-[acp],C10H19OSR,,C05755,
+C05756_c,3-Oxododecanoyl-[acp]_C12H21O2SR,,,"[0, -1]","['C396H623O144N96P1S3', 'C23H41N2O9PRS', 'C12H21O2SR']",3oddecACP_c,3-Oxododecanoyl-[acyl-carrier protein],C12H20O2SR,-1,C05756,iML charge
+C05757_c,(R)-3-Hydroxydodecanoyl-[acp]_C12H23O2SR,,,"[0, -1]","['C396H625O144N96P1S3', 'C23H43N2O9PRS', 'C12H23O2SR']",3hddecACP_c,(R)-3-Hydroxydodecanoyl-[acyl-carrier protein],C12H22O2SR,-1,C05757,iML charge
+C05758_c,trans-Dodec-2-enoyl-[acp]_C12H21OSR,,,"[0, -1]","['C396H623O143N96P1S3', 'C12H21OSR', 'C23H41N2O8PRS']",tddec2eACP_c,Trans-Dodec-2-enoyl-[acyl-carrier protein],C12H20OSR,-1,C05758,iML charge
+C05759_c,3-Oxotetradecanoyl-[acp]_C14H25O2SR,,,"[0, -1]","['C14H25O2SR', 'C398H627O144N96P1S3', 'C25H45N2O9PRS']",3omrsACP_c,3-Oxotetradecanoyl-[acyl-carrier protein],C14H24O2SR,-1,C05759,iML charge
+C05760_c,trans-Tetradec-2-enoyl-[acp]_C14H25OSR,,,"[0, -1]","['C14H25OSR', 'C398H627O143N96P1S3', 'C25H45N2O8PRS']",tmrs2eACP_c,Trans-Tetradec-2-enoyl-[acyl-carrier protein],C14H24OSR,-1,C05760,iML charge
+C05761_c,Tetradecanoyl-[acp]_C14H27OSR,,,,,tdeceACP_c,Tetradecanoyl-[acp],C14H27OSR,,C05761,
+C05762_c,3-Oxohexadecanoyl-[acp]_C16H29O2SR,,,"[0, -1]","['C27H49N2O9PRS', 'C16H29O2SR', 'C16H29O2RS', 'C400H631O144N96P1S3']",3opalmACP_c,3-Oxohexadecanoyl-[acyl-carrier protein],C16H28O2SR,-1,C05762,iML charge
+C05763_c,trans-Hexadec-2-enoyl-[acp]_C16H29OSR,,,"[0, -1]","['C400H631O143N96P1S3', 'C27H49N2O8PRS', 'C16H29OSR']",tpalm2eACP_c,Trans-Hexadec-2-enoyl-[acyl-carrier protein],C16H28OSR,-1,C05763,iML charge
+C05764_c,Hexadecanoyl-[acp]_C16H31OSR,,,,,hexdACP_c,Hexadecanoyl-[acp],C16H31OSR,,C05764,
 C05774_c,Cobinamide_C48H73N11O8.Co,,,,,cbi_c,Cobinamide,C48H72CoN11O8,0,C05774,
 C05775_c,alpha-Ribazole_C14H18N2O4,,,[0],['C14H18N2O4'],rdmbzi_c,"N1-(alpha-D-ribosyl)-5,6-dimethylbenzimidazole",C14H18N2O4,0,C05775,
 C05778_c,Sirohydrochlorin_C42H46N4O16,"['srch', 'scl']","['Sirohydrochlorin C42H38N4O16', 'Sirohydrochlorin']",[-8],['C42H38N4O16'],srch_c,Sirohydrochlorin C42H38N4O16,C42H38N4O16,-8,C05778,
@@ -758,8 +758,8 @@ C16155_c,UDP-L-Ara4O_C14H20N2O16P2,,,[-2],['C14H18N2O16P2'],udpLa4o_c,UDP-4-keto
 C16216_c,3-Oxostearoyl-CoA_C39H68N7O18P3S,,,[-4],['C39H64N7O18P3S'],3ohodcoa_c,3-Oxooctadecanoyl-CoA,C39H64N7O18P3S,-4,C16216,
 C16217_c,3-Hydroxyoctadecanoyl-CoA_C39H70N7O18P3S,,,[-4],['C39H66N7O18P3S'],3hohodcoa_c,3-hydroxyoctadecanoyl-CoA(4-),C39H66N7O18P3S,-4,C16217,(changed bigg id to readable)
 C16219_c,3-Oxostearoyl-[acp]_C18H33O2SR,,,,,3osteACP_c,3-Oxostearoyl-[acp],C18H33O2SR,,C16219,
-C16220_c,3-Hydroxyoctadecanoyl-[acp]_C18H35O2SR,,,"[0, -1]","['C402H637O144N96P1S3', 'C29H55N2O9PRS', 'C18H35O2SR']",3hoctaACP_c,(R)-3-Hydroxyoctadecanoyl-[acyl-carrier protein],C402H637O144N96P1S3,0,C16220,
-C16221_c,(2E)-Octadecenoyl-[acp]_C18H33OSR,,,"[0, -1]","['C29H53N2O8PRS', 'C402H635O143N96P1S3', 'C18H33OSR']",toctd2eACP_c,Trans-octadec-2-enoyl-[acyl-carrier protein],C29H53N2O8PRS,0,C16221,
+C16220_c,3-Hydroxyoctadecanoyl-[acp]_C18H35O2SR,,,"[0, -1]","['C402H637O144N96P1S3', 'C29H55N2O9PRS', 'C18H35O2SR']",3hoctaACP_c,(R)-3-Hydroxyoctadecanoyl-[acyl-carrier protein],C18H35O2SR,0,C16220,
+C16221_c,(2E)-Octadecenoyl-[acp]_C18H33OSR,,,"[0, -1]","['C29H53N2O8PRS', 'C402H635O143N96P1S3', 'C18H33OSR']",toctd2eACP_c,Trans-octadec-2-enoyl-[acyl-carrier protein],C18H33OSR,0,C16221,
 C16267_c,Cyclopropanecarboxylate_C4H6O2,,,,,cproc_c,Cyclopropanecarboxylate,C4H6O2,,C16267,
 C16268_c,Cyclopropanecarboxyl-CoA_C25H40N7O17P3S,,,,,cproccoa_c,Cyclopropanecarboxyl-CoA,C25H40N7O17P3S,,C16268,
 C16396_c,"2,4-Diamino-6-nitrotoluene_C7H9N3O2",,,,,24dia6nt_c,"2,4-Diamino-6-nitrotoluene",C7H9N3O2,,C16396,
@@ -837,8 +837,8 @@ m55_e,Hydrogen_H2,,,,,h2_e,Hydrogen,H2,0,C00282,
 m56_e,Pyruvate_C3H4O3,,,,,pyr_e,Pyruvate,C3H3O3,-1,C00022,
 m57_e,Succinate_C4H6O4,,,,,succ_e,Succinate,C4H4O4,-2,C00042,
 m60_c,Sedoheptulose 7-phosphate_,,,,,s7p_c,Sedoheptulose 7-phosphate,C7H13O10P,-2,C05382,
-m61_c,3-Methylcrotonyl-[acp]_,,,,,3mb2cACP_c,3-Methylcrotonyl-[acp],C26H42N7O17P3S,,C03069 ,
-m62_c,3-Methylbutanoyl-[acp]_,,,,,3mbACP_c,3-Methylbutanoyl-[acp],,,,
+m61_c,3-Methylcrotonyl-[acp]_,,,,,3mb2cACP_c,3-Methylcrotonyl-[acp],C5H11OSR,,C03069 ,
+m62_c,3-Methylbutanoyl-[acp]_,,,,,3mbACP_c,3-Methylbutanoyl-[acp],C5H9OSR,,,cannot find in kegg
 m63_c,Branched-C13 Fatty Acid_,,,,,branch_c13_fa_c,Branched-C13 Fatty Acid,,,,generic
 m64_c,Branched-C17 Fatty Acid_,,,,,branch_c17_fa_c,Branched-C17 Fatty Acid,,,,generic
 m65_c,Protein_,,,,,protein_c,Protein,,,,pseudometabolite
