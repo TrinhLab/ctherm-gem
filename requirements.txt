@@ -3,3 +3,4 @@ memote
 requests
 pandas
 python-libsbml
+biopython
