@@ -211,7 +211,7 @@ C00399_c,Ubiquinone_C19H26O4,,,,['C14H18O4'],q_c,Ubiquinone,C14H18O4,0,C00399,,,
 C00406_c,Feruloyl-CoA_C31H44N7O19P3S,,,,['C31H40N7O19P3S'],ferulcoa_c,Feruloyl-CoA,C31H40N7O19P3S,-4,C00406,,,-4,C31H40N7O19P3S,-3.97,,[]
 C00407_c,L-Isoleucine_C6H13NO2,,,[0],['C6H13NO2'],ile__L_c,L-Isoleucine,C6H13NO2,0,C00407,,,0,C6H13NO2,0,,[]
 C00409_c,Methanethiol_CH4S,,,[0],['CH4S'],ch4s_c,Methanethiol CH4S,CH4S,0,C00409,,,0,CH4S,0,,[]
-C00411_c,Sinapoyl-CoA_C32H46N7O20P3S,,,,,,Sinapoyl-CoA,C32H46N7O20P3S,-4,C00411,,,-4,C32H42N7O20P3S,-3.98,,[]
+C00411_c,Sinapoyl-CoA_C32H46N7O20P3S,,,,,sincoa_c,Sinapoyl-CoA,C32H46N7O20P3S,-4,C00411,,,-4,C32H42N7O20P3S,-3.98,,[]
 C00415_c,Dihydrofolate_C19H21N7O6,,,[-2],['C19H19N7O6'],dhf_c,"7,8-Dihydrofolate",C19H19N7O6,-2,C00415,,,-2,C19H19N7O6,-2.27,,[]
 C00417_c,cis-Aconitate_C6H6O6,,,[-3],['C6H3O6'],acon_C_c,Cis-Aconitate,C6H3O6,-3,C00417,,,-3,C6H3O6,-2.99,,[]
 C00423_c,trans-Cinnamate_C9H8O2,,,[-1],['C9H7O2'],cinnm_c,Trans-Cinnamate,C9H7O2,-1,C00423,,,-1,C9H7O2,-1,,[]
@@ -244,7 +244,7 @@ C00522_c,(R)-Pantoate_C6H12O4,,,[-1],['C6H11O4'],pant__R_c,(R)-Pantoate,C6H11O4,
 C00526_c,Deoxyuridine_C9H12N2O5,,,[0],['C9H12N2O5'],duri_c,Deoxyuridine,C9H12N2O5,0,C00526,,,0,C9H12N2O5,0,,[]
 C00530_c,Hydroquinone_C6H6O2,,,[0],['C6H6O2'],hqn_c,Hydroquinone,C6H6O2,0,C00530,,,0,C6H6O2,0,,[]
 C00536_c,Triphosphate_H5O10P3,,,[-4],"['HO10P3', 'H1O10P3']",pppi_c,Inorganic triphosphate,HO10P3,-4,C00536,,,-4,HO10P3,-4.25,,[]
-C00542_c,Cystathionine_C7H14N2O4S,,,,,cyst__L_c,Cystathionine,C7H14N2O4S,0,C00542,,,0,C7H14N2O4S,-0.02,,[]
+C00542_c,Cystathionine_C7H14N2O4S,,,,,DUPLICATE_cyst__L_c,Cystathionine,C7H14N2O4S,0,C00542,delete duplicated isomer,,0,C7H14N2O4S,-0.02,,[]
 C00543_c,Dimethylamine_C2H7N,,,[1],"['C2H7N', 'C2H8N']",dma_c,Dimethylamine,C2H7N,1,C00543,,,1,C2H8N,1,,[]
 C00546_c,Methylglyoxal_C3H4O2,,,[0],['C3H4O2'],mthgxl_c,Methylglyoxal,C3H4O2,0,C00546,,,0,C3H4O2,0,,[]
 C00555_c,4-Aminobutyraldehyde_C4H9NO,,,[1],['C4H10NO'],4abutn_c,4-Aminobutanal,C4H10NO,1,C00555,,,1,C4H10NO,1,,[]
@@ -308,7 +308,7 @@ C00957_c,Mercaptopyruvate_C3H4O3S,,,"[0, -1]","['C3H3O3S', 'C3H4O3S']",mercppyr_
 C00966_c,2-Dehydropantoate_C6H10O4,,,[-1],['C6H9O4'],2dhp_c,2-Dehydropantoate,C6H9O4,-1,C00966,,,-1,C6H9O4,-1,,[]
 C00969_c,3-Hydroxypropanal_C3H6O2,,,[0],['C3H6O2'],3hppnl_c,3-Hydroxypropanal,C3H6O2,0,C00969,,,0,C3H6O2,0,,[]
 C00973_c,Cyclomaltodextrin_C24H40O20,,,,,cmald_c,Cyclomaltodextrin,C24H40O20,0,C00973,,,,,,,ChemAxon Error: tempfile.smiles (No such file or directory)
-C00976_c,GDP-D-mannuronate_C16H23N5O17P2,,,,,gdpmann_c,GDP-D-mannuronate,C16H20N5O17P2,-3,C00976,,,-3,C16H20N5O17P2,-3,,[]
+C00976_c,GDP-D-mannuronate_C16H23N5O17P2,,,,,gdpmannur_c,GDP-D-mannuronate,C16H20N5O17P2,-3,C00976,,,-3,C16H20N5O17P2,-3,,[]
 C00979_c,O-Acetyl-L-serine_C5H9NO4,,,[0],['C5H9NO4'],acser_c,O-Acetyl-L-serine,C5H9NO4,0,C00979,,,0,C5H9NO4,-0.04,,[]
 C00993_c,D-Alanyl-D-alanine_C6H12N2O3,"['alaala', 'diala__L']","['D-Alanyl-D-alanine', 'Ala Ala C6H12N2O3']",[0],['C6H12N2O3'],alaala_c,D-Alanyl-D-alanine,C6H12N2O3,0,C00993,,,0,C6H12N2O3,-0.06,,[]
 C01005_c,O-Phospho-L-serine_C3H8NO6P,,,[-2],['C3H6NO6P'],pser__L_c,O-Phospho-L-serine,C3H6NO6P,-2,C01005,,,-2,C3H6NO6P,-1.91,,[]
@@ -331,8 +331,8 @@ C01118_c,O-Succinyl-L-homoserine_C8H13NO6,,,[-1],['C8H12NO6'],suchms_c,O-Succiny
 C01132_c,N-Acetyl-D-galactosamine_C8H15NO6,,,[0],['C8H15NO6'],acgal_c,N-Acetyl-D-galactosamine,C8H15NO6,0,C01132,,,0,C8H15NO6,0,,[]
 C01134_c,Pantetheine 4'-phosphate_C11H23N2O7PS,,,[-2],"['C11H21N2O7PS', 'C11H20N2O7PS']",pan4p_c,Pantetheine 4'-phosphate,C11H21N2O7PS,-2,C01134,,,-2,C11H21N2O7PS,-1.83,,[]
 C01137_c,S-Adenosylmethioninamine_C14H23N6O3S,,,[2],['C14H24N6O3S'],ametam_c,S-Adenosylmethioninamine,C14H24N6O3S,2,C01137,,T,1,C14H24N6O3S,2,checked with marvinview,[]
-C01144_c,(S)-3-Hydroxybutanoyl-CoA_C25H42N7O18P3S,"['3hbcoa', '3hbycoa', '3hibutcoa']","['(S)-3-Hydroxybutanoyl-CoA', ' S  3 Hydroxybutyryl CoA C25H38N7O18P3S', '(S)-3-Hydroxyisobutyryl-CoA']",[-4],['C25H38N7O18P3S'],3hbcoa_c,(S)-3-Hydroxybutanoyl-CoA,C25H38N7O18P3S,-4,C01144,,,-4,C25H38N7O18P3S,-3.97,,[]
-C01149_c,4-Trimethylammoniobutanal_C7H16NO,,,,,4tmeabut,4-Trimethylammoniobutanal,C7H16NO,1,C01149,only in bigg eukaryotes,T,0,C7H16NO,1,,[]
+C01144_c,(S)-3-Hydroxybutanoyl-CoA_C25H42N7O18P3S,"['3hbcoa', '3hbycoa', '3hibutcoa']","['(S)-3-Hydroxybutanoyl-CoA', ' S  3 Hydroxybutyryl CoA C25H38N7O18P3S', '(S)-3-Hydroxyisobutyryl-CoA']",[-4],['C25H38N7O18P3S'],s3hbcoa_c,(S)-3-Hydroxybutanoyl-CoA,C25H38N7O18P3S,-4,C01144,isomer,,-4,C25H38N7O18P3S,-3.97,,[]
+C01149_c,4-Trimethylammoniobutanal_C7H16NO,,,,,4tmeabut_c,4-Trimethylammoniobutanal,C7H16NO,1,C01149,only in bigg eukaryotes,T,0,C7H16NO,1,,[]
 C01157_c,trans-4-Hydroxy-L-proline_C5H9NO3,,,[0],['C5H9NO3'],4hpro_LT_c,Trans 4 Hydroxy L proline C5H9NO3,C5H9NO3,0,C01157,,,0,C5H9NO3,0,,[]
 C01165_c,L-Glutamate 5-semialdehyde_C5H9NO3,,,[0],['C5H9NO3'],glu5sa_c,L-Glutamate 5-semialdehyde,C5H9NO3,0,C01165,,,0,C5H9NO3,-0.01,,[]
 C01170_c,UDP-N-acetyl-D-mannosamine_C17H27N3O17P2,,,[-2],['C17H25N3O17P2'],uacmam_c,UDP-N-acetyl-D-mannosamine,C17H25N3O17P2,-2,C01170,,,-2,C17H25N3O17P2,-2,,[]
@@ -426,7 +426,7 @@ C02741_c,Phosphoribosyl-AMP_C15H23N5O14P2,,,[-4],['C15H19N5O14P2'],prbamp_c,1-(5
 C02835_c,Imidazole-4-acetate_C5H6N2O2,"['imzac', 'im4ac']","['Imidazole 4 acetate C5H6N2O2', 'Imidazole-4-acetate']",[0],['C5H6N2O2'],imzac_c,Imidazole 4 acetate,C5H6N2O2,-1,C02835,,T,-1,C15H20N5O20P4,-0.8,,[]
 C02839_c,L-Tyrosyl-tRNA(Tyr)_C24H30N6O12PR(C5H8O6PR)n,,,"[1, -2]","['C9H10NO2R', 'C24H32NO18P2R3', 'C9H11NO2R']",tyrtrna_c,L-Tyrosyl-tRNA(Tyr),C9H10NO2R,1,C02839,generic:trna,,,,,,ChemAxon Error: [#7]-[#6@@H](-[#6]-[#6]-1=[#6]-[#6]=[#6](-[#8])-[#
 C02876_c,Propanoyl phosphate_C3H7O5P,,,[-2],['C3H5O5P'],ppap_c,Propanoyl phosphate,C3H5O5P,-2,C02876,,,-2,C3H5O5P,-1.94,,[]
-C02909_c,(2-Naphthyl)methanol_C11H10O,,,,,,(2-Naphthyl)methanol,C11H10O,0,C02909,,,0,C11H10O,0,,[]
+C02909_c,(2-Naphthyl)methanol_C11H10O,,,,,naphmetoh_c,(2-Naphthyl)methanol,C11H10O,0,C02909,,,0,C11H10O,0,,[]
 C02939_c,3-Methylbutanoyl-CoA_C26H44N7O17P3S,,,[-4],['C26H40N7O17P3S'],ivcoa_c,Isovaleryl-CoA,C26H40N7O17P3S,-4,C02939,,,-4,C26H40N7O17P3S,-3.97,,[]
 C02946_c,4-Acetamidobutanoate_C6H11NO3,,,[-1],['C6H10NO3'],4aabutn_c,4 Acetamidobutanoate C6H10NO3,C6H10NO3,-1,C02946,,,-1,C6H10NO3,-1,,[]
 C02984_c,L-Aspartyl-tRNA(Asp)_C14H22NO13PR2(C5H8O6PR)n,,,"[0, -3]","['C4H5NO3R', 'C19H27NO19P2R3', 'C4H6NO3R']",asptrna_c,L-Aspartyl-tRNA(Asp),C4H5NO3R,0,C02984,generic:trna,,,,,,ChemAxon Error: [#7]-[#6@@H](-[#6]-[#6](-[#8])=O)-[#6](=O)-[#8]-[#
@@ -466,7 +466,7 @@ C03506_c,Indoleglycerol phosphate_C11H14NO6P,,,[-2],['C11H12NO6P'],3ig3p_c,C'-(3
 C03508_c,L-2-Amino-3-oxobutanoic acid_C4H7NO3,,,[0],['C4H7NO3'],2aobut_c,L-2-Amino-3-oxobutanoate,C4H7NO3,0,C03508,,,0,C4H7NO3,-0.47,,[]
 C03511_c,L-Phenylalanyl-tRNA(Phe)_C19H26NO11PR2(C5H8O6PR)n,,,"[1, -2]","['C9H11NOR', 'C9H10NOR', 'C24H32NO17P2R3']",phetrna_c,L-Phenylalanyl-tRNA(Phe),C9H11NOR,1,C03511,generic:trna,,,,,,ChemAxon Error: [#7]-[#6@@H](-[#6]-[#6]-1=[#6]-[#6]=[#6]-[#6]=[#6]
 C03512_c,L-Tryptophanyl-tRNA(Trp)_C26H31N7O11PR(C5H8O6PR)n,,,"[1, -2]","['C26H33N2O17P2R3', 'C11H12N2OR', 'C11H11N2OR']",trptrna_c,L-Tryptophanyl-tRNA(Trp),C26H33N2O17P2R3,1,C03512,generic:trna,,,,,,ChemAxon Error: [#7]-[#6@@H](-[#6]-[#6]-1=[#6]-[#7]-[#6]-2=[#6]-[#
-C03561_c,(R)-3-Hydroxybutanoyl-CoA_C25H42N7O18P3S,,,,,r3hbcoa,(R)-3-Hydroxybutanoyl-CoA,C25H38N7O18P3S,-4,C03561,isomer (not in bigg),,-4,C25H38N7O18P3S,-3.97,,[]
+C03561_c,(R)-3-Hydroxybutanoyl-CoA_C25H42N7O18P3S,,,,,r3hbcoa_c,(R)-3-Hydroxybutanoyl-CoA,C25H38N7O18P3S,-4,C03561,isomer (not in bigg),,-4,C25H38N7O18P3S,-3.97,,[]
 C03576_c,2-Mercaptoethanesulfonate_C2H6O3S2,,,,['C2H5O3S2'],com_c,Coenzyme m,C2H5O3S2,-1,C03576,,,-1,C2H5O3S2,-1,,[]
 C03657_c,"1,4-Dihydroxy-2-naphthoate_C11H8O4",,,[-1],['C11H7O4'],dhna_c,"1,4-Dihydroxy-2-naphthoate",C11H7O4,-1,C03657,,,-1,C11H7O4,-1,,[]
 C03684_c,6-Pyruvoyltetrahydropterin_C9H11N5O3,,,[0],['C9H11N5O3'],6pthp_c,"6-Pyruvoyl-5,6,7,8-tetrahydropterin",C9H11N5O3,0,C03684,,,0,C9H11N5O3,-0.19,,[]
@@ -507,7 +507,7 @@ C04297_c,"CDP-4-dehydro-3,6-dideoxy-D-glucose_C15H23N3O14P2",,,,,cdp4dh36ddglc_c
 C04302_c,N-(5-Phospho-D-ribosyl)anthranilate_C12H16NO9P,,,[-3],['C12H13NO9P'],pran_c,N-(5-Phospho-D-ribosyl)anthranilate,C12H13NO9P,-3,C04302,,,-3,C12H13NO9P,-2.94,,[]
 C04324_c,"4-Carboxy-2-hydroxy-cis,cis-muconate_C7H6O7",,,,['C7H3O7'],omaketo2_c,"4-Carboxy-2-hydroxy-cis,cis-muconate",C7H3O7,-3,C04324,isomer of omaketo_c,,-3,C7H3O7,-3,,[]
 C04332_c,"6,7-Dimethyl-8-(D-ribityl)lumazine_C13H18N4O6",,,[0],['C13H18N4O6'],dmlz_c,"6,7-Dimethyl-8-(1-D-ribityl)lumazine",C13H18N4O6,-1,C04332,,T,-1,C13H17N4O6,-0.94,,[]
-C04349_c,"(4S)-4,6-Dihydroxy-2,5-dioxohexanoate_C6H8O6",,,,,46dh25dohxn_C,4S 4 6 Dihydroxy 2 5 dioxohexanoate C6H7O6,C6H7O6,-1,C04349,,,-1,C6H7O6,-1,,[]
+C04349_c,"(4S)-4,6-Dihydroxy-2,5-dioxohexanoate_C6H8O6",,,,,46dh25dohxn_c,4S 4 6 Dihydroxy 2 5 dioxohexanoate C6H7O6,C6H7O6,-1,C04349,,,-1,C6H7O6,-1,,[]
 C04352_c,(R)-4'-Phosphopantothenoyl-L-cysteine_C12H23N2O9PS,,,[-3],"['C12H20N2O9PS', 'C12H19N2O9PS']",4ppcys_c,N-((R)-4-Phosphopantothenoyl)-L-cysteine,C12H20N2O9PS,-3,C04352,,,-3,C12H20N2O9PS,-2.83,,[]
 C04376_c,5'-Phosphoribosyl-N-formylglycinamide_C8H15N2O9P,,,[-2],"['C8H12N2O9P', 'C8H13N2O9P']",fgam_c,N2-Formyl-N1-(5-phospho-D-ribosyl)glycinamide,C8H12N2O9P,-2,C04376,,,-2,C8H13N2O9P,-1.95,,[]
 C04377_c,"5,10-Methylenetetrahydromethanopterin_C31H45N6O16P",,,,,mleneh4spt_c,"5,10-Methylenetetrahydromethanopterin",C31H42N6O16P,-3,C04377,,,-3,C31H42N6O16P,-3.2,,[]
@@ -536,7 +536,7 @@ C04666_c,D-erythro-1-(Imidazol-4-yl)glycerol 3-phosphate_C6H11N2O6P,,,[-2],['C6H
 C04677_c,1-(5'-Phosphoribosyl)-5-amino-4-imidazolecarboxamide_C9H15N4O8P,,,[-2],['C9H13N4O8P'],aicar_c,5-Amino-1-(5-Phospho-D-ribosyl)imidazole-4-carboxamide,C9H13N4O8P,-2,C04677,,,-2,C9H13N4O8P,-1.94,,[]
 C04688_c,(3R)-3-Hydroxytetradecanoyl-[acyl-carrier protein]_C14H27O2SR,,,"[0, -1]","['C25H47N2O9PRS', 'C14H27O2SR', 'C398H629O144N96P1S3']",3hmrsACP_c,(R)-3-Hydroxytetradecanoyl-[acyl-carrier protein],C14H27O2SR,0,C04688,generic:acp,,,,,,ChemAxon Error: [#6]-[#6]-[#6]-[#6]-[#6]-[#6]-[#6]-[#6]-[#6]-[#6]-
 C04691_c,2-Dehydro-3-deoxy-D-arabino-heptonate 7-phosphate_C7H13O10P,,,[-3],['C7H10O10P'],2dda7p_c,2-Dehydro-3-deoxy-D-arabino-heptonate 7-phosphate,C7H10O10P,-3,C04691,,,-3,C7H10O10P,-2.91,,[]
-C04702_c,UDPMurAc(oyl-L-Ala-D-gamma-Glu-L-Lys-D-Ala-D-Ala)_C40H65N9O26P2,,,,,uGgla,UDP-N-acetylmuramoyl-L-alanyl-gamma-D-glutamyl-L-lysyl-D-alanyl-D-alanine,C40H62N9O26P2,-3,C04702,,,-3,C40H62N9O26P2,-3,,[]
+C04702_c,UDPMurAc(oyl-L-Ala-D-gamma-Glu-L-Lys-D-Ala-D-Ala)_C40H65N9O26P2,,,,,uGgla_c,UDP-N-acetylmuramoyl-L-alanyl-gamma-D-glutamyl-L-lysyl-D-alanyl-D-alanine,C40H62N9O26P2,-3,C04702,,,-3,C40H62N9O26P2,-3,,[]
 C04732_c,5-Amino-6-(1-D-ribitylamino)uracil_C9H16N4O6,,,[0],['C9H16N4O6'],4r5au_c,4-(1-D-Ribitylamino)-5-aminouracil,C9H16N4O6,0,C04732,,,0,C9H16N4O6,-0.05,,[]
 C04734_c,1-(5'-Phosphoribosyl)-5-formamido-4-imidazolecarboxamide_C10H15N4O9P,,,[-2],['C10H13N4O9P'],fprica_c,5-Formamido-1-(5-phospho-D-ribosyl)imidazole-4-carboxamide,C10H13N4O9P,-2,C04734,,,-2,C10H13N4O9P,-1.95,,[]
 C04751_c,1-(5-Phospho-D-ribosyl)-5-amino-4-imidazolecarboxylate_C9H14N3O9P,,,[-3],['C9H11N3O9P'],5aizc_c,5-amino-1-(5-phospho-D-ribosyl)imidazole-4-carboxylate,C9H12N3O9P,-2,C04751,,T,-2,C9H12N3O9P,-2.54,,[]
@@ -708,7 +708,7 @@ C11435_c,4-(Cytidine 5'-diphospho)-2-C-methyl-D-erythritol_C14H25N3O14P2,,,[-2],
 C11436_c,2-Phospho-4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol_C14H26N3O17P3,,,[-4],['C14H22N3O17P3'],2p4c2me_c,2-phospho-4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol,C14H22N3O17P3,-4,C11436,,,-4,C14H22N3O17P3,-3.95,,[]
 C11437_c,1-Deoxy-D-xylulose 5-phosphate_C5H11O7P,,,[-2],['C5H9O7P'],dxyl5p_c,1-deoxy-D-xylulose 5-phosphate,C5H9O7P,-2,C11437,,,-2,C5H9O7P,-1.91,,[]
 C11453_c,"2-C-Methyl-D-erythritol 2,4-cyclodiphosphate_C5H12O9P2",,,[-2],['C5H10O9P2'],2mecdp_c,"2-C-methyl-D-erythritol 2,4-cyclodiphosphate",C5H10O9P2,-2,C11453,,,-2,C5H10O9P2,-2,,[]
-C11481_c,HSO3-_H2O3S,,,[-2],"['HSO3', 'SO3', 'O3S']",so3_c,Sulfite,HSO3,-1,C11481,,T,-1,O3S,-1.61,,[]
+C11481_c,HSO3-_H2O3S,,,[-2],"['HSO3', 'SO3', 'O3S']",DUPLICATE_so3_c,Sulfite,HSO3,-1,C11481,duplicate delete,T,-1,O3S,-1.61,,[]
 C11588_c,"cis-3-(Carboxy-ethyl)-3,5-cyclo-hexadiene-1,2-diol_C9H12O4",,,,,cechddd_c,"cis-3-(Carboxy-ethyl)-3,5-cyclo-hexadiene-1,2-diol",C9H11O4,-1,C11588,,,-1,C9H11O4,-1,,[]
 C11811_c,1-Hydroxy-2-methyl-2-butenyl 4-diphosphate_C5H12O8P2,,,[-3],['C5H9O8P2'],h2mb4p_c,1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate,C5H9O8P2,-3,C11811,,,-3,C5H9O8P2,-2.54,,[]
 C11907_c,"4,6-Dideoxy-4-oxo-dTDP-D-glucose_C16H24N2O15P2",,,[-2],['C16H22N2O15P2'],dtdp4d6dg_c,DTDP-4-dehydro-6-deoxy-D-glucose,C16H22N2O15P2,-2,C11907,,,-2,C16H22N2O15P2,-2,,[]
@@ -751,7 +751,7 @@ C15810_c,C15810_,,,,,SCP_c,Sulfur-carrier protein,C4H7N2O3R,,C15810,generic:scp,
 C15811_c,[Enzyme]-cysteine_C4H6N2O2SR2,,,,,ecys_c,[Enzyme]-cysteine,C4H6N2O2SR2,,C15811,generic,,,,,,"ChemAxon Error: [#16]-[#6]-[#6@H](-[#7]-[#6](-[$([#1,*])])=O)-[#6]"
 C15812_c,[Enzyme]-S-sulfanylcysteine_C4H6N2O2S2R2,,,,,escys_c,[Enzyme]-S-sulfanylcysteine,C4H6N2O2S2R2,,C15812,generic,,,,,,"ChemAxon Error: [#16]-[#16]-[#6]-[#6@H](-[#7]-[#6](-[$([#1,*])])=O"
 C15813_c,C15813_,,,,,adenSCP_c,Adenylyl-[sulfur-carrier protein],C14H19N7O9PR,,C15813,generic:scp,,,,,,ChemAxon Error: [#7]-[#6]-1=[#7]-[#6]=[#7]-[#6]-2=[#6]-1-[#7]=[#6]
-C15814_c,C15814_,,,,,thcarbSCP_C,Thiocarboxy-[sulfur-carrier protein],C4H7N2O2SR,,C15814,generic:scp,,,,,,ChemAxon Error: [#16]-[#6](=O)-[#6]-[#7]-[#6](=O)-[#6]-[#7]-[$([#1
+C15814_c,C15814_,,,,,thcarbSCP_c,Thiocarboxy-[sulfur-carrier protein],C4H7N2O2SR,,C15814,generic:scp,,,,,,ChemAxon Error: [#16]-[#6](=O)-[#6]-[#7]-[#6](=O)-[#6]-[#7]-[$([#1
 C15980_c,(S)-2-Methylbutanoyl-CoA_C26H44N7O17P3S,,,,,2mbcoa_c,(S)-2-Methylbutanoyl-CoA,C26H44N7O17P3S,-4,C15980,,,-4,C26H40N7O17P3S,-3.97,,[]
 C16153_c,UDP-L-Ara4N_C14H23N3O15P2,,,[-1],['C14H22N3O15P2'],udpLa4n_c,Uridine 5''-diphospho-{beta}-4-deoxy-4-amino-L-arabinose,C14H22N3O15P2,-1,C16153,,,-1,C14H22N3O15P2,-1.03,,[]
 C16155_c,UDP-L-Ara4O_C14H20N2O16P2,,,[-2],['C14H18N2O16P2'],udpLa4o_c,UDP-4-keto-pyranose,C14H18N2O16P2,-2,C16155,,,-2,C14H18N2O16P2,-2,,[]
@@ -774,7 +774,7 @@ C16633_c,5-Fluorouridine_C9H11FN2O6,,,,,5flur_c,5-Fluorouridine,C9H11FN2O6,0,C16
 C16634_c,5-Fluorouridine monophosphate_C9H12FN2O9P,,,,['C9H9FN2O9P'],5flurimp_c,5-Fluorouridine monophosphate,C9H10FN2O9P,-2,C16634,,,-2,C9H10FN2O9P,-2.06,,[]
 C16636_c,tRNA(Sec)_C10H17O10PR2(C5H8O6PR)n,,,,,trnasec_c,tRNA(Sec),C10H17O10PR2(C5H8O6PR)n,,C16636,generic:trna,,,,,,compound C16636 mol file not in kegg
 C16639_c,beta-D-Ribofuranose_C5H10O5,,,,,bdribf_c,beta-D-Ribofuranose,C5H10O5,0,C16639,,,0,C5H10O5,0,,[]
-C17023_c,Sulfur donor_,,,,,sulfdon_c,Sulfur donor,,,C17023,generic,,,,,,compound C17023 mol file not in kegg
+C17023_c,Sulfur donor_,,,,,sulfur_donor_c,Sulfur donor,,,C17023,review,,,,,,compound C17023 mol file not in kegg
 C17556_c,"di-trans,poly-cis-Undecaprenyl phosphate_C55H91O4P",,,,,udcpp_c,"di-trans,poly-cis-Undecaprenyl phosphate",C55H89O4P,-2,C17556,,,-2,C55H89O4P,-1.83,,[]
 C18076_c,5'-Phosphoguanylyl(3'->5')guanosine_C20H26N10O15P2,,,[-3],['C20H23N10O15P2'],5pg35pg_c,5-Phosphoguanylyl(3->5)guanosine,C20H23N10O15P2,-3,C18076,,,-3,C20H23N10O15P2,-2.95,,[]
 C18216_c,4-Hydroxyphenyl-4-hydroxybenzoate_C13H10O4,,,,,4hp4hob_c,4-Hydroxyphenyl-4-hydroxybenzoate,C13H10O4,0,C18216,,,0,C13H10O4,-0.06,,[]
@@ -789,7 +789,7 @@ G00108_c,G00108_,,,,,acngalglycer_gen_c,(N-Acetylneuraminyl)-D-galactosyl-D-gluc
 G00109_c,G00109_,,,,,acgaaggcer_gen_c,N-Acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide,C50H86N3O26R,,C04884,generic:biomass,,,,,,ChemAxon Error: [H][C@]1([#8][C@@]([#6]-[#6@H](-[#8])-[#6@H]1-[#7]
 G06780_c,G06780_,,,,,glycan_gen_c,(Gal)2 (GlcNAc)2 (S)2,,,G06780,generic:biomass,,,,,,compound G06780 mol file not in kegg
 G08421_c,G08421_,,,,,glycan2_gen_c,(Gal)2 (GlcNAc)1 (S)1,,,G08421,generic:biomass,,,,,,compound G08421 mol file not in kegg
-G10504_c,G10504_,,,[0],['C12H22O11'],lcts_c,Lactose,C12H22O11,0,G10504,,,,,,,compound G10504 mol file not in kegg
+G10504_c,G10504_,,,[0],['C12H22O11'],DUPLICATE_lcts_c,Lactose,C12H22O11,0,G10504,,,,,,,compound G10504 mol file not in kegg
 G13033_c,G13033_,,,,,glycan3_gen_c,(Gal)2 (GlcNAc)2 (S)1,,,G13033,generic:biomass,,,,,,compound G13033 mol file not in kegg
 m02_c,Ca2+_,,,,,ca2_c,Calcium,Ca,2,C00076,,,,,,,compound  mol file not in kegg
 m07_c,K+_,,,,,k_c,K+,Potassium,1,C00238,,,,,,,compound  mol file not in kegg
@@ -865,7 +865,7 @@ m84_c,Solute Pool_,,,,,solutepool_term_c,Solute Pool,,,,pseudometabolite,,,,,,co
 m85_c,Biomass_,,,,,biomass_term_c,Biomass,,,,pseudometabolite,,,,,,compound  mol file not in kegg
 m86_e,Biomass_,,,,,biomass_term_e,Biomass,,,,pseudometabolite,,,,,,compound  mol file not in kegg
 m87_e,Apo-[acyl-carrier-protein]_,,,,,apoACP_e,Apoprotein [acyl carrier protein],RHO,,C03688,generic:acp,,,,,,compound C03688 mol file not in kegg
-m89_c,Cell Dry Weight no GAM,,,,,cdw_term,Cell Dry Weight no GAM,Cell Dry Weight no GAM,,,pseudometabolite,,,,,,compound  mol file not in kegg
+m89_c,Cell Dry Weight no GAM,,,,,cdw_term_c,Cell Dry Weight no GAM,Cell Dry Weight no GAM,,,pseudometabolite,,,,,,compound  mol file not in kegg
 C00325_c,GDP-L-fucose_,,,[-2],['C16H23N5O15P2'],gdpfuc_c,GDP-L-fucose,C16H23N5O15P2,-2,C00325,,,-2,C16H23N5O15P2,-2,,[]
 C00388_c,1H-Imidazole-4-ethanamine_,,,[1],"['C5H11N3', 'C5H10N3']",hista_c,Histamine extracellular,C5H11N3,1,C00388,,,1,C5H10N3,1.09,,[]
 C00583_c,"Propane-1,2-diol_",,,,,12ppd__R_c,"(R)-Propane-1,2-diol",C3H8O2,0,C00583,There are not secretion reactions for this metabolite,,0,C3H8O2,0,,[]
@@ -874,15 +874,15 @@ C01019_c,6-Deoxy-L-galactose_,,,,,fuc__L_c,6-Deoxy-L-galactose,C6H12O5,0,C01019,
 C01103_c,Orotidine 5'-phosphate_,,,[-3],['C10H10N2O11P'],orot5p_c,Orotidine 5'-phosphate,C10H10N2O11P,-3,C01103,,,-3,C10H10N2O11P,-2.95,,[]
 C01222_c,GDP-4-dehydro-6-deoxy-D-mannose_,,,[-2],['C16H21N5O15P2'],gdpddman_c,GDP-4-dehydro-6-deoxy-D-mannose,C16H21N5O15P2,-2,C01222,,,-2,C16H21N5O15P2,-2,,[]
 C01416_c,Cocaine_,,,,,cocaine_c,Cocaine,C17H22NO4,1,C01416,review,,1,C17H22NO4,0.98,,[]
-C01721_c,L-Fuculose_,"['HC00832', 'fcl__L']","['L-Fuculose', 'L-fuculose']",[0],['C6H12O5'],fuc__L_DUPLICATE_c,L-Fuculose,C6H12O5,0,C01721,repeated,,0,C6H12O5,0,,[]
+C01721_c,L-Fuculose_,"['HC00832', 'fcl__L']","['L-Fuculose', 'L-fuculose']",[0],['C6H12O5'],DUPLICATE_fuc__L_c,L-Fuculose,C6H12O5,0,C01721,repeated,,0,C6H12O5,0,,[]
 C02985_c,L-Fucose 1-phosphate_,,,[-2],['C6H11O8P'],fuc1p__L_c,L-Fucose 1-phosphate,C6H11O8P,-2,C02985,,,-2,C6H11O8P,-1.95,,[]
 C03393_c,4-Phospho-D-erythronate_,,,[-3],['C4H6O8P'],4per_c,4-Phospho-D-erythronate,C4H6O8P,-3,C03393,,,-3,C4H6O8P,-2.9,,[]
 C05894_c,Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-alanyl-D-isoglutaminyl-L-lysyl-D-alanyl-D-alanine_,,,,['C94H155N9O25P2'],uaaGgtla_c,Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-alanyl-D-isoglutaminyl-L-lysyl-D-alanyl-D-alanine,C94H155N9O25P2,-2,C05894,,,-2,C94H155N9O25P2,-2,,[]
 C16739_c,L-Arginyl-protein_C8H16N5O3R(C2H2NOR)n,,,,,argpro_gen_c,L-Arginyl-protein,C8H16N5O3R(C2H2NOR)n,,C16739,generic,,,,,,ChemAxon Error: [#7]-[#6@@H](-[#6]-[#6]-[#6]-[#7]-[#6](-[#7])=[#7]
-C17541_c,Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-alanyl-D-isoglutaminyl-L-lysyl-(glycyl)-D-alanyl-D-alanine_,,,,,,Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-alanyl-D-isoglutaminyl-L-lysyl-(glycyl)-D-alanyl-D-alanine,C96H158N10O26P2,-2,C17541,,,-2,C96H158N10O26P2,-2.1,,[]
-C17550_c,Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-alanyl-gamma-D-glutamyl-L-lysyl-(L-alanyl)-D-alanyl-D-alanine_,,,,,,Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-alanyl-gamma-D-glutamyl-L-lysyl-(L-alanyl)-D-alanyl-D-alanine,C97H158N9O27P2,-3,C17550,,,-3,C97H158N9O27P2,-3.06,,[]
+C17541_c,Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-alanyl-D-isoglutaminyl-L-lysyl-(glycyl)-D-alanyl-D-alanine_,,,,,udecan1_c,Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-alanyl-D-isoglutaminyl-L-lysyl-(glycyl)-D-alanyl-D-alanine,C96H158N10O26P2,-2,C17541,,,-2,C96H158N10O26P2,-2.1,,[]
+C17550_c,Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-alanyl-gamma-D-glutamyl-L-lysyl-(L-alanyl)-D-alanyl-D-alanine_,,,,,udecan2_c,Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-alanyl-gamma-D-glutamyl-L-lysyl-(L-alanyl)-D-alanyl-D-alanine,C97H158N9O27P2,-3,C17550,,,-3,C97H158N9O27P2,-3.06,,[]
 G10508_c,Sucrose_,,,[-2],['C12H21O14P'],suc6p_c,Sucrose 6-phosphate,C12H21O14P,-2,C16688,,,,,,,compound G10508 mol file not in kegg
-G10619_c,G10619_,,,[-3],['C9H11N2O12P2'],udp_c,UDP,C9H11N2O12P2,-3,C00015 ,,,,,,,compound G10619 mol file not in kegg
+G10619_c,G10619_,,,[-3],['C9H11N2O12P2'],DUPLICATE_udp_c,UDP,C9H11N2O12P2,-3,C00015,duplicate delete,,,,,,compound G10619 mol file not in kegg
 m88_c,Total_LTA_,,,,,lta_term_c,Total lta,,,,pseudometabolite,,,,,,compound  mol file not in kegg
 m90_c,Cellulosome term,,,,,cellulosome_term_c,Cellulosome term,,,,pseudometabolite,,,,,,compound  mol file not in kegg
 m97_e,Cellohexaose,,,,,cell6_e,Cellulose (n=6 repeating units),C36H62O31,0,C06217,,,0,C36H62O31,0,,[]
