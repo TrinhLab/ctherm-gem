@@ -841,9 +841,9 @@ m61_c,3-Methylcrotonyl-[acp]_,,,,,3mb2cACP_c,3-Methylcrotonyl-[acp],C5H11OSR,,C0
 m62_c,3-Methylbutanoyl-[acp]_,,,,,3mbACP_c,3-Methylbutanoyl-[acp],C5H9OSR,,,generic:acp,,,,,,compound  mol file not in kegg
 m63_c,Branched-C13 Fatty Acid_,,,,,branch_c13_fa_c,Branched-C13 Fatty Acid,,,,generic:biomass,,,,,,compound  mol file not in kegg
 m64_c,Branched-C17 Fatty Acid_,,,,,branch_c17_fa_c,Branched-C17 Fatty Acid,,,,generic:biomass,,,,,,compound  mol file not in kegg
-m65_c,Protein_,,,,,protein_c,Protein,,,,pseudometabolite,,,,,,compound  mol file not in kegg
-m66_c,DNA_,,,,,dna_c,DNA,,,,pseudometabolite,,,,,,compound  mol file not in kegg
-m67_c,RNA_,,,,,rna_c,RNA,,,,pseudometabolite,,,,,,compound  mol file not in kegg
+m65_c,Protein_,,,,,protein_term_c,Protein,,,,pseudometabolite,,,,,,compound  mol file not in kegg
+m66_c,DNA_,,,,,dna_term_c,DNA lumped term,,,,pseudometabolite,,,,,,compound  mol file not in kegg
+m67_c,RNA_,,,,,rna_term_c,RNA lumped term,,,,pseudometabolite,,,,,,compound  mol file not in kegg
 C00416_c,Diacyl-sn-glycerol 3-phosphate_,,,[-100],['C1836H3398O400P50'],pa_gen_c,Phosphatidate  (generic),C5H7O8PR2,,C00416,generic:biomass,,,,,,ChemAxon Error: [#8]P([#8])(=O)[#8]-[#6]-[#6](-[#6]-[#8]-[#6](-[$(
 m68_c,"3-D-Diglucosyl-1,2-diacylglycerol_",,,,,dg12dg_c,"3-D-Diglucosyl-1,2-diacylglycerol",C17H26O15R2,,C06365,generic:biomass,,,,,,ChemAxon Error: [#8]-[#6]-[#6@H]-1-[#8]-[#6@H](-[#8]-[#6@@H]-2-[#6
 m69_c,"3-D-Triglucosyl-1,2-diacylglycerol_",,,,,tg12dg_c,"3-D-Triglucosyl-1,2-diacylglycerol",,,,generic:biomass,,,,,,compound  mol file not in kegg
