@@ -1,4 +1,4 @@
-'''
+"""
 This script receives iSG601_1 and outputs iSG_2. The new model features:
 
 - Correct trivial error in subsystem assignment
@@ -11,8 +11,7 @@ This script receives iSG601_1 and outputs iSG_2. The new model features:
 
 - Add metabolite note to tag genric metabolites
 - Add reaction note to tag reactions with generic metabolites
-
-'''
+"""
 
 import cobra as cb
 import os
@@ -30,11 +29,6 @@ def main():
 
     modelfinal.id = 'iSG'
     cb.io.json.save_json_model(modelfinal, os.path.join(PROJECT_ROOT, "iSG", "iSG_2.json"))
-    try:
-        cb.io.write_sbml_model(modelfinal, os.path.join(PROJECT_ROOT, "iSG", "iSG_2.xml")) # After add_gene_fields this function seems to be failing
-    except AttributeError:
-        cb.io.sbml.write_cobra_model_to_sbml_file(modelfinal, os.path.join(PROJECT_ROOT, "iSG", "iSG_2.xml"))
-
 
 
 def update_reactions(model):
@@ -95,12 +89,9 @@ def updates_on_file(model):
 
     # perform substitution
 
-    tempfileid = os.path.join(PROJECT_ROOT, "iSG", "iSG_1_TEMP.xml")
-    tempfileid2 = os.path.join(PROJECT_ROOT, "iSG", "iSG_1_TEMP2.xml")
-    cb.io.write_sbml_model(model, tempfileid)
-
-
-    pattern = re.compile('|'.join(repdict.keys()))
+    tempfileid = os.path.join(PROJECT_ROOT, "iSG", "iSG_1_TEMP.json")
+    tempfileid2 = os.path.join(PROJECT_ROOT, "iSG", "iSG_1_TEMP2.json")
+    cb.io.json.save_json_model(model, tempfileid)
 
     with open(tempfileid, 'r') as fin:
         with open(tempfileid2, 'w') as fout:
@@ -111,7 +102,7 @@ def updates_on_file(model):
                         outline = outline.replace(key, val)
                 fout.write(outline)
 
-    modelfinal = cb.io.read_sbml_model(tempfileid2)
+    modelfinal = cb.io.load_json_model(tempfileid2)
     os.remove(tempfileid)
     os.remove(tempfileid2)
     return modelfinal
@@ -132,46 +123,7 @@ def add_gene_fields(modelfinal, model):
 
     # include old gpr as reaction note
     for reaction in modelfinal.reactions:
-        reaction.notes['old_gpr'] = model.reactions.get_by_id(reaction.id).gene_reaction_rule
-
-    model.repair()
-    """
-
-    for reaction in model.reactions:
-        reaction.notes['old_gpr'] = reaction.gene_reaction_rule
-    genedictold = {}
-    genedict = {}
-    with open(os.path.join(PROJECT_ROOT, 'genome', 'gene_update.csv'),'r') as f:
-        reader = csv.DictReader(f)
-        for row in reader:
-            genedictold[row['old_locus_tag']] = row
-            genedict[row['locus_tag']] = row
-
-    for gene in model.genes:
-        old_id = gene.id
-        gene.id = genedictold[old_id]['locus_tag']
-        gene.name = genedictold[old_id]['gene']
-        gene.annotation = genedictold[old_id]['product']
-
-    for reaction in model.reactions:
-        for gene in reaction.genes:
-            reaction.gene_reaction_rule = \
-                reaction.gene_reaction_rule.replace(
-                    genedict[gene.id]['old_locus_tag'],
-                    genedict[gene.id]['locus_tag'])
-    # At this point the genes do not seem to have awarenes of what reactions they affect
-    model.repair()
-    """
-    """
-    for reaction in model.reactions:
-        for old_gene in reaction.genes:
-            reaction.gene_reaction_rule = reaction.gene_reaction_rule.replace(old_gene.id, genedictold[old_gene.id]['locus_tag'])
-            old_gene.remove_from_model()
-
-    for gene in model.genes:
-        gene.name = genedict[gene.id]['gene']
-        gene.annotation = genedict[gene.id]['product']
-    """
+        reaction.notes['old_gpr'] = [model.reactions.get_by_id(reaction.id).gene_reaction_rule]
 
 
 main()
