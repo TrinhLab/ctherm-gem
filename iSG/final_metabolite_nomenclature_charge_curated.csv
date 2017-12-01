@@ -48,7 +48,7 @@ C00062_c,L-Arginine_C6H14N4O2,,,[1],['C6H15N4O2'],arg__L_c,L-Arginine,C6H15N4O2,
 C00063_c,CTP_C9H16N3O14P3,,,[-4],['C9H12N3O14P3'],ctp_c,CTP C9H12N3O14P3,C9H12N3O14P3,-4,C00063,,,-4,C9H12N3O14P3,-3.55,,[]
 C00064_c,L-Glutamine_C5H10N2O3,,,[0],['C5H10N2O3'],gln__L_c,L-Glutamine,C5H10N2O3,0,C00064,,,0,C5H10N2O3,-0.01,,[]
 C00065_c,L-Serine_C3H7NO3,,,[0],['C3H7NO3'],ser__L_c,L-Serine,C3H7NO3,0,C00065,,,0,C3H7NO3,-0.02,,[]
-C00066_c,tRNA_C10H17O10PR2(C5H8O6PR)n,,,,,trna_c,tRNA,C10H17O10PR2(C5H8O6PR)n,,C00066,generic:trna,,,,,,"ChemAxon Error: [#8]-[#6]-[#6@H]-1-[#8]-[#6@@H](-[$([#1,*])])-[#6@"
+C00066_c,tRNA_C10H17O10PR2(C5H8O6PR)n,,,,,trna_c,tRNA,C10H17O10PR2,,C00066,generic:trna,,,,,,"ChemAxon Error: [#8]-[#6]-[#6@H]-1-[#8]-[#6@@H](-[$([#1,*])])-[#6@"
 C00068_c,Thiamin diphosphate_C12H18N4O7P2S,,,[-2],['C12H16N4O7P2S'],thmpp_c,Thiamine diphosphate,C12H16N4O7P2S,-3,C00068,,T,-3,C12H16N4O7P2S,-1.4,checked with marvinview,[]
 C00073_c,L-Methionine_C5H11NO2S,,,[0],['C5H11NO2S'],met__L_c,L-Methionine,C5H11NO2S,0,C00073,,,0,C5H11NO2S,0,,[]
 C00074_c,Phosphoenolpyruvate_C3H5O6P,,,[-3],['C3H2O6P'],pep_c,Phosphoenolpyruvate,C3H2O6P,-3,C00074,,,-3,C3H2O6P,-2.85,,[]
@@ -281,7 +281,7 @@ C00705_c,dCDP_C9H15N3O10P2,,,[-3],['C9H12N3O10P2'],dcdp_c,DCDP C9H12N3O10P2,C9H1
 C00718_c,Amylose_(C6H10O5)n,,,,,amyl_c,Amylose,(C6H10O5)n,,C00718,generic:polymer,,,,,,ChemAxon Error: tempfile.smiles (No such file or directory)
 C00748_c,Siroheme_C42H46N4O16.Fe,,,[-8],['C42H36FeN4O16'],sheme_c,Siroheme C42H36FeN4O16,C42H36FeN4O16,-8,C00748,,,-8,C42H36FeN4O16,-8,,[]
 C00750_c,Spermine_C10H26N4,,,[4],['C10H30N4'],sprm_c,Spermine C10H30N4,C10H30N4,4,C00750,,,4,C10H30N4,3.81,,[]
-C00787_c,tRNA(Tyr)_C15H21N5O10PR(C5H8O6PR)n,,,"[0, -2]","['R', 'C15H21N5O10PR', 'C15H23O16P2R3', 'HR']",trnatyr_c,TRNA(Tyr),R,0,C00787,generic:trna,,,,,,compound C00787 mol file not in kegg
+C00787_c,tRNA(Tyr)_C15H21N5O10PR(C5H8O6PR)n,,,"[0, -2]","['R', 'C15H21N5O10PR', 'C15H23O16P2R3', 'HR']",trnatyr_c,TRNA(Tyr),C15H21N5O10PR,0,C00787,generic:trna,,,,,,compound C00787 mol file not in kegg
 C00794_c,D-Sorbitol_C6H14O6,,,[0],['C6H14O6'],sbt__D_c,D-Sorbitol,C6H14O6,0,C00794,,,0,C6H14O6,0,,[]
 C00804_c,Propynoate_C3H2O2,,,,,propy_c,Propynoate,C3H1O2,-1,C00804,,,-1,C3HO2,-1,,[]
 C00810_c,R-Acetoin_C4H8O2,,,[0],['C4H8O2'],actn__R_c,R  Acetoin C4H8O2,C4H8O2,0,C00810,,,0,C4H8O2,0,,[]
@@ -296,7 +296,7 @@ C00877_c,Crotonoyl-CoA_C25H40N7O17P3S,,,[-4],['C25H36N7O17P3S'],b2coa_c,Crotonoy
 C00881_c,Deoxycytidine_C9H13N3O4,,,[0],['C9H13N3O4'],dcyt_c,Deoxycytidine,C9H13N3O4,0,C00881,,,0,C9H13N3O4,0,,[]
 C00882_c,Dephospho-CoA_C21H35N7O13P2S,,,[-2],['C21H33N7O13P2S'],dpcoa_c,Dephospho-CoA,C21H33N7O13P2S,-2,C00882,,,-2,C21H33N7O13P2S,-2,,[]
 C00884_c,Homocarnosine_C10H16N4O3,"['hcarn', 'HC00576']","['Homocarnosine', 'Homocarnosine']",,['C10H16N4O3'],hcarn_c,Homocarnosine,C10H16N4O3,0,C00884,,,0,C10H16N4O3,0.18,,[]
-C00886_c,L-Alanyl-tRNA_C13H22NO11PR2(C5H8O6PR)n,,,,,alatrna_c,L-Alanyl-tRNA(Ala),C3H6NOR,1,C00886,generic:trna,,,,,,ChemAxon Error: [#6]-[#6@H](-[#7])-[#6](=O)-[#8]-[#6@H]-1-[#6@@H](
+C00886_c,L-Alanyl-tRNA_C13H22NO11PR2(C5H8O6PR)n,,,,,alatrna_c,L-Alanyl-tRNA(Ala),C13H22NO11PR2,1,C00886,generic:trna,,,,,,ChemAxon Error: [#6]-[#6@H](-[#7])-[#6](=O)-[#8]-[#6@H]-1-[#6@@H](
 C00894_c,Propenoyl-CoA_C24H38N7O17P3S,"['prpncoa', 'pp2coa']","['Propenoyl-CoA', 'Acrylyl CoA']",[-4],['C24H34N7O17P3S'],prpncoa_c,Propenoyl-CoA,C24H34N7O17P3S,-4,C00894,,,-4,C24H34N7O17P3S,-3.97,,[]
 C00900_c,2-Acetolactate_C5H8O4,,,,,alac_c,2-Acetolactate,C5H7O4,-1,C00900,delete isomer and keep alac__S,,-1,C5H7O4,-1,,[]
 C00916_c,Cephalosporin C_C16H21N3O8S,,,,,cephc_c,Cephalosporin C,C16H20N3O8S,-1,C00916,,T,-1,C16H20N3O8S,-1.01,,[]
@@ -364,25 +364,25 @@ C01419_c,Cys-Gly_C5H10N2O3S,,,[0],['C5H10N2O3S'],cgly_c,Cys Gly C5H10N2O3S,C5H10
 C01528_c,Selenide_H2Se,,,[-1],"['HSe', 'H1Se', 'H2Se']",seln_c,Selenide,HSe,-1,C01528,,,-1,HSe,-0.63,,[]
 C01548_c,Acetylene_C2H2,,,,,acet_c,Acetylene,C2H2,0,C01548,review,,0,C2H2,0,,[]
 C01586_c,Hippurate_C9H9NO3,,,[-1],['C9H8NO3'],bgly_c,N-Benzoylglycine,C9H8NO3,-1,C01586,,,-1,C9H8NO3,-1,,[]
-C01635_c,tRNA(Ala)_C10H17O10PR2(C5H8O6PR)n,,,"[0, -2]","['R', 'C15H23O16P2R3', 'HR']",trnaala_c,TRNA(Ala),R,0,C01635,generic:trna,,,,,,compound C01635 mol file not in kegg
-C01636_c,tRNA(Arg)_C15H21N5O10PR(C5H8O6PR)n,,,"[0, -2]","['R', 'C15H21N5O10PR', 'C15H23O16P2R3', 'HR']",trnaarg_c,TRNA(Arg),R,0,C01636,generic:trna,,,,,,compound C01636 mol file not in kegg
-C01637_c,tRNA(Asn)_C10H17O10PR2(C5H8O6PR)n,,,"[0, -2]","['C10H17O10PR2', 'C15H23O16P2R3', 'HR']",trnaasn_c,TRNA Asn  C10H17O10PR2,R,0,C01637,generic:trna,,,,,,compound C01637 mol file not in kegg
-C01638_c,tRNA(Asp)_C10H17O10PR2(C5H8O6PR)n,,,"[0, -2]","['R', 'C15H23O16P2R3', 'HR']",trnaasp_c,TRNA(Asp),R,0,C01638,generic:trna,,,,,,compound C01638 mol file not in kegg
-C01639_c,tRNA(Cys)_C15H21N5O10PR(C5H8O6PR)n,,,"[0, -2]","['R', 'C15H21N5O10PR', 'C15H23O16P2R3', 'HR']",trnacys_c,TRNA(Cys),R,0,C01639,generic:trna,,,,,,compound C01639 mol file not in kegg
-C01640_c,tRNA(Gln)_C15H21N5O10PR(C5H8O6PR)n,,,"[0, -2]","['R', 'C15H21N5O10PR', 'C15H23O16P2R3', 'HR']",trnagln_c,TRNA(Gln),R,0,C01640,generic:trna,,,,,,compound C01640 mol file not in kegg
-C01641_c,tRNA(Glu)_C15H21N5O10PR(C5H8O6PR)n,,,"[0, -2]","['R', 'C15H21N5O10PR', 'HOX', 'C15H23O16P2R3', 'HR']",trnaglu_c,TRNA (Glu),R,0,C01641,generic:trna,,,,,,compound C01641 mol file not in kegg
-C01642_c,tRNA(Gly)_C10H17O10PR2(C5H8O6PR)n,,,"[0, -2]","['R', 'C10H17O10PR2', 'C15H23O16P2R3', 'HR']",trnagly_c,TRNA(Gly),R,0,C01642,generic:trna,,,,,,compound C01642 mol file not in kegg
-C01643_c,tRNA(His)_C10H17O10PR2(C5H8O6PR)n,,,"[0, -2]","['R', 'C10H17O10PR2', 'C15H23O16P2R3', 'HR']",trnahis_c,TRNA(His),R,0,C01643,generic:trna,,,,,,compound C01643 mol file not in kegg
-C01644_c,tRNA(Ile)_C15H21N5O10PR(C5H8O6PR)n,,,"[0, -2]","['R', 'C15H21N5O10PR', 'C15H23O16P2R3', 'HR']",trnaile_c,TRNA(Ile),R,0,C01644,generic:trna,,,,,,compound C01644 mol file not in kegg
-C01645_c,tRNA(Leu)_C15H21N5O10PR(C5H8O6PR)n,,,"[0, -2]","['R', 'C15H21N5O10PR', 'C15H23O16P2R3', 'HR']",trnaleu_c,TRNA(Leu),R,0,C01645,generic:trna,,,,,,compound C01645 mol file not in kegg
-C01646_c,tRNA(Lys)_C10H17O10PR2(C5H8O6PR)n,,,"[0, -2]","['R', 'C15H23O16P2R3', 'HR']",trnalys_c,TRNA(Lys),R,0,C01646,generic:trna,,,,,,compound C01646 mol file not in kegg
-C01647_c,tRNA(Met)_C15H21N5O10PR(C5H8O6PR)n,,,"[0, -2]","['R', 'C15H21N5O10PR', 'HOX', 'C15H23O16P2R3', 'HR']",trnamet_c,TRNA(Met),R,0,C01647,generic:trna,,,,,,compound C01647 mol file not in kegg
-C01648_c,tRNA(Phe)_C10H17O10PR2(C5H8O6PR)n,,,"[0, -2]","['R', 'C15H23O16P2R3', 'HR']",trnaphe_c,TRNA(Phe),R,0,C01648,generic:trna,,,,,,compound C01648 mol file not in kegg
-C01649_c,tRNA(Pro)_C10H17O10PR2(C5H8O6PR)n,,,"[0, -2]","['R', 'C10H17O10PR2', 'C15H23O16P2R3', 'HR']",trnapro_c,TRNA(Pro),R,0,C01649,generic:trna,,,,,,compound C01649 mol file not in kegg
-C01650_c,tRNA(Ser)_C10H17O10PR2(C5H8O6PR)n,,,"[0, -2]","['R', 'C10H17O10PR2', 'C15H23O16P2R3', 'HR']",trnaser_c,TRNA(Ser),R,0,C01650,generic:trna,,,,,,compound C01650 mol file not in kegg
-C01651_c,tRNA(Thr)_C10H17O10PR2(C5H8O6PR)n,,,"[0, -2]","['R', 'C10H17O10PR2', 'C15H23O16P2R3', 'HR']",trnathr_c,TRNA(Thr),R,0,C01651,generic:trna,,,,,,compound C01651 mol file not in kegg
-C01652_c,tRNA(Trp)_C15H21N5O10PR(C5H8O6PR)n,,,"[0, -2]","['R', 'C15H21N5O10PR', 'C15H23O16P2R3', 'HR']",trnatrp_c,TRNA(Trp),R,0,C01652,generic:trna,,,,,,compound C01652 mol file not in kegg
-C01653_c,tRNA(Val)_C15H21N5O10PR(C5H8O6PR)n,,,"[0, -2]","['R', 'C15H21N5O10PR', 'C15H23O16P2R3', 'HR']",trnaval_c,TRNA(Val),R,0,C01653,generic:trna,,,,,,compound C01653 mol file not in kegg
+C01635_c,tRNA(Ala)_C10H17O10PR2(C5H8O6PR)n,,,"[0, -2]","['R', 'C15H23O16P2R3', 'HR']",trnaala_c,TRNA(Ala),C10H17O10PR2,0,C01635,generic:trna,,,,,,compound C01635 mol file not in kegg
+C01636_c,tRNA(Arg)_C15H21N5O10PR(C5H8O6PR)n,,,"[0, -2]","['R', 'C15H21N5O10PR', 'C15H23O16P2R3', 'HR']",trnaarg_c,TRNA(Arg),C15H21N5O10PR,0,C01636,generic:trna,,,,,,compound C01636 mol file not in kegg
+C01637_c,tRNA(Asn)_C10H17O10PR2(C5H8O6PR)n,,,"[0, -2]","['C10H17O10PR2', 'C15H23O16P2R3', 'HR']",trnaasn_c,TRNA Asn  ,C10H17O10PR2,0,C01637,generic:trna,,,,,,compound C01637 mol file not in kegg
+C01638_c,tRNA(Asp)_C10H17O10PR2(C5H8O6PR)n,,,"[0, -2]","['R', 'C15H23O16P2R3', 'HR']",trnaasp_c,TRNA(Asp),C10H17O10PR2,0,C01638,generic:trna,,,,,,compound C01638 mol file not in kegg
+C01639_c,tRNA(Cys)_C15H21N5O10PR(C5H8O6PR)n,,,"[0, -2]","['R', 'C15H21N5O10PR', 'C15H23O16P2R3', 'HR']",trnacys_c,TRNA(Cys),C15H21N5O10PR,0,C01639,generic:trna,,,,,,compound C01639 mol file not in kegg
+C01640_c,tRNA(Gln)_C15H21N5O10PR(C5H8O6PR)n,,,"[0, -2]","['R', 'C15H21N5O10PR', 'C15H23O16P2R3', 'HR']",trnagln_c,TRNA(Gln),C15H21N5O10PR,0,C01640,generic:trna,,,,,,compound C01640 mol file not in kegg
+C01641_c,tRNA(Glu)_C15H21N5O10PR(C5H8O6PR)n,,,"[0, -2]","['R', 'C15H21N5O10PR', 'HOX', 'C15H23O16P2R3', 'HR']",trnaglu_c,TRNA (Glu),C15H21N5O10PR,0,C01641,generic:trna,,,,,,compound C01641 mol file not in kegg
+C01642_c,tRNA(Gly)_C10H17O10PR2(C5H8O6PR)n,,,"[0, -2]","['R', 'C10H17O10PR2', 'C15H23O16P2R3', 'HR']",trnagly_c,TRNA(Gly),C10H17O10PR2,0,C01642,generic:trna,,,,,,compound C01642 mol file not in kegg
+C01643_c,tRNA(His)_C10H17O10PR2(C5H8O6PR)n,,,"[0, -2]","['R', 'C10H17O10PR2', 'C15H23O16P2R3', 'HR']",trnahis_c,TRNA(His),C10H17O10PR2,0,C01643,generic:trna,,,,,,compound C01643 mol file not in kegg
+C01644_c,tRNA(Ile)_C15H21N5O10PR(C5H8O6PR)n,,,"[0, -2]","['R', 'C15H21N5O10PR', 'C15H23O16P2R3', 'HR']",trnaile_c,TRNA(Ile),C15H21N5O10PR,0,C01644,generic:trna,,,,,,compound C01644 mol file not in kegg
+C01645_c,tRNA(Leu)_C15H21N5O10PR(C5H8O6PR)n,,,"[0, -2]","['R', 'C15H21N5O10PR', 'C15H23O16P2R3', 'HR']",trnaleu_c,TRNA(Leu),C15H21N5O10PR,0,C01645,generic:trna,,,,,,compound C01645 mol file not in kegg
+C01646_c,tRNA(Lys)_C10H17O10PR2(C5H8O6PR)n,,,"[0, -2]","['R', 'C15H23O16P2R3', 'HR']",trnalys_c,TRNA(Lys),C10H17O10PR2,0,C01646,generic:trna,,,,,,compound C01646 mol file not in kegg
+C01647_c,tRNA(Met)_C15H21N5O10PR(C5H8O6PR)n,,,"[0, -2]","['R', 'C15H21N5O10PR', 'HOX', 'C15H23O16P2R3', 'HR']",trnamet_c,TRNA(Met),C15H21N5O10PR,0,C01647,generic:trna,,,,,,compound C01647 mol file not in kegg
+C01648_c,tRNA(Phe)_C10H17O10PR2(C5H8O6PR)n,,,"[0, -2]","['R', 'C15H23O16P2R3', 'HR']",trnaphe_c,TRNA(Phe),C10H17O10PR2,0,C01648,generic:trna,,,,,,compound C01648 mol file not in kegg
+C01649_c,tRNA(Pro)_C10H17O10PR2(C5H8O6PR)n,,,"[0, -2]","['R', 'C10H17O10PR2', 'C15H23O16P2R3', 'HR']",trnapro_c,TRNA(Pro),C10H17O10PR2,0,C01649,generic:trna,,,,,,compound C01649 mol file not in kegg
+C01650_c,tRNA(Ser)_C10H17O10PR2(C5H8O6PR)n,,,"[0, -2]","['R', 'C10H17O10PR2', 'C15H23O16P2R3', 'HR']",trnaser_c,TRNA(Ser),C10H17O10PR2,0,C01650,generic:trna,,,,,,compound C01650 mol file not in kegg
+C01651_c,tRNA(Thr)_C10H17O10PR2(C5H8O6PR)n,,,"[0, -2]","['R', 'C10H17O10PR2', 'C15H23O16P2R3', 'HR']",trnathr_c,TRNA(Thr),C10H17O10PR2,0,C01651,generic:trna,,,,,,compound C01651 mol file not in kegg
+C01652_c,tRNA(Trp)_C15H21N5O10PR(C5H8O6PR)n,,,"[0, -2]","['R', 'C15H21N5O10PR', 'C15H23O16P2R3', 'HR']",trnatrp_c,TRNA(Trp),C15H21N5O10PR,0,C01652,generic:trna,,,,,,compound C01652 mol file not in kegg
+C01653_c,tRNA(Val)_C15H21N5O10PR(C5H8O6PR)n,,,"[0, -2]","['R', 'C15H21N5O10PR', 'C15H23O16P2R3', 'HR']",trnaval_c,TRNA(Val),C15H21N5O10PR,0,C01653,generic:trna,,,,,,compound C01653 mol file not in kegg
 C01672_c,Cadaverine_C5H14N2,,,[2],['C5H16N2'],15dap_c,"1,5-Diaminopentane",C5H16N2,2,C01672,,,2,C5H16N2,2,,[]
 C01674_c,Chitobiose_C16H28N2O11,,,[0],['C16H28N2O11'],chtbs_c,"N,N'-diacetylchitobiose",C16H28N2O11,0,C01674,,,0,C16H28N2O11,0,,[]
 C01762_c,Xanthosine_C10H12N4O6,,,[0],['C10H12N4O6'],xtsn_c,Xanthosine,C10H12N4O6,0,C01762,,,0,C10H12N4O6,-0.01,,[]
@@ -390,49 +390,49 @@ C01798_c,D-Glucoside_C6H11O6R,,,,,glusd_gen_c,D-Glucoside,C6H11O6R,,C01798,gener
 C01879_c,Pyroglutamic acid_C5H7NO3,,,[-1],['C5H6NO3'],5oxpro_c,5-Oxoproline,C5H6NO3,-1,C01879,,,-1,C5H6NO3,-1,,[]
 C01909_c,Dethiobiotin_C10H18N2O3,,,[-1],['C10H17N2O3'],dtbt_c,Dethiobiotin,C10H17N2O3,-1,C01909,,,-1,C10H17N2O3,-1,,[]
 C01929_c,L-Histidinal_C6H9N3O,,,,,histda_c,L-Histidinal,C6H10N3O,1,C01929,,,1,C6H10N3O,0.71,,[]
-C01931_c,L-Lysyl-tRNA_C16H29N2O11PR2(C5H8O6PR)n,,,"[2, -1]","['C6H15N2OR', 'C6H14N2OR', 'C21H36N2O17P2R3']",lystrna_c,L-Lysine-tRNA (Lys),C6H15N2OR,2,C01931,generic:trna,,,,,,ChemAxon Error: [#7]-[#6]-[#6]-[#6]-[#6]-[#6@H](-[#7])-[#6](=O)-[#
+C01931_c,L-Lysyl-tRNA_C16H29N2O11PR2(C5H8O6PR)n,,,"[2, -1]","['C6H15N2OR', 'C6H14N2OR', 'C21H36N2O17P2R3']",lystrna_c,L-Lysine-tRNA (Lys),C16H29N2O11PR2,2,C01931,generic:trna,,,,,,ChemAxon Error: [#7]-[#6]-[#6]-[#6]-[#6]-[#6@H](-[#7])-[#6](=O)-[#
 C01935_c,Maltodextrin_(C12H20O10)n,,,,,maldex_c,Maltodextrin,(C12H20O10)n,,C01935,generic:polymer,,,,,,ChemAxon Error: tempfile.smiles (No such file or directory)
 C01962_c,Thiocysteine_C3H7NO2S2,,,[0],['C3H7NO2S2'],thcys_c,Thiocysteine,C3H7NO2S2,0,C01962,,,0,C3H7NO2S2,-0.03,,[]
 C02013_c,Cellotetraose_C24H42O21,,,[0],['C24H42O21'],cell4_c,Cellulose (n=4 repeating units),C24H42O21,0,C02013,,,0,C24H42O21,0,,[]
-C02047_c,L-Leucyl-tRNA_C21H32N6O11PR(C5H8O6PR)n,,,"[1, -2]","['C6H13NOR', 'C21H34O17P2R3N', 'C6H12NOR']",leutrna_c,L-Leucyl-tRNA(Leu),C6H13NOR,1,C02047,generic:trna,,,,,,ChemAxon Error: [#6]-[#6](-[#6])-[#6]-[#6@H](-[#7])-[#6](=O)-[#8]-
-C02163_c,L-Arginyl-tRNA(Arg)_C21H33N9O11PR(C5H8O6PR)n,,,"[2, -1]","['C21H36N4O17P2R3', 'C6H15N4OR', 'C6H14N4OR']",argtrna_c,L-Arginyl-tRNA(Arg),C21H36N4O17P2R3,2,C02163,,,,,,,ChemAxon Error: [#7]-[#6@@H](-[#6]-[#6]-[#6]-[#7]-[#6](-[#7])=[#7]
+C02047_c,L-Leucyl-tRNA_C21H32N6O11PR(C5H8O6PR)n,,,"[1, -2]","['C6H13NOR', 'C21H34O17P2R3N', 'C6H12NOR']",leutrna_c,L-Leucyl-tRNA(Leu),C21H32N6O11PR,1,C02047,generic:trna,,,,,,ChemAxon Error: [#6]-[#6](-[#6])-[#6]-[#6@H](-[#7])-[#6](=O)-[#8]-
+C02163_c,L-Arginyl-tRNA(Arg)_C21H33N9O11PR(C5H8O6PR)n,,,"[2, -1]","['C21H36N4O17P2R3', 'C6H15N4OR', 'C6H14N4OR']",argtrna_c,L-Arginyl-tRNA(Arg),C21H33N9O11PR,2,C02163,,,,,,,ChemAxon Error: [#7]-[#6@@H](-[#6]-[#6]-[#6]-[#7]-[#6](-[#7])=[#7]
 C02170_c,Methylmalonate_C4H6O4,"['mmal', 'HC00900', 'mm']","['Methylmalonate C4H4O4', 'Methylmalonate', 'Methylmalonate']",[-2],['C4H4O4'],mmal_c,Methylmalonate C4H4O4,C4H4O4,-2,C02170,,,-2,C4H4O4,-1.95,,[]
-C02211_c,tRNA precursor_C10H17O10PR2(C5H8O6PR)n,,,,,trnaprec_c,tRNA precursor,C10H17O10PR2(C5H8O6PR)n,,C02211,generic:trna,,,,,,"ChemAxon Error: [#8]-[#6]-[#6@H]-1-[#8]-[#6@@H](-[$([#1,*])])-[#6@"
+C02211_c,tRNA precursor_C10H17O10PR2(C5H8O6PR)n,,,,,trnaprec_c,tRNA precursor,C10H17O10PR2,,C02211,generic:trna,,,,,,"ChemAxon Error: [#8]-[#6]-[#6@H]-1-[#8]-[#6@@H](-[$([#1,*])])-[#6@"
 C02222_c,2-Maleylacetate_C6H6O5,,,,,mylac_c,2-Maleylacetate,C6H4O5,-2,C02222,,T,-2,C6H4O5,-2,,[]
 C02225_c,2-Methylcitrate_C7H10O7,,,[-3],['C7H7O7'],2mcit_c,2-Methylcitrate,C7H7O7,-3,C02225,,,-3,C7H7O7,-2.99,,[]
 C02226_c,2-Methylmaleate_C5H6O4,,,[-2],['C5H4O4'],citac_c,Citraconate,C5H4O4,-2,C02226,,,-2,C5H4O4,-1.98,,[]
-C02282_c,Glutaminyl-tRNA_C20H29N7O12PR(C5H8O6PR)n,,,"[1, -2]","['C20H31N2O18P2R3', 'C5H9N2O2R', 'C5H10N2O2R']",glntrna_c,L-Glutaminyl-tRNA(Gln),C20H31N2O18P2R3,1,C02282,generic:trna,,,,,,ChemAxon Error: [#7]-[#6@@H](-[#6]-[#6]-[#6](-[#7])=O)-[#6](=O)-[#
+C02282_c,Glutaminyl-tRNA_C20H29N7O12PR(C5H8O6PR)n,,,"[1, -2]","['C20H31N2O18P2R3', 'C5H9N2O2R', 'C5H10N2O2R']",glntrna_c,L-Glutaminyl-tRNA(Gln),C20H29N7O12PR,1,C02282,generic:trna,,,,,,ChemAxon Error: [#7]-[#6@@H](-[#6]-[#6]-[#6](-[#7])=O)-[#6](=O)-[#
 C02291_c,L-Cystathionine_C7H14N2O4S,,,[0],"['C7H14N2O4S', 'C6H12N2O4S2']",cyst__L_c,L-Cystathionine,C7H14N2O4S,0,C02291,,,0,C7H14N2O4S,-0.02,,[]
 C02330_c,UDP-L-iduronate_C15H22N2O18P2,,,,,udpidour_c,UDP-L-iduronate,C15H19N2O18P2,-3,C02330,,,-3,C15H19N2O18P2,-3,,[]
 C02336_c,beta-D-Fructose_C6H12O6,,,,['C6H12O6'],fru_B_c,Beta-D-fructose,C6H12O6,0,C02336,,,0,C6H12O6,0,,[]
 C02350_c,(S)(+)-Allantoin_C4H6N4O3,,,,,alltn_c,Allantoin,C4H6N4O3,0,C02350,,,0,C4H6N4O3,-0.15,,[]
 C02411_c,Glutaconyl-1-CoA_C26H40N7O19P3S,,,,,glylcoa_c,Glutaconyl-1-CoA,C26H35N7O19P3S,-5,C02411,,,-5,C26H35N7O19P3S,-4.97,,[]
-C02412_c,Glycyl-tRNA(Gly)_C12H20NO11PR2(C5H8O6PR)n,,,"[1, -2]","['C2H4NOR', 'C2H5NOR', 'C17H26NO17P2R3']",glytrna_c,Glycyl-tRNA(Gly),C2H4NOR,1,C02412,generic:trna,,,,,,ChemAxon Error: [#7]-[#6]-[#6](=O)-[#8]-[#6@H]-1-[#6@@H](-[#8])-[#
-C02430_c,L-Methionyl-tRNA_C20H30N6O11PSR(C5H8O6PR)n,,,"[1, -2]","['C5H10NOSR', 'C20H32NO17P2SR3', 'C5H11NOSR', 'C5H11NO2SX']",mettrna_c,L-Methionyl-tRNA (Met),C5H10NOSR,1,C02430,generic:trna,,,,,,ChemAxon Error: [#6]-[#16]-[#6]-[#6]-[#6@H](-[#7])-[#6](=O)-[#8]-[
+C02412_c,Glycyl-tRNA(Gly)_C12H20NO11PR2(C5H8O6PR)n,,,"[1, -2]","['C2H4NOR', 'C2H5NOR', 'C17H26NO17P2R3']",glytrna_c,Glycyl-tRNA(Gly),C12H20NO11PR2,1,C02412,generic:trna,,,,,,ChemAxon Error: [#7]-[#6]-[#6](=O)-[#8]-[#6@H]-1-[#6@@H](-[#8])-[#
+C02430_c,L-Methionyl-tRNA_C20H30N6O11PSR(C5H8O6PR)n,,,"[1, -2]","['C5H10NOSR', 'C20H32NO17P2SR3', 'C5H11NOSR', 'C5H11NO2SX']",mettrna_c,L-Methionyl-tRNA (Met),C20H30N6O11PSR,1,C02430,generic:trna,,,,,,ChemAxon Error: [#6]-[#16]-[#6]-[#6]-[#6@H](-[#7])-[#6](=O)-[#8]-[
 C02457_c,"Propane-1,3-diol_C3H8O2",,,[0],['C3H8O2'],13ppd_c,"1,3-Propanediol",C3H8O2,0,C02457,,,0,C3H8O2,0,,[]
 C02463_c,Precorrin 2_C42H48N4O16,"['shcl', 'dscl']","['Dihydrosirohydrochlorin C42H40N4O16', 'Dihydrosirohydrochlorin']",[-8],['C42H40N4O16'],shcl_c,Dihydrosirohydrochlorin C42H40N4O16,C42H41N4O16,-7,C02463,,T,-7,C42H41N4O16,-7.01,,[]
 C02504_c,alpha-Isopropylmalate_C7H12O5,,,[-2],['C7H10O5'],3c3hmp_c,3-Carboxy-3-hydroxy-4-methylpentanoate,C7H10O5,-2,C02504,,,-2,C7H10O5,-1.98,,[]
-C02553_c,L-Seryl-tRNA(Ser)_C13H22NO12PR2(C5H8O6PR)n,,,"[1, -2]","['C3H7NO2R', 'C3H6NO2R', 'C18H28NO18P2R3']",sertrna_c,L-Seryl-tRNA(Ser),C3H7NO2R,1,C02553,generic:trna,,,,,,ChemAxon Error: [#7]-[#6@@H](-[#6]-[#8])-[#6](=O)-[#8]-[#6@H]-1-[#
-C02554_c,L-Valyl-tRNA(Val)_C20H30N6O11PR(C5H8O6PR)n,,,"[1, -2]","['C5H10NOR', 'C5H11NOR', 'C20H32NO17P2R3']",valtrna_c,L-Valyl-tRNA(Val),C5H10NOR,1,C02554,generic:trna,,,,,,ChemAxon Error: [#6]-[#6](-[#6])-[#6@H](-[#7])-[#6](=O)-[#8]-[#6@@
+C02553_c,L-Seryl-tRNA(Ser)_C13H22NO12PR2(C5H8O6PR)n,,,"[1, -2]","['C3H7NO2R', 'C3H6NO2R', 'C18H28NO18P2R3']",sertrna_c,L-Seryl-tRNA(Ser),C13H22NO12PR2,1,C02553,generic:trna,,,,,,ChemAxon Error: [#7]-[#6@@H](-[#6]-[#8])-[#6](=O)-[#8]-[#6@H]-1-[#
+C02554_c,L-Valyl-tRNA(Val)_C20H30N6O11PR(C5H8O6PR)n,,,"[1, -2]","['C5H10NOR', 'C5H11NOR', 'C20H32NO17P2R3']",valtrna_c,L-Valyl-tRNA(Val),C20H30N6O11PR,1,C02554,generic:trna,,,,,,ChemAxon Error: [#6]-[#6](-[#6])-[#6@H](-[#7])-[#6](=O)-[#8]-[#6@@
 C02576_c,Perillyl aldehyde_C10H14O,,,,,pyald_c,Perillyl aldehyde,C10H14O,0,C02576,bigg only in euk.,,0,C10H14O,0,,[]
 C02612_c,(R)-2-Methylmalate_C5H8O5,,,,,citm_c,Citramalate,C5H6O5,-2,C02612,,,-2,C5H6O5,-1.99,,[]
 C02631_c,2-Isopropylmaleate_C7H10O4,,,[-2],['C7H8O4'],2ippm_c,2-Isopropylmaleate,C7H8O4,-2,C02631,,,-2,C7H8O4,-1.96,,[]
 C02637_c,3-Dehydroshikimate_C7H8O5,,,[-1],['C7H7O5'],3dhsk_c,3-Dehydroshikimate,C7H7O5,-1,C02637,,,-1,C7H7O5,-1,,[]
 C02670_c,D-Glucuronolactone_C6H8O6,,,[0],['C6H8O6'],glcurn_c,D Glucurone C6H8O6,C6H8O6,0,C02670,,,0,C6H8O6,0,,[]
-C02702_c,L-Prolyl-tRNA(Pro)_C15H24NO11PR2(C5H8O6PR)n,,,"[1, -2]","['C20H30NO17P2R3', 'C5H8NOR', 'C5H9NOR']",protrna_c,L-Prolyl-tRNA(Pro),C20H30NO17P2R3,1,C02702,generic:trna,,,,,,"ChemAxon Error: [#8]-[#6]-[#6@H]-1-[#8]-[#6@@H](-[$([#1,*])])-[#6@"
+C02702_c,L-Prolyl-tRNA(Pro)_C15H24NO11PR2(C5H8O6PR)n,,,"[1, -2]","['C20H30NO17P2R3', 'C5H8NOR', 'C5H9NOR']",protrna_c,L-Prolyl-tRNA(Pro),C15H24NO11PR2,1,C02702,generic:trna,,,,,,"ChemAxon Error: [#8]-[#6]-[#6@H]-1-[#8]-[#6@@H](-[$([#1,*])])-[#6@"
 C02713_c,N-Acetylmuramate_C11H19NO8,,,[-1],['C11H18NO8'],acmum_c,N-Acetylmuramate,C11H18NO8,-1,C02713,,,-1,C11H18NO8,-1,,[]
 C02739_c,1-(5-Phospho-D-ribosyl)-ATP_C15H25N5O20P4,,,[-6],['C15H19N5O20P4'],prbatp_c,1-(5-Phosphoribosyl)-ATP,C15H20N5O20P4,-5,C02739,,T,-5,C15H20N5O20P4,-5.5,,[]
 C02741_c,Phosphoribosyl-AMP_C15H23N5O14P2,,,[-4],['C15H19N5O14P2'],prbamp_c,1-(5-Phosphoribosyl)-AMP,C15H19N5O14P2,-4,C02741,,,-4,C15H19N5O14P2,-3.92,,[]
 C02835_c,Imidazole-4-acetate_C5H6N2O2,"['imzac', 'im4ac']","['Imidazole 4 acetate C5H6N2O2', 'Imidazole-4-acetate']",[0],['C5H6N2O2'],imzac_c,Imidazole 4 acetate,C5H6N2O2,-1,C02835,,T,-1,C15H20N5O20P4,-0.8,,[]
-C02839_c,L-Tyrosyl-tRNA(Tyr)_C24H30N6O12PR(C5H8O6PR)n,,,"[1, -2]","['C9H10NO2R', 'C24H32NO18P2R3', 'C9H11NO2R']",tyrtrna_c,L-Tyrosyl-tRNA(Tyr),C9H10NO2R,1,C02839,generic:trna,,,,,,ChemAxon Error: [#7]-[#6@@H](-[#6]-[#6]-1=[#6]-[#6]=[#6](-[#8])-[#
+C02839_c,L-Tyrosyl-tRNA(Tyr)_C24H30N6O12PR(C5H8O6PR)n,,,"[1, -2]","['C9H10NO2R', 'C24H32NO18P2R3', 'C9H11NO2R']",tyrtrna_c,L-Tyrosyl-tRNA(Tyr),C24H30N6O12PR,1,C02839,generic:trna,,,,,,ChemAxon Error: [#7]-[#6@@H](-[#6]-[#6]-1=[#6]-[#6]=[#6](-[#8])-[#
 C02876_c,Propanoyl phosphate_C3H7O5P,,,[-2],['C3H5O5P'],ppap_c,Propanoyl phosphate,C3H5O5P,-2,C02876,,,-2,C3H5O5P,-1.94,,[]
 C02909_c,(2-Naphthyl)methanol_C11H10O,,,,,naphmetoh_c,(2-Naphthyl)methanol,C11H10O,0,C02909,,,0,C11H10O,0,,[]
 C02939_c,3-Methylbutanoyl-CoA_C26H44N7O17P3S,,,[-4],['C26H40N7O17P3S'],ivcoa_c,Isovaleryl-CoA,C26H40N7O17P3S,-4,C02939,,,-4,C26H40N7O17P3S,-3.97,,[]
 C02946_c,4-Acetamidobutanoate_C6H11NO3,,,[-1],['C6H10NO3'],4aabutn_c,4 Acetamidobutanoate C6H10NO3,C6H10NO3,-1,C02946,,,-1,C6H10NO3,-1,,[]
-C02984_c,L-Aspartyl-tRNA(Asp)_C14H22NO13PR2(C5H8O6PR)n,,,"[0, -3]","['C4H5NO3R', 'C19H27NO19P2R3', 'C4H6NO3R']",asptrna_c,L-Aspartyl-tRNA(Asp),C4H5NO3R,0,C02984,generic:trna,,,,,,ChemAxon Error: [#7]-[#6@@H](-[#6]-[#6](-[#8])=O)-[#6](=O)-[#8]-[#
-C02987_c,L-Glutamyl-tRNA(Glu)_C20H28N6O13PR(C5H8O6PR)n,,,"[0, -3]","['C5H8NO4X', 'C5H8NO3R', 'C5H7NO3R', 'C20H29NO19P2R3', 'C20H28N6O13PR']",glutrna_c,L-Glutamyl-tRNA(Glu),C5H8NO4X,0,C02987,generic:trna,,,,,,ChemAxon Error: [#7]-[#6@@H](-[#6]-[#6]-[#6](-[#8])=O)-[#6](=O)-[#
-C02988_c,L-Histidyl-tRNA(His)_C16H24N3O11PR2(C5H8O6PR)n,,,"[1, -2]","['C21H30N3O17P2R3', 'C6H9N3OR', 'C6H8N3OR']",histrna_c,L-Histidyl-tRNA(His),C21H30N3O17P2R3,1,C02988,generic:trna,,,,,,ChemAxon Error: [#7]-[#6@@H](-[#6]-[#6]-1=[#6]-[#7]-[#6]=[#7]-1)-[
-C02992_c,L-Threonyl-tRNA(Thr)_C14H24NO12PR2(C5H8O6PR)n,,,"[1, -2]","['C19H30NO18P2R3', 'C4H9NO2R', 'C4H8NO2R']",thrtrna_c,L-Threonyl-tRNA(Thr),C19H30NO18P2R3,1,C02992,generic:trna,,,,,,ChemAxon Error: [#6]-[#6@H](-[#8])-[#6@H](-[#7])-[#6](=O)-[#8]-[#6
+C02984_c,L-Aspartyl-tRNA(Asp)_C14H22NO13PR2(C5H8O6PR)n,,,"[0, -3]","['C4H5NO3R', 'C19H27NO19P2R3', 'C4H6NO3R']",asptrna_c,L-Aspartyl-tRNA(Asp),C14H22NO13PR2,0,C02984,generic:trna,,,,,,ChemAxon Error: [#7]-[#6@@H](-[#6]-[#6](-[#8])=O)-[#6](=O)-[#8]-[#
+C02987_c,L-Glutamyl-tRNA(Glu)_C20H28N6O13PR(C5H8O6PR)n,,,"[0, -3]","['C5H8NO4X', 'C5H8NO3R', 'C5H7NO3R', 'C20H29NO19P2R3', 'C20H28N6O13PR']",glutrna_c,L-Glutamyl-tRNA(Glu),C20H28N6O13PR,0,C02987,generic:trna,,,,,,ChemAxon Error: [#7]-[#6@@H](-[#6]-[#6]-[#6](-[#8])=O)-[#6](=O)-[#
+C02988_c,L-Histidyl-tRNA(His)_C16H24N3O11PR2(C5H8O6PR)n,,,"[1, -2]","['C21H30N3O17P2R3', 'C6H9N3OR', 'C6H8N3OR']",histrna_c,L-Histidyl-tRNA(His),C16H24N3O11PR2,1,C02988,generic:trna,,,,,,ChemAxon Error: [#7]-[#6@@H](-[#6]-[#6]-1=[#6]-[#7]-[#6]=[#7]-1)-[
+C02992_c,L-Threonyl-tRNA(Thr)_C14H24NO12PR2(C5H8O6PR)n,,,"[1, -2]","['C19H30NO18P2R3', 'C4H9NO2R', 'C4H8NO2R']",thrtrna_c,L-Threonyl-tRNA(Thr),C14H24NO12PR2,1,C02992,generic:trna,,,,,,ChemAxon Error: [#6]-[#6@H](-[#8])-[#6@H](-[#7])-[#6](=O)-[#8]-[#6
 C02999_c,N-Acetylmuramoyl-Ala_C14H24N2O9,,,,,acmama_c,N-Acetylmuramoyl-Ala,C14H23N2O9,-1,C02999,,,-1,C14H23N2O9,-1,,[]
 C03028_c,Thiamin triphosphate_C12H19N4O10P3S,,,[-3],['C12H16N4O10P3S'],thmtp_c,Thiamin triphosphate,C12H16N4O10P3S,-2,C03028,,T,-4,C12H16N4O10P3S,-2.4,checked with marvinview,[]
 C03044_c,"(R,R)-Butane-2,3-diol_C4H10O2",,,,,btd_RR_c,"(R,R)-Butane-2,3-diol",C4H10O2,0,C03044,,,0,C4H10O2,0,,[]
@@ -443,8 +443,8 @@ C03082_c,4-Phospho-L-aspartate_C4H8NO7P,,,[-2],['C4H6NO7P'],4pasp_c,4-Phospho-L-
 C03090_c,5-Phosphoribosylamine_C5H12NO7P,,,[-1],['C5H11NO7P'],pram_c,5-Phospho-beta-D-ribosylamine,C5H11NO7P,-1,C03090,,,-1,C5H11NO7P,-1.09,,[]
 C03112_c,Deacetylcephalosporin C_C14H19N3O7S,,,,,dacephc_c,Deacetylcephalosporin C,C14H18N3O7S,-1,C03112,,T,-1,C14H18N3O7S,-1.01,,[]
 C03114_c,Dimethylbenzimidazole_C9H10N2,,,[0],['C9H10N2'],dmbzid_c,"5,6-Dimethylbenzimidazole",C9H10N2,0,C03114,,,0,C9H10N2,0.14,,[]
-C03125_c,L-Cysteinyl-tRNA(Cys)_C18H26N6O11PSR(C5H8O6PR)n,,,"[1, -2]","['C3H6NOSR', 'C18H28NO17P2SR3', 'C3H7NOSR']",cystrna_c,L-Cysteinyl-tRNA(Cys),C3H6NOSR,1,C03125,generic:trna,,,,,,ChemAxon Error: [#7]-[#6@@H](-[#6]-[#16])-[#6](=O)-[#8]-[#6@@H]-1-
-C03127_c,L-Isoleucyl-tRNA(Ile)_C21H32N6O11PR(C5H8O6PR)n,,,"[1, -2]","['C6H13NOR', 'C6H12NOR', 'C21H34NO17P2R3']",iletrna_c,L-Isoleucyl-tRNA(Ile),C6H13NOR,1,C03127,generic:trna,,,,,,ChemAxon Error: [#6]-[#6]-[#6@H](-[#6])-[#6@H](-[#7])-[#6](=O)-[#8
+C03125_c,L-Cysteinyl-tRNA(Cys)_C18H26N6O11PSR(C5H8O6PR)n,,,"[1, -2]","['C3H6NOSR', 'C18H28NO17P2SR3', 'C3H7NOSR']",cystrna_c,L-Cysteinyl-tRNA(Cys),C18H26N6O11PSR,1,C03125,generic:trna,,,,,,ChemAxon Error: [#7]-[#6@@H](-[#6]-[#16])-[#6](=O)-[#8]-[#6@@H]-1-
+C03127_c,L-Isoleucyl-tRNA(Ile)_C21H32N6O11PR(C5H8O6PR)n,,,"[1, -2]","['C6H13NOR', 'C6H12NOR', 'C21H34NO17P2R3']",iletrna_c,L-Isoleucyl-tRNA(Ile),C21H32N6O11PR,1,C03127,generic:trna,,,,,,ChemAxon Error: [#6]-[#6]-[#6@H](-[#6])-[#6@H](-[#7])-[#6](=O)-[#8
 C03150_c,N-Ribosylnicotinamide_C11H14N2O5,,,[1],"['C11H15N2O5', 'C11H14N2O5']",rnam_c,N Ribosylnicotinamide C11H15N2O5,C11H15N2O5,1,C03150,,T,0,C11H15N2O5,1,,[]
 C03175_c,Shikimate 3-phosphate_C7H11O8P,,,[-3],['C7H8O8P'],skm5p_c,Shikimate 5-phosphate,C7H8O8P,-3,C03175,,,-3,C7H8O8P,-2.91,,[]
 C03194_c,(R)-1-Aminopropan-2-ol_C3H9NO,,,[1],['C3H10NO'],appl_c,1-Aminopropan-2-ol,C3H10NO,1,C03194,,,1,C3H10NO,1,,[]
@@ -456,7 +456,7 @@ C03287_c,L-Glutamyl 5-phosphate_C5H10NO7P,,,[-2],['C5H8NO7P'],glu5p_c,L-Glutamat
 C03340_c,"L-2,3-Dihydrodipicolinate_C7H7NO4",,,,,23dhdp_c,"2,3-Dihydrodipicolinate",C7H2NO4,-2,C03340,,,-2,C7H5NO4,-1.98,,[]
 C03345_c,2-Methylbut-2-enoyl-CoA_C26H42N7O17P3S,,,[-4],['C26H38N7O17P3S'],2mb2coa_c,Trans-2-Methylbut-2-enoyl-CoA,C26H38N7O17P3S,-4,C03345,,,-4,C26H38N7O17P3S,-3.97,,[]
 C03373_c,Aminoimidazole ribotide_C8H14N3O7P,,,,,airb_c,Aminoimidazole ribotide,C8H13N3O7P,-1,C03373,,,-1,C8H13N3O7P,-1.11,,[]
-C03402_c,L-Asparaginyl-tRNA(Asn)_C14H23N2O12PR2(C5H8O6PR)n,,,"[1, -2]","['C19H29N2O18P2R3', 'C4H8N2O2R', 'C14H24N2O12PR2', 'C14H23N2O12PR2']",asntrna_c,L-Asparaginyl-tRNA(Asn),C19H29N2O18P2R3,1,C03402,generic:trna,,,,,,ChemAxon Error: [#7]-[#6@@H](-[#6]-[#6](-[#7])=O)-[#6](=O)-[#8]-[#
+C03402_c,L-Asparaginyl-tRNA(Asn)_C14H23N2O12PR2(C5H8O6PR)n,,,"[1, -2]","['C19H29N2O18P2R3', 'C4H8N2O2R', 'C14H24N2O12PR2', 'C14H23N2O12PR2']",asntrna_c,L-Asparaginyl-tRNA(Asn),C14H23N2O12PR2,1,C03402,generic:trna,,,,,,ChemAxon Error: [#7]-[#6@@H](-[#6]-[#6](-[#7])=O)-[#6](=O)-[#8]-[#
 C03406_c,N-(L-Arginino)succinate_C10H18N4O6,,,[-1],['C10H17N4O6'],argsuc_c,N(omega)-(L-Arginino)succinate,C10H17N4O6,-1,C03406,,,-1,C10H17N4O6,-0.98,,[]
 C03410_c,N-Glycoloyl-neuraminate_C11H19NO10,,,[-1],['C11H18NO10'],neunng_c,N-Glycoloyl-neuraminate,C11H18NO10,-1,C03410,(bigg id replaced for readable version),,-1,C11H18NO10,-1,,[]
 C03460_c,2-Methylprop-2-enoyl-CoA_C25H40N7O17P3S,,,[-4],['C25H36N7O17P3S'],2mp2coa_c,2-Methylprop-2-enoyl-CoA,C25H36N7O17P3S,-4,C03460,,,-4,C25H36N7O17P3S,-3.97,,[]
@@ -464,8 +464,8 @@ C03479_c,5-Formyltetrahydrofolate_C20H23N7O7,,,[-2],['C20H21N7O7'],5fthf_c,5-For
 C03492_c,D-4'-Phosphopantothenate_C9H18NO8P,,,[-3],"['C9H14NO8P', 'C9H15NO8P']",4ppan_c,D-4'-Phosphopantothenate,C9H14NO8P,-3,C03492,,,-3,C9H15NO8P,-2.83,,[]
 C03506_c,Indoleglycerol phosphate_C11H14NO6P,,,[-2],['C11H12NO6P'],3ig3p_c,C'-(3-Indolyl)-glycerol 3-phosphate,C11H12NO6P,-2,C03506,,,-2,C11H12NO6P,-1.91,,[]
 C03508_c,L-2-Amino-3-oxobutanoic acid_C4H7NO3,,,[0],['C4H7NO3'],2aobut_c,L-2-Amino-3-oxobutanoate,C4H7NO3,0,C03508,,,0,C4H7NO3,-0.47,,[]
-C03511_c,L-Phenylalanyl-tRNA(Phe)_C19H26NO11PR2(C5H8O6PR)n,,,"[1, -2]","['C9H11NOR', 'C9H10NOR', 'C24H32NO17P2R3']",phetrna_c,L-Phenylalanyl-tRNA(Phe),C9H11NOR,1,C03511,generic:trna,,,,,,ChemAxon Error: [#7]-[#6@@H](-[#6]-[#6]-1=[#6]-[#6]=[#6]-[#6]=[#6]
-C03512_c,L-Tryptophanyl-tRNA(Trp)_C26H31N7O11PR(C5H8O6PR)n,,,"[1, -2]","['C26H33N2O17P2R3', 'C11H12N2OR', 'C11H11N2OR']",trptrna_c,L-Tryptophanyl-tRNA(Trp),C26H33N2O17P2R3,1,C03512,generic:trna,,,,,,ChemAxon Error: [#7]-[#6@@H](-[#6]-[#6]-1=[#6]-[#7]-[#6]-2=[#6]-[#
+C03511_c,L-Phenylalanyl-tRNA(Phe)_C19H26NO11PR2(C5H8O6PR)n,,,"[1, -2]","['C9H11NOR', 'C9H10NOR', 'C24H32NO17P2R3']",phetrna_c,L-Phenylalanyl-tRNA(Phe),C19H26NO11PR2,1,C03511,generic:trna,,,,,,ChemAxon Error: [#7]-[#6@@H](-[#6]-[#6]-1=[#6]-[#6]=[#6]-[#6]=[#6]
+C03512_c,L-Tryptophanyl-tRNA(Trp)_C26H31N7O11PR(C5H8O6PR)n,,,"[1, -2]","['C26H33N2O17P2R3', 'C11H12N2OR', 'C11H11N2OR']",trptrna_c,L-Tryptophanyl-tRNA(Trp),C26H31N7O11PR,1,C03512,generic:trna,,,,,,ChemAxon Error: [#7]-[#6@@H](-[#6]-[#6]-1=[#6]-[#7]-[#6]-2=[#6]-[#
 C03561_c,(R)-3-Hydroxybutanoyl-CoA_C25H42N7O18P3S,,,,,r3hbcoa_c,(R)-3-Hydroxybutanoyl-CoA,C25H38N7O18P3S,-4,C03561,isomer (not in bigg),,-4,C25H38N7O18P3S,-3.97,,[]
 C03576_c,2-Mercaptoethanesulfonate_C2H6O3S2,,,,['C2H5O3S2'],com_c,Coenzyme m,C2H5O3S2,-1,C03576,,,-1,C2H5O3S2,-1,,[]
 C03657_c,"1,4-Dihydroxy-2-naphthoate_C11H8O4",,,[-1],['C11H7O4'],dhna_c,"1,4-Dihydroxy-2-naphthoate",C11H7O4,-1,C03657,,,-1,C11H7O4,-1,,[]
@@ -516,7 +516,7 @@ C04405_c,"(2S,3S)-3-Hydroxy-2-methylbutanoyl-CoA_C26H44N7O18P3S",,,[-4],['C26H40
 C04411_c,"(2R,3S)-3-Isopropylmalate_C7H12O5",,,[-2],['C7H10O5'],3c2hmp_c,3-Carboxy-2-hydroxy-4-methylpentanoate,C7H10O5,-2,C04411,,,-2,C7H10O5,-1.98,,[]
 C04421_c,"N-Succinyl-LL-2,6-diaminoheptanedioate_C11H18N2O7",,,[-2],['C11H16N2O7'],sl26da_c,"N-Succinyl-LL-2,6-diaminoheptanedioate",C11H16N2O7,-2,C04421,,,-2,C11H16N2O7,-2,,[]
 C04425_c,S-Adenosyl-4-methylthio-2-oxobutanoate_C15H19N5O6S,,,[0],['C15H19N5O6S'],amob_c,S-Adenosyl-4-methylthio-2-oxobutanoate,C15H19N5O6S,0,C04425,,T,-1,C15H19N5O6S,0.01,checked with marvinview,[]
-C04432_c,tRNA containing 6-isopentenyladenosine_C15H22N5O7P(C5H8O6PR)n(C5H8O6PR)n,,,,,6ipadtrna_c,tRNA containing 6-isopentenyladenosine,C15H22N5O7P(C5H8O6PR)n(C5H8O6PR)n,,C04432,generic:trna,,,,,,ChemAxon Error: [H][#8]-[#6@@H]-1-[#6@@H](-[#6]-[#8]P([#8])(=O)[#8
+C04432_c,tRNA containing 6-isopentenyladenosine_C15H22N5O7P(C5H8O6PR)n(C5H8O6PR)n,,,,,6ipadtrna_c,tRNA containing 6-isopentenyladenosine,C15H22N5O7PR,,C04432,generic:trna,,,,,,ChemAxon Error: [H][#8]-[#6@@H]-1-[#6@@H](-[#6]-[#8]P([#8])(=O)[#8
 C04454_c,5-Amino-6-(5'-phospho-D-ribitylamino)uracil_C9H17N4O9P,,,[-2],['C9H15N4O9P'],5aprbu_c,5-Amino-6-(5'-phosphoribitylamino)uracil,C9H15N4O9P,-2,C04454,,,-2,C9H15N4O9P,-1.96,,[]
 C04462_c,N-Succinyl-2-L-amino-6-oxoheptanedioate_C11H15NO8,,,[-3],['C11H12NO8'],sl2a6o_c,N-Succinyl-2-L-amino-6-oxoheptanedioate,C11H12NO8,-3,C04462,,,-3,C11H12NO8,-3,,[]
 C04489_c,5-Methyltetrahydropteroyltri-L-glutamate_C30H39N9O12,,,"[0, -4, -2]","['C25H34N8O12', 'C30H35N9O12', 'C25H36N8O12']",mhpglu_c,5 Methyltetrahydropteroyltri L glutamate C25H36N8O12,C30H35N9O12,-4,C04489,,T,-4,C30H35N9O12,-4.19,,[]
@@ -567,7 +567,7 @@ C05273_c,trans-Tetradec-2-enoyl-CoA_C35H60N7O17P3S,,,[-4],['C35H56N7O17P3S'],td2
 C05275_c,trans-Dec-2-enoyl-CoA_C31H52N7O17P3S,,,[-4],['C31H48N7O17P3S'],dc2coa_c,Trans-Dec-2-enoyl-CoA,C31H48N7O17P3S,-4,C05275,,,-4,C31H48N7O17P3S,-3.97,,[]
 C05276_c,trans-Oct-2-enoyl-CoA_C29H48N7O17P3S,,,[-4],['C29H44N7O17P3S'],oc2coa_c,Trans-Oct-2-enoyl-CoA,C29H44N7O17P3S,-4,C05276,,,-4,C29H44N7O17P3S,-3.97,,[]
 C05335_c,L-Selenomethionine_C5H11NO2Se,,,[0],['C5H11NO2Se'],selmeth_c,Selenomethionine,C5H11NO2Se,0,C05335,,,0,C5H11NO2Se,0,,[]
-C05336_c,Selenomethionyl-tRNA(Met)_C20H30N6O11PSeR(C5H8O6PR)n,,,,,selmethtrna_c,Selenomethionyl-tRNA(Met),C5H11NOSeR,,C05336,generic:trna,,,,,,ChemAxon Error: [#6][Se][#6]-[#6]-[#6@H](-[#7])-[#6](=O)-[#8]-[#6@
+C05336_c,Selenomethionyl-tRNA(Met)_C20H30N6O11PSeR(C5H8O6PR)n,,,,,selmethtrna_c,Selenomethionyl-tRNA(Met),C20H30N6O11PSeR,,C05336,generic:trna,,,,,,ChemAxon Error: [#6][Se][#6]-[#6]-[#6@H](-[#7])-[#6](=O)-[#8]-[#6@
 C05345_c,beta-D-Fructose 6-phosphate_C6H13O9P,"['f6p', 'f6p_B']","['D-Fructose 6-phosphate', 'Beta-D-Fructose 6-phosphate']",[-2],['C6H11O9P'],f6p_B_c,D-Fructose 6-phosphate,C6H11O9P,-2,C05345,isomer,,-2,C6H11O9P,-1.95,,[]
 C05359_c,e-_,,,,,electron_c,e-,,-1,C05359,review,,,,,,compound C05359 mol file not in kegg
 C05378_c,"beta-D-Fructose 1,6-bisphosphate_C6H14O12P2",,,,['C6H10O12P2'],fdp_B_c,"Beta-D-Fructose 1,6-bisphosphate",C6H10O12P2,-4,C05378,,,-4,C6H10O12P2,-3.92,,[]
@@ -628,7 +628,7 @@ C05775_c,alpha-Ribazole_C14H18N2O4,,,[0],['C14H18N2O4'],rdmbzi_c,"N1-(alpha-D-ri
 C05778_c,Sirohydrochlorin_C42H46N4O16,"['srch', 'scl']","['Sirohydrochlorin C42H38N4O16', 'Sirohydrochlorin']",[-8],['C42H38N4O16'],srch_c,Sirohydrochlorin C42H38N4O16,C42H38N4O16,-8,C05778,,,-8,C42H38N4O16,-7.99,,[]
 C05810_c,2-Octaprenylphenol_C46H70O,,,[0],['C46H70O'],2oph_c,2-Octaprenylphenol,C46H70O,0,C05810,,,0,C46H70O,-0.01,,[]
 C05811_c,2-Octaprenyl-6-hydroxyphenol_C46H70O2,,,[0],['C46H70O2'],2ohph_c,2-Octaprenyl-6-hydroxyphenol,C46H70O2,0,C05811,,,0,C46H70O2,-0.01,,[]
-C05818_c,2-Demethylmenaquinone_C20H22O2,,,,,2dmmq_gen_c,2-Demethylmenaquinone,C15H14O2(C5H8)n,,C05818,generic,,,,,,ChemAxon Error: tempfile.smiles (No such file or directory)
+C05818_c,2-Demethylmenaquinone_C20H22O2,,,,,2dmmq_gen_c,2-Demethylmenaquinone,C15H14O2R,,C05818,generic,,,,,,ChemAxon Error: tempfile.smiles (No such file or directory)
 C05823_c,3-Mercaptolactate_C3H6O3S,,,,,mercplac_c,3-Mercaptolactate,C3H5O3S,-1,C05823,,,-1,C3H5O3S,-1,,[]
 C05824_c,S-Sulfo-L-cysteine_C3H7NO5S2,"['slfcys', 'scys__L']","['S-Sulfo-L-cysteine', 'S-Sulfo-L-cysteine']",[-1],['C3H8NO5S2'],slfcys_c,S-Sulfo-L-cysteine,C3H8NO5S2,-1,C05824,,,-1,C3H6NO5S2,-1.02,,[]
 C05838_c,cis-2-Hydroxycinnamate_C9H8O3,,,[-1],['C9H7O3'],2coum_c,Cis-2-Hydroxy cinnamate,C9H7O3,-1,C05838,,,-1,C9H7O3,-1.01,,[]
@@ -664,8 +664,8 @@ C06054_c,2-Oxo-3-hydroxy-4-phosphobutanoate_C4H7O8P,,,[-3],['C4H4O8P'],ohpb_c,2-
 C06055_c,O-Phospho-4-hydroxy-L-threonine_C4H10NO7P,,,[-2],['C4H8NO7P'],phthr_c,O-Phospho-4-hydroxy-L-threonine,C4H8NO7P,-2,C06055,,,-2,C4H8NO7P,-1.92,,[]
 C06056_c,4-Hydroxy-L-threonine_C4H9NO4,,,[0],['C4H9NO4'],4hthr_c,4-Hydroxy-L-threonine,C4H9NO4,0,C06056,,,0,C4H9NO4,-0.04,,[]
 C06104_c,Adipate_C6H10O4,,,,,adpe_c,Adipate,C6H8O4,-2,C06104,,,-2,C6H8O4,-2,,[]
-C06112_c,L-Glutamyl-tRNA(Gln)_C20H28N6O13PR(C5H8O6PR)n,,,[0],"['None', 'C5H7NO3R']",glutrna_gln_c,L-Glutamyl-tRNA(Gln),,,C06112,generic:trna,,,,,,ChemAxon Error: [#7]-[#6@@H](-[#6]-[#6]-[#6](-[#8])=O)-[#6](=O)-[#
-C06113_c,L-Aspartyl-tRNA(Asn)_C14H22NO13PR2(C5H8O6PR)n,,,,['None'],asptrna_asn_c,L-Aspartyl-tRNA(Asn),,,C06113,generic:trna,,,,,,ChemAxon Error: [#7]-[#6@@H](-[#6]-[#6](-[#8])=O)-[#6](=O)-[#8]-[#
+C06112_c,L-Glutamyl-tRNA(Gln)_C20H28N6O13PR(C5H8O6PR)n,,,[0],"['None', 'C5H7NO3R']",glutrna_gln_c,L-Glutamyl-tRNA(Gln),C20H28N6O13PR,,C06112,generic:trna,,,,,,ChemAxon Error: [#7]-[#6@@H](-[#6]-[#6]-[#6](-[#8])=O)-[#6](=O)-[#
+C06113_c,L-Aspartyl-tRNA(Asn)_C14H22NO13PR2(C5H8O6PR)n,,,,['None'],asptrna_asn_c,L-Aspartyl-tRNA(Asn),C14H22NO13PR2,,C06113,generic:trna,,,,,,ChemAxon Error: [#7]-[#6@@H](-[#6]-[#6](-[#8])=O)-[#6](=O)-[#8]-[#
 C06148_c,"2,5-Diamino-6-(5'-triphosphoryl-3',4'-trihydroxy-2'-oxopentyl)-amino-4-oxopyrimidine_C9H18N5O14P3",,,[0],['X'],apaop_c,"2,5-Diamino-6-(5-triphosphoryl-3,4-trihydroxy-2-oxopentyl)- amino-4-oxopyrimidine",C9H14N5O14P3,-4,C06148,,T,-4,C9H14N5O14P3,-3.75,,[]
 C06156_c,alpha-D-Glucosamine 1-phosphate_C6H14NO8P,,,[-1],['C6H13NO8P'],gam1p_c,D-Glucosamine 1-phosphate,C6H13NO8P,-1,C06156,,,-1,C6H13NO8P,-0.98,,[]
 C06196_c,2'-Deoxyinosine 5'-phosphate_C10H13N4O7P,,,"[-2, -1]","['C10H12N4O7P', 'C10H11N4O7P']",dimp_c,DIMP C10H12N4O7P,C10H12N4O7P,-2,C06196,,,-2,C10H11N4O7P,-1.96,,[]
@@ -673,7 +673,7 @@ C06217_c,Cellohexaose_C36H62O31,,,,,cell6_c,Cellulose (n=6 repeating units),C36H
 C06218_c,Cellopentaose_C330H52O26,,,,,cell5_c,Cellulose (n=5 repeating units),C30H52O26,0,C06218,,,0,C30H52O26,0,,[]
 C06219_c,Cellotriose_C18H32O16,,,,,cell3_c,Cellulose (n=3 repeating units),C18H32O16,0,C06219,,,0,C18H32O16,0,,[]
 C06241_c,N-Acetylneuraminate 9-phosphate_C11H20NO12P,,,,,acnamp_c,N-Acetylneuraminate 9-phosphate,C11H17NO12P,-3,C06241,only in bigg eukaryotes,,-3,C11H17NO12P,-2.91,,[]
-C06481_c,L-Seryl-tRNA(Sec)_C13H22NO12PR2(C5H8O6PR)n,,,[1],"['C3H7NO2R', 'C3H6NO2R']",sertrna_sec_c,L-Seryl-tRNA(Sec),C3H7NO2R,1,C06481,,,,,,,ChemAxon Error: [#7]-[#6@@H](-[#6]-[#8])-[#6](=O)-[#8]-[#6@H]-1-[#
+C06481_c,L-Seryl-tRNA(Sec)_C13H22NO12PR2(C5H8O6PR)n,,,[1],"['C3H7NO2R', 'C3H6NO2R']",sertrna_sec_c,L-Seryl-tRNA(Sec),C13H22NO12PR2,1,C06481,,,,,,,ChemAxon Error: [#7]-[#6@@H](-[#6]-[#8])-[#6](=O)-[#8]-[#6@H]-1-[#
 C06505_c,"Cob(I)yrinate a,c diamide_C45H62N6O12.Co",,,[-5],['C45H56CoN6O12'],co1dam_c,"Cob(I)yrinate a,c diamide",C45H59CoN6O12,-2,C06505,,T,-2,C45H59CoN6O12,-2.78,checked with marvinview,[]
 C06506_c,"Adenosyl cobyrinate a,c diamide_C45H62N6O12.C10H12N5O3.Co",,,,,adcobdam_c,"Adenosyl cobyrinate a,c diamide",C55H71CoN11O15,-2,C06506,,T,-2,C55H71CoN11O15,-1.86,,[]
 C06507_c,Adenosyl cobyrinate hexaamide_C45H66N10O8.C10H12N5O3.Co,,,[0],"['C55H76CoN15O11', 'C55CoH76N15O11']",adcobhex_c,Adenosyl-cobyric acid,C55H79CoN15O11,2,C06507,,T,2,C55H79CoN15O11,2.17,,[]
@@ -772,16 +772,16 @@ C16618_c,6-Thioxanthine 5'-monophosphate_C10H13N4O8PS,,,,['C10H11N4O8PS'],6txan5
 C16619_c,6-Thioguanosine monophosphate_C10H14N5O7PS,,,,['C10H12N5O7PS'],6tgsnmp_c,6-Thioguanosine monophosphate,C10H12N5O7PS,-2,C16619,,,-2,C10H12N5O7PS,-1.95,,[]
 C16633_c,5-Fluorouridine_C9H11FN2O6,,,,,5flur_c,5-Fluorouridine,C9H11FN2O6,0,C16633,,,0,C9H11FN2O6,-0.12,,[]
 C16634_c,5-Fluorouridine monophosphate_C9H12FN2O9P,,,,['C9H9FN2O9P'],5flurimp_c,5-Fluorouridine monophosphate,C9H10FN2O9P,-2,C16634,,,-2,C9H10FN2O9P,-2.06,,[]
-C16636_c,tRNA(Sec)_C10H17O10PR2(C5H8O6PR)n,,,,,trnasec_c,tRNA(Sec),C10H17O10PR2(C5H8O6PR)n,,C16636,generic:trna,,,,,,compound C16636 mol file not in kegg
+C16636_c,tRNA(Sec)_C10H17O10PR2(C5H8O6PR)n,,,,,trnasec_c,tRNA(Sec),C10H17O10PR2,,C16636,generic:trna,,,,,,compound C16636 mol file not in kegg
 C16639_c,beta-D-Ribofuranose_C5H10O5,,,,,bdribf_c,beta-D-Ribofuranose,C5H10O5,0,C16639,,,0,C5H10O5,0,,[]
 C17023_c,Sulfur donor_,,,,,sulfur_donor_c,Sulfur donor,,,C17023,review,,,,,,compound C17023 mol file not in kegg
 C17556_c,"di-trans,poly-cis-Undecaprenyl phosphate_C55H91O4P",,,,,udcpp_c,"di-trans,poly-cis-Undecaprenyl phosphate",C55H89O4P,-2,C17556,,,-2,C55H89O4P,-1.83,,[]
 C18076_c,5'-Phosphoguanylyl(3'->5')guanosine_C20H26N10O15P2,,,[-3],['C20H23N10O15P2'],5pg35pg_c,5-Phosphoguanylyl(3->5)guanosine,C20H23N10O15P2,-3,C18076,,,-3,C20H23N10O15P2,-2.95,,[]
 C18216_c,4-Hydroxyphenyl-4-hydroxybenzoate_C13H10O4,,,,,4hp4hob_c,4-Hydroxyphenyl-4-hydroxybenzoate,C13H10O4,0,C18216,,,0,C13H10O4,-0.06,,[]
 C18902_c,Methylselenic acid_CH4O2Se,,,,,mthsel_c,Methylselenic acid,CH3O2Se,-1,C18902,,,-1,CH3O2Se,-1,,[]
-C19078_c,tRNA with a 3' cytidine_C14H21N3O11PR(C5H8O6PR)n,,,,,trnacyt_c,tRNA with a 3' cytidine,C14H21N3O11PR(C5H8O6PR)n,,C19078,generic:trna,,,,,,ChemAxon Error: [#7]-[#6]-1=[#7]-[#6](=O)-[#7](-[#6]=[#6]-1)-[#6@@
-C19080_c,tRNA with a 3' CC end_C23H33N6O18P2R(C5H8O6PR)n,,,,,trnacc_c,tRNA with a 3' CC end,C23H33N6O18P2R(C5H8O6PR)n,,C19080,generic:trna,,,,,,ChemAxon Error: [#7]-[#6]-1=[#7]-[#6](=O)-[#7](-[#6]=[#6]-1)-[#6@@
-C19085_c,tRNA with a 3' CCA end_C33H45N11O24P3R(C5H8O6PR)n,,,,,trnacca_c,tRNA with a 3' CCA end,C33H45N11O24P3R(C5H8O6PR)n,,C19085,generic:trna,,,,,,ChemAxon Error: [#7]-[#6]-1=[#7]-[#6](=O)-[#7](-[#6]=[#6]-1)-[#6@@
+C19078_c,tRNA with a 3' cytidine_C14H21N3O11PR(C5H8O6PR)n,,,,,trnacyt_c,tRNA with a 3' cytidine,C14H21N3O11PR,,C19078,generic:trna,,,,,,ChemAxon Error: [#7]-[#6]-1=[#7]-[#6](=O)-[#7](-[#6]=[#6]-1)-[#6@@
+C19080_c,tRNA with a 3' CC end_C23H33N6O18P2R(C5H8O6PR)n,,,,,trnacc_c,tRNA with a 3' CC end,C23H33N6O18P2R,,C19080,generic:trna,,,,,,ChemAxon Error: [#7]-[#6]-1=[#7]-[#6](=O)-[#7](-[#6]=[#6]-1)-[#6@@
+C19085_c,tRNA with a 3' CCA end_C33H45N11O24P3R(C5H8O6PR)n,,,,,trnacca_c,tRNA with a 3' CCA end,C33H45N11O24P3R,,C19085,generic:trna,,,,,,ChemAxon Error: [#7]-[#6]-1=[#7]-[#6](=O)-[#7](-[#6]=[#6]-1)-[#6@@
 C20657_c,"meso-2,3-Butanediol_C4H10O2",,,,,btd_M_c,"meso-2,3-Butanediol",C4H10O2,0,C20657,,,0,C4H10O2,0,,[]
 G00093_c,G00093_,,,[0],['C36H66NO17RCO'],thcrm_cho_c,Trihexosyl ceramide,C36H66NO17RCO,,G00093,generic:biomass,,,,,,compound G00093 mol file not in kegg
 G00094_c,G00094_,,,[0],['C44H79N2O22RCO'],gbside_cho_c,Globoside,C44H79N2O22RCO,,G00094,generic:biomass,,,,,,compound G00094 mol file not in kegg
