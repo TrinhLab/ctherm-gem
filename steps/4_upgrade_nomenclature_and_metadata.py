@@ -26,6 +26,7 @@ def main():
     update_metabolites(model)
     modelfinal = updates_on_file(model)
     add_gene_fields(modelfinal, model)
+    remove_unused_met(modelfinal)
 
     modelfinal.id = 'iSG'
     cb.io.json.save_json_model(modelfinal, os.path.join(PROJECT_ROOT, "iSG", "iSG_2.json"))
@@ -124,6 +125,16 @@ def add_gene_fields(modelfinal, model):
     # include old gpr as reaction note
     for reaction in modelfinal.reactions:
         reaction.notes['old_gpr'] = [model.reactions.get_by_id(reaction.id).gene_reaction_rule]
+
+
+def remove_unused_met(model):
+    unusedmet = cb.manipulation.delete.prune_unused_metabolites(model)
+
+    with open(os.path.join(PROJECT_ROOT, 'iAT601', 'unused_metabolites_in_iAT601_2.csv'), 'w') as f:
+        writer = csv.writer(f, delimiter=',', lineterminator='\n')
+        writer.writerow(['KEGG_id', 'BiGG_like_id'])
+        for met in unusedmet:
+            writer.writerow([met.notes['KEGG_ID'], met.id])
 
 
 main()
