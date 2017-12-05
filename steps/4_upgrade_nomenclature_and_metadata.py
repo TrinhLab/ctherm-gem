@@ -27,7 +27,7 @@ def main():
     modelfinal = updates_on_file(model)
     add_gene_fields(modelfinal, model)
     remove_unused_met(modelfinal)
-
+    # update_fractional_reactions(modelfinal)
     modelfinal.id = 'iSG'
     cb.io.json.save_json_model(modelfinal, os.path.join(PROJECT_ROOT, "iSG", "iSG_2.json"))
 
@@ -54,7 +54,7 @@ def update_metabolites(model):
             metabolite.name = row['isg_name']
             metabolite.formula = row['isg_formula']
             try:
-                metabolite.charge = int(row['isg_charge'])
+                metabolite.charge = float(row['isg_charge'])
             except ValueError: # missing charge
                 assert row['notes'].startswith(('generic','review','pseudometabolite')),\
                     'charge for metabolite {} missing'.format(row['isg_id'])
@@ -136,5 +136,13 @@ def remove_unused_met(model):
         for met in unusedmet:
             writer.writerow([met.notes['KEGG_ID'], met.id])
 
+"""
+def update_fractional_reactions(model):
+    
+       # changes reactions with fractional composition so that formulas of final metabolites contain integers.
+       
+    precursors = ['MAGS', 'DAGS']
+    biomass_pseudomet = ['LTA_TERM', 'LP_TERM']
+"""
 
 main()
