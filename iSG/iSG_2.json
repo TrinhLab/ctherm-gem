@@ -14131,7 +14131,7 @@
 }
 },
 {
-"id":"NDPK9m",
+"id":"NDPK9",
 "name":"ATP:IDP phosphotransferase, mitochondria",
 "metabolites":{
 "adp_c":1.0,
@@ -44867,11 +44867,6 @@
 "annotation":"sodium-translocating pyrophosphatase"
 },
 {
-"id":"CLO1313_RS01575",
-"name":"ilvB",
-"annotation":"acetolactate synthase, large subunit, biosynthetic type"
-},
-{
 "id":"CLO1313_RS00535",
 "name":"",
 "annotation":"acetolactate synthase small subunit"
@@ -44882,14 +44877,24 @@
 "annotation":"acetolactate synthase, large subunit, biosynthetic type"
 },
 {
+"id":"CLO1313_RS01575",
+"name":"ilvB",
+"annotation":"acetolactate synthase, large subunit, biosynthetic type"
+},
+{
+"id":"CLO1313_RS02925",
+"name":"",
+"annotation":"NADH-quinone oxidoreductase subunit NuoB"
+},
+{
+"id":"CLO1313_RS02935",
+"name":"",
+"annotation":"NADH/Ubiquinone/plastoquinone (complex I)"
+},
+{
 "id":"CLO1313_RS02930",
 "name":"",
 "annotation":"NADH dehydrogenase subunit 1"
-},
-{
-"id":"CLO1313_RS02915",
-"name":"",
-"annotation":"NADH dehydrogenase subunit D"
 },
 {
 "id":"CLO1313_RS02920",
@@ -44902,11 +44907,6 @@
 "annotation":"ferredoxin"
 },
 {
-"id":"CLO1313_RS02925",
-"name":"",
-"annotation":"NADH-quinone oxidoreductase subunit NuoB"
-},
-{
 "id":"CLO1313_RS15535",
 "name":"",
 "annotation":"4Fe-4S dicluster domain-containing protein"
@@ -44917,9 +44917,9 @@
 "annotation":"ferredoxin"
 },
 {
-"id":"CLO1313_RS02935",
+"id":"CLO1313_RS02915",
 "name":"",
-"annotation":"NADH/Ubiquinone/plastoquinone (complex I)"
+"annotation":"NADH dehydrogenase subunit D"
 },
 {
 "id":"CLO1313_RS09635",
@@ -44927,14 +44927,14 @@
 "annotation":"glycoside hydrolase"
 },
 {
-"id":"CLO1313_RS10225",
-"name":"",
-"annotation":"beta-glucosidase"
-},
-{
 "id":"CLO1313_RS04225",
 "name":"",
 "annotation":"glycoside hydrolase family 1 protein"
+},
+{
+"id":"CLO1313_RS10225",
+"name":"",
+"annotation":"beta-glucosidase"
 },
 {
 "id":"CLO1313_RS05115",
@@ -44967,6 +44967,16 @@
 "annotation":"V-type ATP synthase subunit C"
 },
 {
+"id":"CLO1313_RS14935",
+"name":"",
+"annotation":"V-type ATP synthase subunit F"
+},
+{
+"id":"CLO1313_RS14945",
+"name":"",
+"annotation":"ATP synthase subunit beta"
+},
+{
 "id":"CLO1313_RS14925",
 "name":"",
 "annotation":"hypothetical protein"
@@ -44977,24 +44987,9 @@
 "annotation":"V-type ATP synthase subunit K"
 },
 {
-"id":"CLO1313_RS14945",
+"id":"CLO1313_RS14950",
 "name":"",
-"annotation":"ATP synthase subunit beta"
-},
-{
-"id":"CLO1313_RS14940",
-"name":"",
-"annotation":"V-type ATP synthase alpha chain"
-},
-{
-"id":"CLO1313_RS14935",
-"name":"",
-"annotation":"V-type ATP synthase subunit F"
-},
-{
-"id":"CLO1313_RS14910",
-"name":"",
-"annotation":"hypothetical protein"
+"annotation":"V-type ATP synthase subunit D"
 },
 {
 "id":"CLO1313_RS14915",
@@ -45002,19 +44997,19 @@
 "annotation":"V-type ATP synthase subunit I"
 },
 {
-"id":"CLO1313_RS14950",
-"name":"",
-"annotation":"V-type ATP synthase subunit D"
-},
-{
 "id":"CLO1313_RS10355",
 "name":"",
 "annotation":"XTP/dITP diphosphatase"
 },
 {
-"id":"CLO1313_RS08370",
+"id":"CLO1313_RS14940",
 "name":"",
-"annotation":"pyridoxal phosphate-dependent aminotransferase"
+"annotation":"V-type ATP synthase alpha chain"
+},
+{
+"id":"CLO1313_RS14910",
+"name":"",
+"annotation":"hypothetical protein"
 },
 {
 "id":"CLO1313_RS09335",
@@ -45022,19 +45017,24 @@
 "annotation":"NADP-specific glutamate dehydrogenase"
 },
 {
+"id":"CLO1313_RS08370",
+"name":"",
+"annotation":"pyridoxal phosphate-dependent aminotransferase"
+},
+{
 "id":"CLO1313_RS09345",
 "name":"gltA",
 "annotation":"glutamate synthase (NADPH), homotetrameric"
 },
 {
-"id":"CLO1313_RS07420",
-"name":"",
-"annotation":"pyridoxal phosphate-dependent aminotransferase"
-},
-{
 "id":"CLO1313_RS08490",
 "name":"asnB",
 "annotation":"asparagine synthetase B"
+},
+{
+"id":"CLO1313_RS07420",
+"name":"",
+"annotation":"pyridoxal phosphate-dependent aminotransferase"
 },
 {
 "id":"CLO1313_RS07110",
@@ -45062,6 +45062,11 @@
 "annotation":"dephospho-CoA kinase"
 },
 {
+"id":"CLO1313_RS12620",
+"name":"ureB",
+"annotation":"urease subunit beta"
+},
+{
 "id":"CLO1313_RS12615",
 "name":"ureC",
 "annotation":"urease subunit alpha"
@@ -45070,11 +45075,6 @@
 "id":"CLO1313_RS12625",
 "name":"ureA",
 "annotation":"urease subunit gamma"
-},
-{
-"id":"CLO1313_RS12620",
-"name":"ureB",
-"annotation":"urease subunit beta"
 },
 {
 "id":"CLO1313_RS05180",
@@ -45092,14 +45092,14 @@
 "annotation":"nucleoside-diphosphate kinase"
 },
 {
-"id":"CLO1313_RS06160",
-"name":"",
-"annotation":"UMP kinase"
-},
-{
 "id":"CLO1313_RS07635",
 "name":"",
 "annotation":"(d)CMP kinase"
+},
+{
+"id":"CLO1313_RS06160",
+"name":"",
+"annotation":"UMP kinase"
 },
 {
 "id":"CLO1313_RS06245",
@@ -45147,24 +45147,24 @@
 "annotation":"malate dehydrogenase"
 },
 {
-"id":"CLO1313_RS08665",
-"name":"",
-"annotation":"oxaloacetate decarboxylase"
-},
-{
 "id":"CLO1313_RS08660",
 "name":"",
 "annotation":"sodium ion-translocating decarboxylase subunit beta"
 },
 {
-"id":"CLO1313_RS14795",
+"id":"CLO1313_RS08665",
 "name":"",
-"annotation":"aldehyde dehydrogenase"
+"annotation":"oxaloacetate decarboxylase"
 },
 {
 "id":"CLO1313_RS09095",
 "name":"",
 "annotation":"bifunctional acetaldehyde-CoA/alcohol dehydrogenase"
+},
+{
+"id":"CLO1313_RS14795",
+"name":"",
+"annotation":"aldehyde dehydrogenase"
 },
 {
 "id":"CLO1313_RS06030",
@@ -45187,6 +45187,11 @@
 "annotation":"glutamine synthetase"
 },
 {
+"id":"CLO1313_RS10315",
+"name":"",
+"annotation":"glutamine synthetase"
+},
+{
 "id":"CLO1313_RS11700",
 "name":"",
 "annotation":"glutamine synthetase"
@@ -45195,11 +45200,6 @@
 "id":"CLO1313_RS10285",
 "name":"glnA",
 "annotation":"type I glutamate--ammonia ligase"
-},
-{
-"id":"CLO1313_RS10315",
-"name":"",
-"annotation":"glutamine synthetase"
 },
 {
 "id":"CLO1313_RS09620",
@@ -45257,12 +45257,12 @@
 "annotation":"citrate/2-methylcitrate synthase"
 },
 {
-"id":"CLO1313_RS01930",
+"id":"CLO1313_RS09395",
 "name":"",
 "annotation":"aminotransferase"
 },
 {
-"id":"CLO1313_RS09395",
+"id":"CLO1313_RS01930",
 "name":"",
 "annotation":"aminotransferase"
 },
@@ -45287,14 +45287,14 @@
 "annotation":"YggS family pyridoxal phosphate-dependent enzyme"
 },
 {
-"id":"CLO1313_RS00970",
-"name":"",
-"annotation":"UDP-N-acetylglucosamine 2-epimerase (non-hydrolyzing)"
-},
-{
 "id":"CLO1313_RS01165",
 "name":"neuC",
 "annotation":"UDP-N-acetylglucosamine 2-epimerase (hydrolyzing)"
+},
+{
+"id":"CLO1313_RS00970",
+"name":"",
+"annotation":"UDP-N-acetylglucosamine 2-epimerase (non-hydrolyzing)"
 },
 {
 "id":"CLO1313_RS01110",
@@ -45397,16 +45397,6 @@
 "annotation":"CTP synthetase"
 },
 {
-"id":"CLO1313_RS12995",
-"name":"",
-"annotation":"carbamoyl-phosphate synthase small subunit"
-},
-{
-"id":"CLO1313_RS13000",
-"name":"",
-"annotation":"carbamoyl-phosphate synthase large subunit"
-},
-{
 "id":"CLO1313_RS06440",
 "name":"",
 "annotation":"carbamoyl-phosphate synthase large subunit"
@@ -45415,6 +45405,16 @@
 "id":"CLO1313_RS06435",
 "name":"",
 "annotation":"carbamoyl phosphate synthase small subunit"
+},
+{
+"id":"CLO1313_RS13000",
+"name":"",
+"annotation":"carbamoyl-phosphate synthase large subunit"
+},
+{
+"id":"CLO1313_RS12995",
+"name":"",
+"annotation":"carbamoyl-phosphate synthase small subunit"
 },
 {
 "id":"CLO1313_RS13840",
@@ -45447,14 +45447,14 @@
 "annotation":"UDP-N-acetylglucosamine 1-carboxyvinyltransferase"
 },
 {
-"id":"CLO1313_RS04300",
-"name":"trpB",
-"annotation":"tryptophan synthase subunit beta"
-},
-{
 "id":"CLO1313_RS05330",
 "name":"",
 "annotation":"TrpB-like pyridoxal phosphate-dependent enzyme"
+},
+{
+"id":"CLO1313_RS04300",
+"name":"trpB",
+"annotation":"tryptophan synthase subunit beta"
 },
 {
 "id":"CLO1313_RS04305",
@@ -45507,6 +45507,11 @@
 "annotation":"glutamine--fructose-6-phosphate transaminase (isomerizing)"
 },
 {
+"id":"CLO1313_RS01965",
+"name":"",
+"annotation":"cystathionine gamma-synthase"
+},
+{
 "id":"CLO1313_RS01970",
 "name":"",
 "annotation":"putative C-S lyase"
@@ -45515,11 +45520,6 @@
 "id":"CLO1313_RS11800",
 "name":"",
 "annotation":"PLP-dependent transferase"
-},
-{
-"id":"CLO1313_RS01965",
-"name":"",
-"annotation":"cystathionine gamma-synthase"
 },
 {
 "id":"CLO1313_RS06065",
@@ -45547,14 +45547,14 @@
 "annotation":"thioredoxin-disulfide reductase"
 },
 {
-"id":"CLO1313_RS00660",
-"name":"",
-"annotation":"sulfurtransferase TusA family protein"
-},
-{
 "id":"CLO1313_RS00655",
 "name":"",
 "annotation":"nitrite and sulphite reductase 4Fe-4S region"
+},
+{
+"id":"CLO1313_RS00660",
+"name":"",
+"annotation":"sulfurtransferase TusA family protein"
 },
 {
 "id":"CLO1313_RS09265",
@@ -45562,14 +45562,19 @@
 "annotation":"carbohydrate kinase"
 },
 {
+"id":"CLO1313_RS09270",
+"name":"",
+"annotation":"alcohol dehydrogenase"
+},
+{
 "id":"CLO1313_RS00395",
 "name":"",
 "annotation":"NAD(P)-dependent alcohol dehydrogenase"
 },
 {
-"id":"CLO1313_RS09270",
+"id":"CLO1313_RS05760",
 "name":"",
-"annotation":"alcohol dehydrogenase"
+"annotation":"nucleotidyltransferase"
 },
 {
 "id":"CLO1313_RS03450",
@@ -45582,14 +45587,9 @@
 "annotation":"nucleotidyltransferase"
 },
 {
-"id":"CLO1313_RS05760",
+"id":"CLO1313_RS12845",
 "name":"",
-"annotation":"nucleotidyltransferase"
-},
-{
-"id":"CLO1313_RS11805",
-"name":"",
-"annotation":"cysteine synthase family protein"
+"annotation":"O-acetylhomoserine aminocarboxypropyltransferase/cysteine synthase"
 },
 {
 "id":"CLO1313_RS11850",
@@ -45602,9 +45602,9 @@
 "annotation":"cysteine synthase A"
 },
 {
-"id":"CLO1313_RS12845",
+"id":"CLO1313_RS11805",
 "name":"",
-"annotation":"O-acetylhomoserine aminocarboxypropyltransferase/cysteine synthase"
+"annotation":"cysteine synthase family protein"
 },
 {
 "id":"CLO1313_RS03625",
@@ -45627,6 +45627,11 @@
 "annotation":"bifunctional folylpolyglutamate synthase/dihydrofolate synthase"
 },
 {
+"id":"CLO1313_RS05155",
+"name":"",
+"annotation":"phosphoribosylglycinamide formyltransferase"
+},
+{
 "id":"CLO1313_RS05160",
 "name":"purH",
 "annotation":"bifunctional phosphoribosylaminoimidazolecarboxamide formyltransferase/inosine monophosphate cyclohydrolase"
@@ -45637,24 +45642,9 @@
 "annotation":"formate--tetrahydrofolate ligase"
 },
 {
-"id":"CLO1313_RS05155",
-"name":"",
-"annotation":"phosphoribosylglycinamide formyltransferase"
-},
-{
 "id":"CLO1313_RS05865",
 "name":"",
 "annotation":"serine hydroxymethyltransferase"
-},
-{
-"id":"CLO1313_RS08010",
-"name":"",
-"annotation":"dockerin"
-},
-{
-"id":"CLO1313_RS07985",
-"name":"",
-"annotation":"methionine synthase"
 },
 {
 "id":"CLO1313_RS01885",
@@ -45662,14 +45652,29 @@
 "annotation":"cobalamin-binding protein"
 },
 {
+"id":"CLO1313_RS08015",
+"name":"",
+"annotation":"glycoside hydrolase"
+},
+{
+"id":"CLO1313_RS07985",
+"name":"",
+"annotation":"methionine synthase"
+},
+{
+"id":"CLO1313_RS08010",
+"name":"",
+"annotation":"dockerin"
+},
+{
 "id":"CLO1313_RS07980",
 "name":"",
 "annotation":"5-methyltetrahydrofolate--homocysteine methyltransferase"
 },
 {
-"id":"CLO1313_RS08015",
-"name":"",
-"annotation":"glycoside hydrolase"
+"id":"CLO1313_RS03715",
+"name":"glgD",
+"annotation":"glucose-1-phosphate adenylyltransferase subunit GlgD"
 },
 {
 "id":"CLO1313_RS00770",
@@ -45682,11 +45687,6 @@
 "annotation":"glucose-1-phosphate adenylyltransferase"
 },
 {
-"id":"CLO1313_RS03715",
-"name":"glgD",
-"annotation":"glucose-1-phosphate adenylyltransferase subunit GlgD"
-},
-{
 "id":"CLO1313_RS09885",
 "name":"",
 "annotation":"glycosyl transferase"
@@ -45697,14 +45697,14 @@
 "annotation":"phospho-sugar mutase"
 },
 {
-"id":"CLO1313_RS06410",
-"name":"",
-"annotation":"bifunctional pyrimidine operon transcriptional regulator/uracil phosphoribosyltransferase"
-},
-{
 "id":"CLO1313_RS00955",
 "name":"",
 "annotation":"uracil phosphoribosyltransferase"
+},
+{
+"id":"CLO1313_RS06410",
+"name":"",
+"annotation":"bifunctional pyrimidine operon transcriptional regulator/uracil phosphoribosyltransferase"
 },
 {
 "id":"CLO1313_RS06820",
@@ -45717,12 +45717,12 @@
 "annotation":"3-isopropylmalate dehydrogenase"
 },
 {
-"id":"CLO1313_RS03325",
+"id":"CLO1313_RS03340",
 "name":"",
 "annotation":"glycosyltransferase"
 },
 {
-"id":"CLO1313_RS03340",
+"id":"CLO1313_RS03325",
 "name":"",
 "annotation":"glycosyltransferase"
 },
@@ -45787,14 +45787,14 @@
 "annotation":"fructose-1,6-bisphosphate aldolase, class II"
 },
 {
-"id":"CLO1313_RS02130",
-"name":"",
-"annotation":"ATP phosphoribosyltransferase"
-},
-{
 "id":"CLO1313_RS02125",
 "name":"hisZ",
 "annotation":"ATP phosphoribosyltransferase regulatory subunit"
+},
+{
+"id":"CLO1313_RS02130",
+"name":"",
+"annotation":"ATP phosphoribosyltransferase"
 },
 {
 "id":"CLO1313_RS05145",
@@ -45812,22 +45812,22 @@
 "annotation":"biotin--[acetyl-CoA-carboxylase] ligase"
 },
 {
-"id":"CLO1313_RS11220",
-"name":"",
-"annotation":"biotin synthase BioB"
-},
-{
 "id":"CLO1313_RS12830",
 "name":"hydE",
 "annotation":"[FeFe] hydrogenase H-cluster radical SAM maturase HydE"
 },
 {
-"id":"CLO1313_RS03280",
+"id":"CLO1313_RS11220",
+"name":"",
+"annotation":"biotin synthase BioB"
+},
+{
+"id":"CLO1313_RS03275",
 "name":"",
 "annotation":"fumarate hydratase"
 },
 {
-"id":"CLO1313_RS03275",
+"id":"CLO1313_RS03280",
 "name":"",
 "annotation":"fumarate hydratase"
 },
@@ -45882,24 +45882,24 @@
 "annotation":"histidinol dehydrogenase"
 },
 {
-"id":"CLO1313_RS06860",
+"id":"CLO1313_RS01950",
 "name":"",
-"annotation":"3-methyl-2-oxobutanoate dehydrogenase subunit VorB"
+"annotation":"2-ketoisovalerate ferredoxin oxidoreductase subunit beta"
 },
 {
-"id":"CLO1313_RS00120",
+"id":"CLO1313_RS00130",
 "name":"",
-"annotation":"ferredoxin"
+"annotation":"thiamine pyrophosphate protein TPP-binding"
 },
 {
-"id":"CLO1313_RS00125",
-"name":"porA",
-"annotation":"2-ketoisovalerate ferredoxin oxidoreductase subunit alpha"
+"id":"CLO1313_RS01940",
+"name":"",
+"annotation":"pyruvate ferredoxin/flavodoxin oxidoreductase delta subunit"
 },
 {
-"id":"CLO1313_RS01945",
-"name":"porA",
-"annotation":"2-ketoisovalerate ferredoxin oxidoreductase subunit alpha"
+"id":"CLO1313_RS06870",
+"name":"",
+"annotation":"2-oxoglutarate ferredoxin oxidoreductase subunit gamma"
 },
 {
 "id":"CLO1313_RS03485",
@@ -45912,9 +45912,9 @@
 "annotation":"pyruvate synthase"
 },
 {
-"id":"CLO1313_RS06870",
-"name":"",
-"annotation":"2-oxoglutarate ferredoxin oxidoreductase subunit gamma"
+"id":"CLO1313_RS01945",
+"name":"porA",
+"annotation":"2-ketoisovalerate ferredoxin oxidoreductase subunit alpha"
 },
 {
 "id":"CLO1313_RS01935",
@@ -45922,19 +45922,19 @@
 "annotation":"pyruvate/ketoisovalerate oxidoreductase gamma subunit"
 },
 {
-"id":"CLO1313_RS00130",
+"id":"CLO1313_RS00120",
 "name":"",
-"annotation":"thiamine pyrophosphate protein TPP-binding"
+"annotation":"ferredoxin"
 },
 {
-"id":"CLO1313_RS01950",
+"id":"CLO1313_RS06860",
 "name":"",
-"annotation":"2-ketoisovalerate ferredoxin oxidoreductase subunit beta"
+"annotation":"3-methyl-2-oxobutanoate dehydrogenase subunit VorB"
 },
 {
-"id":"CLO1313_RS01940",
-"name":"",
-"annotation":"pyruvate ferredoxin/flavodoxin oxidoreductase delta subunit"
+"id":"CLO1313_RS00125",
+"name":"porA",
+"annotation":"2-ketoisovalerate ferredoxin oxidoreductase subunit alpha"
 },
 {
 "id":"CLO1313_RS06855",
@@ -45982,14 +45982,14 @@
 "annotation":"hypoxanthine phosphoribosyltransferase"
 },
 {
-"id":"CLO1313_RS09330",
-"name":"",
-"annotation":"GMP synthase (glutamine-hydrolyzing)"
-},
-{
 "id":"CLO1313_RS10310",
 "name":"",
 "annotation":"hypothetical protein"
+},
+{
+"id":"CLO1313_RS09330",
+"name":"",
+"annotation":"GMP synthase (glutamine-hydrolyzing)"
 },
 {
 "id":"CLO1313_RS07825",
@@ -46057,6 +46057,11 @@
 "annotation":"glycerate kinase"
 },
 {
+"id":"CLO1313_RS04190",
+"name":"",
+"annotation":"histidine phosphatase family protein"
+},
+{
 "id":"CLO1313_RS10600",
 "name":"",
 "annotation":"2,3-bisphosphoglycerate-independent phosphoglycerate mutase"
@@ -46067,22 +46072,17 @@
 "annotation":"cofactor-independent phosphoglycerate mutase"
 },
 {
-"id":"CLO1313_RS04190",
-"name":"",
-"annotation":"histidine phosphatase family protein"
-},
-{
-"id":"CLO1313_RS06455",
-"name":"",
-"annotation":"histidine phosphatase family protein"
-},
-{
 "id":"CLO1313_RS00415",
 "name":"",
 "annotation":"histidine phosphatase family protein"
 },
 {
 "id":"CLO1313_RS07660",
+"name":"",
+"annotation":"histidine phosphatase family protein"
+},
+{
+"id":"CLO1313_RS06455",
 "name":"",
 "annotation":"histidine phosphatase family protein"
 },
@@ -46107,17 +46107,17 @@
 "annotation":"purine-nucleoside phosphorylase"
 },
 {
+"id":"CLO1313_RS10650",
+"name":"",
+"annotation":"ketoacyl-ACP synthase III"
+},
+{
 "id":"CLO1313_RS06505",
 "name":"",
 "annotation":"ketoacyl-ACP synthase III"
 },
 {
 "id":"CLO1313_RS10640",
-"name":"",
-"annotation":"ketoacyl-ACP synthase III"
-},
-{
-"id":"CLO1313_RS10650",
 "name":"",
 "annotation":"ketoacyl-ACP synthase III"
 },
@@ -46177,12 +46177,12 @@
 "annotation":"prephenate dehydrogenase/arogenate dehydrogenase family protein"
 },
 {
-"id":"CLO1313_RS04475",
+"id":"CLO1313_RS09815",
 "name":"",
 "annotation":"homoserine dehydrogenase"
 },
 {
-"id":"CLO1313_RS09815",
+"id":"CLO1313_RS04475",
 "name":"",
 "annotation":"homoserine dehydrogenase"
 },
@@ -46222,14 +46222,14 @@
 "annotation":"3-deoxy-7-phosphoheptulonate synthase"
 },
 {
-"id":"CLO1313_RS06700",
-"name":"",
-"annotation":"deoxyguanosinetriphosphate triphosphohydrolase"
-},
-{
 "id":"CLO1313_RS14215",
 "name":"",
 "annotation":"phosphohydrolase"
+},
+{
+"id":"CLO1313_RS06700",
+"name":"",
+"annotation":"deoxyguanosinetriphosphate triphosphohydrolase"
 },
 {
 "id":"CLO1313_RS06450",
@@ -46242,13 +46242,13 @@
 "annotation":"shikimate dehydrogenase"
 },
 {
-"id":"CLO1313_RS11915",
-"name":"",
+"id":"CLO1313_RS05815",
+"name":"cdd",
 "annotation":"cytidine deaminase"
 },
 {
-"id":"CLO1313_RS05815",
-"name":"cdd",
+"id":"CLO1313_RS11915",
+"name":"",
 "annotation":"cytidine deaminase"
 },
 {
@@ -46312,14 +46312,14 @@
 "annotation":"phosphoglucosamine mutase"
 },
 {
-"id":"CLO1313_RS05100",
-"name":"",
-"annotation":"CDP-alcohol phosphatidyltransferase"
-},
-{
 "id":"CLO1313_RS05090",
 "name":"pfkA",
 "annotation":"6-phosphofructokinase"
+},
+{
+"id":"CLO1313_RS05100",
+"name":"",
+"annotation":"CDP-alcohol phosphatidyltransferase"
 },
 {
 "id":"CLO1313_RS09485",
@@ -46332,14 +46332,9 @@
 "annotation":"thymidylate synthase"
 },
 {
-"id":"CLO1313_RS09515",
+"id":"CLO1313_RS09065",
 "name":"",
 "annotation":"NADH-quinone oxidoreductase subunit NuoF"
-},
-{
-"id":"CLO1313_RS09070",
-"name":"",
-"annotation":"NAD(P)H-dependent oxidoreductase subunit E"
 },
 {
 "id":"CLO1313_RS09530",
@@ -46347,7 +46342,12 @@
 "annotation":"NADH-quinone oxidoreductase subunit NuoE"
 },
 {
-"id":"CLO1313_RS09065",
+"id":"CLO1313_RS09070",
+"name":"",
+"annotation":"NAD(P)H-dependent oxidoreductase subunit E"
+},
+{
+"id":"CLO1313_RS09515",
 "name":"",
 "annotation":"NADH-quinone oxidoreductase subunit NuoF"
 },
@@ -46407,14 +46407,14 @@
 "annotation":"pantoate--beta-alanine ligase"
 },
 {
-"id":"CLO1313_RS08140",
-"name":"",
-"annotation":"phenylacetate--CoA ligase"
-},
-{
 "id":"CLO1313_RS01925",
 "name":"",
 "annotation":"coenzyme F390 synthetase"
+},
+{
+"id":"CLO1313_RS08140",
+"name":"",
+"annotation":"phenylacetate--CoA ligase"
 },
 {
 "id":"CLO1313_RS12980",
@@ -46512,11 +46512,6 @@
 "annotation":"type II 3-dehydroquinate dehydratase"
 },
 {
-"id":"CLO1313_RS09240",
-"name":"",
-"annotation":"alcohol dehydrogenase"
-},
-{
 "id":"CLO1313_RS00860",
 "name":"",
 "annotation":"alcohol dehydrogenase"
@@ -46527,9 +46522,9 @@
 "annotation":"NADH-dependent alcohol dehydrogenase"
 },
 {
-"id":"CLO1313_RS03505",
+"id":"CLO1313_RS09240",
 "name":"",
-"annotation":"AMP-dependent synthetase"
+"annotation":"alcohol dehydrogenase"
 },
 {
 "id":"CLO1313_RS10635",
@@ -46545,6 +46540,11 @@
 "id":"CLO1313_RS13085",
 "name":"",
 "annotation":"non-ribosomal peptide synthetase"
+},
+{
+"id":"CLO1313_RS03505",
+"name":"",
+"annotation":"AMP-dependent synthetase"
 },
 {
 "id":"CLO1313_RS00590",
@@ -46692,14 +46692,14 @@
 "annotation":"methionine--tRNA ligase"
 },
 {
-"id":"CLO1313_RS10210",
-"name":"",
-"annotation":"phenylalanine--tRNA ligase subunit beta"
-},
-{
 "id":"CLO1313_RS10215",
 "name":"",
 "annotation":"phenylalanine--tRNA ligase subunit alpha"
+},
+{
+"id":"CLO1313_RS10210",
+"name":"",
+"annotation":"phenylalanine--tRNA ligase subunit beta"
 },
 {
 "id":"CLO1313_RS02525",
@@ -46727,14 +46727,14 @@
 "annotation":"valine--tRNA ligase"
 },
 {
-"id":"CLO1313_RS14650",
-"name":"leuD",
-"annotation":"3-isopropylmalate dehydratase small subunit"
-},
-{
 "id":"CLO1313_RS14655",
 "name":"leuC",
 "annotation":"3-isopropylmalate dehydratase large subunit"
+},
+{
+"id":"CLO1313_RS14650",
+"name":"leuD",
+"annotation":"3-isopropylmalate dehydratase small subunit"
 },
 {
 "id":"CLO1313_RS06020",
@@ -46757,12 +46757,7 @@
 "annotation":"Asp-tRNA(Asn)/Glu-tRNA(Gln) amidotransferase subunit GatA"
 },
 {
-"id":"CLO1313_RS03370",
-"name":"",
-"annotation":"2-hydroxyglutaryl-CoA dehydratase"
-},
-{
-"id":"CLO1313_RS14765",
+"id":"CLO1313_RS01215",
 "name":"",
 "annotation":"polysaccharide biosynthesis protein"
 },
@@ -46772,9 +46767,14 @@
 "annotation":"polysaccharide biosynthesis protein"
 },
 {
-"id":"CLO1313_RS01215",
+"id":"CLO1313_RS14765",
 "name":"",
 "annotation":"polysaccharide biosynthesis protein"
+},
+{
+"id":"CLO1313_RS03370",
+"name":"",
+"annotation":"2-hydroxyglutaryl-CoA dehydratase"
 },
 {
 "id":"CLO1313_RS02170",
@@ -46787,14 +46787,14 @@
 "annotation":"glutamyl-tRNA reductase"
 },
 {
-"id":"CLO1313_RS13325",
-"name":"sleB",
-"annotation":"spore cortex-lytic enzyme"
+"id":"CLO1313_RS10375",
+"name":"",
+"annotation":"cell wall hydrolase"
 },
 {
-"id":"CLO1313_RS06095",
+"id":"CLO1313_RS12060",
 "name":"",
-"annotation":"N-acetylmuramoyl-L-alanine amidase"
+"annotation":"peptidoglycan-binding protein LysM"
 },
 {
 "id":"CLO1313_RS05990",
@@ -46807,14 +46807,14 @@
 "annotation":"spore cortex-lytic enzyme"
 },
 {
-"id":"CLO1313_RS12060",
+"id":"CLO1313_RS06095",
 "name":"",
-"annotation":"peptidoglycan-binding protein LysM"
+"annotation":"N-acetylmuramoyl-L-alanine amidase"
 },
 {
-"id":"CLO1313_RS10375",
-"name":"",
-"annotation":"cell wall hydrolase"
+"id":"CLO1313_RS13325",
+"name":"sleB",
+"annotation":"spore cortex-lytic enzyme"
 },
 {
 "id":"CLO1313_RS12550",
@@ -46917,14 +46917,14 @@
 "annotation":"short-chain dehydrogenase"
 },
 {
-"id":"CLO1313_RS02165",
-"name":"",
-"annotation":"imidazole glycerol phosphate synthase cyclase subunit"
-},
-{
 "id":"CLO1313_RS02155",
 "name":"hisH",
 "annotation":"imidazole glycerol phosphate synthase subunit HisH"
+},
+{
+"id":"CLO1313_RS02165",
+"name":"",
+"annotation":"imidazole glycerol phosphate synthase cyclase subunit"
 },
 {
 "id":"CLO1313_RS06295",
@@ -46952,14 +46952,14 @@
 "annotation":"undecaprenyldiphospho-muramoylpentapeptide beta-N- acetylglucosaminyltransferase"
 },
 {
-"id":"CLO1313_RS11870",
-"name":"nifH",
-"annotation":"nitrogenase iron protein"
-},
-{
 "id":"CLO1313_RS11830",
 "name":"",
 "annotation":"oxidoreductase/nitrogenase component 1"
+},
+{
+"id":"CLO1313_RS11870",
+"name":"nifH",
+"annotation":"nitrogenase iron protein"
 },
 {
 "id":"CLO1313_RS11835",
@@ -46992,12 +46992,12 @@
 "annotation":"5-methylthioadenosine/S-adenosylhomocysteine deaminase"
 },
 {
-"id":"CLO1313_RS11720",
+"id":"CLO1313_RS04725",
 "name":"",
 "annotation":"aspartate--tRNA ligase"
 },
 {
-"id":"CLO1313_RS04725",
+"id":"CLO1313_RS11720",
 "name":"",
 "annotation":"aspartate--tRNA ligase"
 },
@@ -47037,14 +47037,14 @@
 "annotation":"1-deoxy-D-xylulose-5-phosphate synthase"
 },
 {
-"id":"CLO1313_RS02540",
-"name":"",
-"annotation":"pectate lyase"
-},
-{
 "id":"CLO1313_RS02520",
 "name":"",
 "annotation":"2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase"
+},
+{
+"id":"CLO1313_RS02540",
+"name":"",
+"annotation":"pectate lyase"
 },
 {
 "id":"CLO1313_RS06545",
@@ -47092,49 +47092,9 @@
 "annotation":"nucleotide sugar dehydrogenase"
 },
 {
-"id":"CLO1313_RS00725",
-"name":"",
-"annotation":"radical SAM protein"
-},
-{
-"id":"CLO1313_RS03205",
-"name":"",
-"annotation":"radical SAM protein"
-},
-{
-"id":"CLO1313_RS00715",
-"name":"",
-"annotation":"radical SAM protein"
-},
-{
 "id":"CLO1313_RS00790",
 "name":"",
 "annotation":"B12-binding domain-containing radical SAM protein"
-},
-{
-"id":"CLO1313_RS03805",
-"name":"",
-"annotation":"B12-binding domain-containing radical SAM protein"
-},
-{
-"id":"CLO1313_RS04670",
-"name":"hemZ",
-"annotation":"coproporphyrinogen dehydrogenase HemZ"
-},
-{
-"id":"CLO1313_RS09175",
-"name":"",
-"annotation":"putative DNA modification/repair radical SAM protein"
-},
-{
-"id":"CLO1313_RS08610",
-"name":"",
-"annotation":"radical SAM/SPASM domain-containing protein"
-},
-{
-"id":"CLO1313_RS11845",
-"name":"",
-"annotation":"radical SAM protein"
 },
 {
 "id":"CLO1313_RS03390",
@@ -47142,17 +47102,72 @@
 "annotation":"radical SAM protein"
 },
 {
+"id":"CLO1313_RS05685",
+"name":"",
+"annotation":"YgiQ family radical SAM protein"
+},
+{
+"id":"CLO1313_RS04845",
+"name":"",
+"annotation":"radical SAM protein"
+},
+{
+"id":"CLO1313_RS00720",
+"name":"",
+"annotation":"radical SAM/SPASM domain-containing protein"
+},
+{
 "id":"CLO1313_RS04760",
 "name":"",
 "annotation":"coproporphyrinogen III oxidase"
 },
 {
-"id":"CLO1313_RS00740",
+"id":"CLO1313_RS03805",
+"name":"",
+"annotation":"B12-binding domain-containing radical SAM protein"
+},
+{
+"id":"CLO1313_RS05555",
+"name":"amrS",
+"annotation":"AmmeMemoRadiSam system radical SAM enzyme"
+},
+{
+"id":"CLO1313_RS11845",
 "name":"",
 "annotation":"radical SAM protein"
 },
 {
-"id":"CLO1313_RS04845",
+"id":"CLO1313_RS06535",
+"name":"",
+"annotation":"radical SAM protein"
+},
+{
+"id":"CLO1313_RS10105",
+"name":"",
+"annotation":"radical SAM protein"
+},
+{
+"id":"CLO1313_RS08610",
+"name":"",
+"annotation":"radical SAM/SPASM domain-containing protein"
+},
+{
+"id":"CLO1313_RS04670",
+"name":"hemZ",
+"annotation":"coproporphyrinogen dehydrogenase HemZ"
+},
+{
+"id":"CLO1313_RS10520",
+"name":"",
+"annotation":"B12-binding domain-containing radical SAM protein"
+},
+{
+"id":"CLO1313_RS00715",
+"name":"",
+"annotation":"radical SAM protein"
+},
+{
+"id":"CLO1313_RS00725",
 "name":"",
 "annotation":"radical SAM protein"
 },
@@ -47162,34 +47177,19 @@
 "annotation":"thioether cross-link-forming SCIFF peptide maturase"
 },
 {
-"id":"CLO1313_RS10105",
+"id":"CLO1313_RS09175",
+"name":"",
+"annotation":"putative DNA modification/repair radical SAM protein"
+},
+{
+"id":"CLO1313_RS03205",
 "name":"",
 "annotation":"radical SAM protein"
 },
 {
-"id":"CLO1313_RS05555",
-"name":"amrS",
-"annotation":"AmmeMemoRadiSam system radical SAM enzyme"
-},
-{
-"id":"CLO1313_RS06535",
+"id":"CLO1313_RS00740",
 "name":"",
 "annotation":"radical SAM protein"
-},
-{
-"id":"CLO1313_RS10520",
-"name":"",
-"annotation":"B12-binding domain-containing radical SAM protein"
-},
-{
-"id":"CLO1313_RS00720",
-"name":"",
-"annotation":"radical SAM/SPASM domain-containing protein"
-},
-{
-"id":"CLO1313_RS05685",
-"name":"",
-"annotation":"YgiQ family radical SAM protein"
 },
 {
 "id":"CLO1313_RS05140",
@@ -47197,24 +47197,24 @@
 "annotation":"5-(carboxyamino)imidazole ribonucleotide mutase"
 },
 {
-"id":"CLO1313_RS00645",
-"name":"",
-"annotation":"molybdopterin-synthase adenylyltransferase MoeB"
-},
-{
 "id":"CLO1313_RS08215",
 "name":"thiF",
 "annotation":"thiamine biosynthesis protein ThiF"
 },
 {
-"id":"CLO1313_RS05835",
+"id":"CLO1313_RS00645",
 "name":"",
-"annotation":"cysteine desulfurase"
+"annotation":"molybdopterin-synthase adenylyltransferase MoeB"
 },
 {
 "id":"CLO1313_RS07595",
 "name":"nifS",
 "annotation":"cysteine desulfurase NifS"
+},
+{
+"id":"CLO1313_RS05835",
+"name":"",
+"annotation":"cysteine desulfurase"
 },
 {
 "id":"CLO1313_RS05840",
@@ -47237,27 +47237,7 @@
 "annotation":"carbon-monoxide dehydrogenase catalytic subunit"
 },
 {
-"id":"CLO1313_RS09895",
-"name":"",
-"annotation":"diguanylate cyclase"
-},
-{
-"id":"CLO1313_RS10655",
-"name":"",
-"annotation":"diguanylate cyclase"
-},
-{
 "id":"CLO1313_RS04985",
-"name":"",
-"annotation":"diguanylate cyclase"
-},
-{
-"id":"CLO1313_RS12555",
-"name":"",
-"annotation":"diguanylate cyclase response regulator"
-},
-{
-"id":"CLO1313_RS07105",
 "name":"",
 "annotation":"diguanylate cyclase"
 },
@@ -47265,6 +47245,21 @@
 "id":"CLO1313_RS06790",
 "name":"",
 "annotation":"GGDEF domain-containing protein"
+},
+{
+"id":"CLO1313_RS12555",
+"name":"",
+"annotation":"diguanylate cyclase response regulator"
+},
+{
+"id":"CLO1313_RS09895",
+"name":"",
+"annotation":"diguanylate cyclase"
+},
+{
+"id":"CLO1313_RS07105",
+"name":"",
+"annotation":"diguanylate cyclase"
 },
 {
 "id":"CLO1313_RS10590",
@@ -47275,6 +47270,11 @@
 "id":"CLO1313_RS14485",
 "name":"",
 "annotation":"sensor domain-containing diguanylate cyclase"
+},
+{
+"id":"CLO1313_RS10655",
+"name":"",
+"annotation":"diguanylate cyclase"
 },
 {
 "id":"CLO1313_RS09235",
@@ -47302,14 +47302,14 @@
 "annotation":"MtaA/CmuA family methyltransferase"
 },
 {
-"id":"CLO1313_RS08450",
-"name":"",
-"annotation":"polyprenyl synthetase family protein"
-},
-{
 "id":"CLO1313_RS08455",
 "name":"",
 "annotation":"heptaprenyl diphosphate synthase subunit I"
+},
+{
+"id":"CLO1313_RS08450",
+"name":"",
+"annotation":"polyprenyl synthetase family protein"
 },
 {
 "id":"CLO1313_RS07920",
@@ -47327,24 +47327,19 @@
 "annotation":"HDIG domain-containing protein"
 },
 {
+"id":"CLO1313_RS00350",
+"name":"",
+"annotation":"ferredoxin"
+},
+{
 "id":"CLO1313_RS00340",
 "name":"",
 "annotation":"electron transport complex subunit RsxE"
 },
 {
-"id":"CLO1313_RS00325",
-"name":"",
-"annotation":"electron transport complex subunit RsxC"
-},
-{
 "id":"CLO1313_RS00335",
 "name":"",
 "annotation":"electron transporter RnfG"
-},
-{
-"id":"CLO1313_RS00350",
-"name":"",
-"annotation":"ferredoxin"
 },
 {
 "id":"CLO1313_RS00345",
@@ -47355,6 +47350,11 @@
 "id":"CLO1313_RS00330",
 "name":"",
 "annotation":"NADH:ubiquinone oxidoreductase"
+},
+{
+"id":"CLO1313_RS00325",
+"name":"",
+"annotation":"electron transport complex subunit RsxC"
 },
 {
 "id":"CLO1313_RS02840",
@@ -47377,17 +47377,17 @@
 "annotation":"transketolase"
 },
 {
+"id":"CLO1313_RS01530",
+"name":"",
+"annotation":"transketolase"
+},
+{
 "id":"CLO1313_RS00385",
 "name":"",
 "annotation":"transketolase"
 },
 {
 "id":"CLO1313_RS00390",
-"name":"",
-"annotation":"transketolase"
-},
-{
-"id":"CLO1313_RS01530",
 "name":"",
 "annotation":"transketolase"
 },
@@ -47457,9 +47457,29 @@
 "annotation":"DUF3417 domain-containing protein"
 },
 {
-"id":"CLO1313_RS03220",
+"id":"CLO1313_RS07470",
 "name":"",
-"annotation":"Cell surface glycoprotein 2"
+"annotation":"endoglucanase"
+},
+{
+"id":"CLO1313_RS02020",
+"name":"",
+"annotation":"glycoside hydrolase"
+},
+{
+"id":"CLO1313_RS13380",
+"name":"",
+"annotation":"endo-1,4-beta-xylanase Z"
+},
+{
+"id":"CLO1313_RS09045",
+"name":"",
+"annotation":"glycoside hydrolase"
+},
+{
+"id":"CLO1313_RS01785",
+"name":"",
+"annotation":"glycoside hydrolase"
 },
 {
 "id":"CLO1313_RS09910",
@@ -47467,54 +47487,14 @@
 "annotation":"glycoside hydrolase"
 },
 {
-"id":"CLO1313_RS02665",
-"name":"",
-"annotation":"glycoside hydrolase"
-},
-{
-"id":"CLO1313_RS14510",
-"name":"",
-"annotation":"carbohydrate-binding protein"
-},
-{
-"id":"CLO1313_RS08095",
-"name":"",
-"annotation":"glycoside hydrolase"
-},
-{
-"id":"CLO1313_RS11155",
-"name":"",
-"annotation":"glycoside hydrolase"
-},
-{
-"id":"CLO1313_RS07205",
-"name":"",
-"annotation":"glycoside hydrolase"
-},
-{
-"id":"CLO1313_RS09185",
-"name":"",
-"annotation":"endoglucanase"
-},
-{
-"id":"CLO1313_RS13955",
-"name":"",
-"annotation":"endoglucanase"
-},
-{
-"id":"CLO1313_RS15440",
+"id":"CLO1313_RS03210",
 "name":"",
 "annotation":"cellulosome anchoring protein cohesin subunit"
 },
 {
-"id":"CLO1313_RS08090",
+"id":"CLO1313_RS11090",
 "name":"",
-"annotation":"endoglucanase"
-},
-{
-"id":"CLO1313_RS09145",
-"name":"",
-"annotation":"cellulose 1,4-beta-cellobiosidase"
+"annotation":"glycoside hydrolase"
 },
 {
 "id":"CLO1313_RS02025",
@@ -47522,22 +47502,27 @@
 "annotation":"glycoside hydrolase"
 },
 {
-"id":"CLO1313_RS10235",
-"name":"",
-"annotation":"beta-glucanase"
-},
-{
-"id":"CLO1313_RS08595",
+"id":"CLO1313_RS07070",
 "name":"",
 "annotation":"endoglucanase"
 },
 {
-"id":"CLO1313_RS02085",
+"id":"CLO1313_RS14510",
 "name":"",
-"annotation":"endoglucanase"
+"annotation":"carbohydrate-binding protein"
 },
 {
-"id":"CLO1313_RS07470",
+"id":"CLO1313_RS09150",
+"name":"",
+"annotation":"cellulose 1,4-beta-cellobiosidase"
+},
+{
+"id":"CLO1313_RS03220",
+"name":"",
+"annotation":"Cell surface glycoprotein 2"
+},
+{
+"id":"CLO1313_RS13955",
 "name":"",
 "annotation":"endoglucanase"
 },
@@ -47552,37 +47537,32 @@
 "annotation":"endoglucanase"
 },
 {
-"id":"CLO1313_RS03210",
+"id":"CLO1313_RS08595",
+"name":"",
+"annotation":"endoglucanase"
+},
+{
+"id":"CLO1313_RS10235",
+"name":"",
+"annotation":"beta-glucanase"
+},
+{
+"id":"CLO1313_RS12825",
+"name":"",
+"annotation":"glycoside hydrolase"
+},
+{
+"id":"CLO1313_RS07080",
+"name":"",
+"annotation":"coagulation factor 5/8 type domain protein"
+},
+{
+"id":"CLO1313_RS15440",
 "name":"",
 "annotation":"cellulosome anchoring protein cohesin subunit"
 },
 {
-"id":"CLO1313_RS11090",
-"name":"",
-"annotation":"glycoside hydrolase"
-},
-{
-"id":"CLO1313_RS08380",
-"name":"",
-"annotation":"endoglucanase"
-},
-{
-"id":"CLO1313_RS07070",
-"name":"",
-"annotation":"endoglucanase"
-},
-{
-"id":"CLO1313_RS04360",
-"name":"",
-"annotation":"glycosyl hydrolase"
-},
-{
-"id":"CLO1313_RS01785",
-"name":"",
-"annotation":"glycoside hydrolase"
-},
-{
-"id":"CLO1313_RS09890",
+"id":"CLO1313_RS07205",
 "name":"",
 "annotation":"glycoside hydrolase"
 },
@@ -47592,34 +47572,54 @@
 "annotation":"endoglucanase"
 },
 {
-"id":"CLO1313_RS09045",
-"name":"",
-"annotation":"glycoside hydrolase"
-},
-{
-"id":"CLO1313_RS09150",
+"id":"CLO1313_RS09145",
 "name":"",
 "annotation":"cellulose 1,4-beta-cellobiosidase"
 },
 {
-"id":"CLO1313_RS07080",
-"name":"",
-"annotation":"coagulation factor 5/8 type domain protein"
-},
-{
-"id":"CLO1313_RS12825",
+"id":"CLO1313_RS11155",
 "name":"",
 "annotation":"glycoside hydrolase"
 },
 {
-"id":"CLO1313_RS02020",
+"id":"CLO1313_RS02665",
 "name":"",
 "annotation":"glycoside hydrolase"
 },
 {
-"id":"CLO1313_RS13380",
+"id":"CLO1313_RS02085",
 "name":"",
-"annotation":"endo-1,4-beta-xylanase Z"
+"annotation":"endoglucanase"
+},
+{
+"id":"CLO1313_RS08090",
+"name":"",
+"annotation":"endoglucanase"
+},
+{
+"id":"CLO1313_RS04360",
+"name":"",
+"annotation":"glycosyl hydrolase"
+},
+{
+"id":"CLO1313_RS08095",
+"name":"",
+"annotation":"glycoside hydrolase"
+},
+{
+"id":"CLO1313_RS09890",
+"name":"",
+"annotation":"glycoside hydrolase"
+},
+{
+"id":"CLO1313_RS09185",
+"name":"",
+"annotation":"endoglucanase"
+},
+{
+"id":"CLO1313_RS08380",
+"name":"",
+"annotation":"endoglucanase"
 },
 {
 "id":"CLO1313_RS04370",
@@ -47627,24 +47627,24 @@
 "annotation":"xyloglucanase Xgh74A"
 },
 {
-"id":"CLO1313_RS14155",
-"name":"",
-"annotation":"carbohydrate ABC transporter substrate-binding protein"
-},
-{
 "id":"CLO1313_RS09245",
 "name":"",
 "annotation":"sugar ABC transporter substrate-binding protein"
 },
 {
-"id":"CLO1313_RS00400",
+"id":"CLO1313_RS14155",
 "name":"",
-"annotation":"sugar ABC transporter substrate-binding protein"
+"annotation":"carbohydrate ABC transporter substrate-binding protein"
 },
 {
 "id":"CLO1313_RS12970",
 "name":"",
 "annotation":"sugar ABC transporter ATP-binding protein"
+},
+{
+"id":"CLO1313_RS00400",
+"name":"",
+"annotation":"sugar ABC transporter substrate-binding protein"
 },
 {
 "id":"CLO1313_RS06075",
@@ -47657,6 +47657,11 @@
 "annotation":"urea ABC transporter substrate-binding protein"
 },
 {
+"id":"CLO1313_RS12635",
+"name":"urtD",
+"annotation":"urea ABC transporter ATP-binding protein UrtD"
+},
+{
 "id":"CLO1313_RS12640",
 "name":"urtC",
 "annotation":"urea ABC transporter permease subunit UrtC"
@@ -47665,11 +47670,6 @@
 "id":"CLO1313_RS12630",
 "name":"urtE",
 "annotation":"urea ABC transporter ATP-binding subunit UrtE"
-},
-{
-"id":"CLO1313_RS12635",
-"name":"urtD",
-"annotation":"urea ABC transporter ATP-binding protein UrtD"
 },
 {
 "id":"CLO1313_RS12645",
@@ -47692,14 +47692,14 @@
 "annotation":"magnesium transporter"
 },
 {
-"id":"CLO1313_RS11865",
-"name":"",
-"annotation":"ABC transporter ATP-binding protein"
-},
-{
 "id":"CLO1313_RS11855",
 "name":"",
 "annotation":"ABC transporter substrate-binding protein"
+},
+{
+"id":"CLO1313_RS11865",
+"name":"",
+"annotation":"ABC transporter ATP-binding protein"
 },
 {
 "id":"CLO1313_RS07445",
@@ -47712,34 +47712,9 @@
 "annotation":"DUF47 domain-containing protein"
 },
 {
-"id":"CLO1313_RS02415",
-"name":"",
-"annotation":"energy-coupling factor transporter ATPase"
-},
-{
-"id":"CLO1313_RS08535",
-"name":"",
-"annotation":"metal ABC transporter ATP-binding protein"
-},
-{
-"id":"CLO1313_RS08540",
-"name":"",
-"annotation":"ABC transporter substrate-binding protein"
-},
-{
-"id":"CLO1313_RS12525",
+"id":"CLO1313_RS02615",
 "name":"",
 "annotation":"ABC transporter ATP-binding protein"
-},
-{
-"id":"CLO1313_RS04285",
-"name":"",
-"annotation":"ABC transporter ATP-binding protein"
-},
-{
-"id":"CLO1313_RS00620",
-"name":"",
-"annotation":"sulfate ABC transporter ATP-binding protein"
 },
 {
 "id":"CLO1313_RS08530",
@@ -47752,9 +47727,24 @@
 "annotation":"excinuclease ABC subunit UvrA"
 },
 {
-"id":"CLO1313_RS01915",
+"id":"CLO1313_RS00620",
 "name":"",
-"annotation":"ABC transporter ATP-binding protein"
+"annotation":"sulfate ABC transporter ATP-binding protein"
+},
+{
+"id":"CLO1313_RS08535",
+"name":"",
+"annotation":"metal ABC transporter ATP-binding protein"
+},
+{
+"id":"CLO1313_RS02415",
+"name":"",
+"annotation":"energy-coupling factor transporter ATPase"
+},
+{
+"id":"CLO1313_RS08540",
+"name":"",
+"annotation":"ABC transporter substrate-binding protein"
 },
 {
 "id":"CLO1313_RS12285",
@@ -47762,14 +47752,24 @@
 "annotation":"ABC transporter ATP-binding protein"
 },
 {
-"id":"CLO1313_RS02615",
+"id":"CLO1313_RS04285",
 "name":"",
 "annotation":"ABC transporter ATP-binding protein"
 },
 {
-"id":"CLO1313_RS02470",
+"id":"CLO1313_RS01915",
 "name":"",
-"annotation":"energy-coupling factor transporter ATPase"
+"annotation":"ABC transporter ATP-binding protein"
+},
+{
+"id":"CLO1313_RS12525",
+"name":"",
+"annotation":"ABC transporter ATP-binding protein"
+},
+{
+"id":"CLO1313_RS04085",
+"name":"",
+"annotation":"amino acid ABC transporter ATP-binding protein"
 },
 {
 "id":"CLO1313_RS04075",
@@ -47777,9 +47777,9 @@
 "annotation":"amino acid ABC transporter substrate-binding protein"
 },
 {
-"id":"CLO1313_RS04085",
+"id":"CLO1313_RS02470",
 "name":"",
-"annotation":"amino acid ABC transporter ATP-binding protein"
+"annotation":"energy-coupling factor transporter ATPase"
 },
 {
 "id":"CLO1313_RS15005",
@@ -47812,11 +47812,6 @@
 "annotation":"ABC transporter ATP-binding protein"
 },
 {
-"id":"CLO1313_RS11900",
-"name":"",
-"annotation":"ABC transporter ATP-binding protein"
-},
-{
 "id":"CLO1313_RS01535",
 "name":"",
 "annotation":"ABC transporter"
@@ -47827,22 +47822,27 @@
 "annotation":"sugar ABC transporter ATP-binding protein"
 },
 {
-"id":"CLO1313_RS05445",
-"name":"",
-"annotation":"ABC transporter"
-},
-{
 "id":"CLO1313_RS09255",
 "name":"",
 "annotation":"sugar ABC transporter ATP-binding protein"
 },
 {
-"id":"CLO1313_RS00410",
+"id":"CLO1313_RS11900",
+"name":"",
+"annotation":"ABC transporter ATP-binding protein"
+},
+{
+"id":"CLO1313_RS05445",
+"name":"",
+"annotation":"ABC transporter"
+},
+{
+"id":"CLO1313_RS11910",
 "name":"",
 "annotation":"ABC transporter permease"
 },
 {
-"id":"CLO1313_RS11910",
+"id":"CLO1313_RS00410",
 "name":"",
 "annotation":"ABC transporter permease"
 },
