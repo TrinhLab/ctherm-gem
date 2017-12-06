@@ -119,7 +119,7 @@ C00163_c,Propanoate_C3H6O2,,,,,ppa_c,Propionate (n-C3:0),C3H5O2,-1,C00163,,,-1,C
 C00166_c,Phenylpyruvate_C9H8O3,,,[-1],['C9H7O3'],phpyr_c,Phenylpyruvate,C9H7O3,-1,C00166,,,-1,C9H7O3,-1,,[]
 C00167_c,UDP-glucuronate_C15H22N2O18P2,,,[-3],['C15H19N2O18P2'],udpglcur_c,UDP-D-glucuronate,C15H19N2O18P2,-3,C00167,,,-3,C15H19N2O18P2,-3,,[]
 C00168_c,Hydroxypyruvate_C3H4O4,,,[-1],['C3H3O4'],hpyr_c,Hydroxypyruvate,C3H3O4,-1,C00168,,,-1,C3H3O4,-1,,[]
-C00169_c,Carbamoyl phosphate_CH4NO5P,,,[-2],['CH2NO5P'],asp__L_c + cbp_c --> cbasp_c + h_c + pi_c,Carbamoyl phosphate,CH2NO5P,-2,C00169,,,-2,CH2NO5P,-1.96,,[]
+C00169_c,Carbamoyl phosphate_CH4NO5P,,,[-2],['CH2NO5P'],cbp_c,Carbamoyl phosphate,CH2NO5P,-2,C00169,,,-2,CH2NO5P,-1.96,,[]
 C00170_c,5'-Methylthioadenosine_C11H15N5O3S,,,[0],['C11H15N5O3S'],5mta_c,5-Methylthioadenosine,C11H15N5O3S,0,C00170,,,0,C11H15N5O3S,0.01,,[]
 C00173_c,Acyl-[acyl-carrier protein]_C3H4OSR2,,,,,aacp_c,Acyl-[acyl-carrier protein],"XC11H21N2O7PRS
 ",,C00173,generic:acp,,,,,,"ChemAxon Error: [$([#1,*])]-[#6]-[#6]-[#6](=O)-[#16]-[$([#1,*])]	1"
@@ -763,7 +763,7 @@ C16220_c,3-Hydroxyoctadecanoyl-[acp]_C18H35O2SR,,,"[0, -1]","['C402H637O144N96P1
 C16221_c,(2E)-Octadecenoyl-[acp]_C18H33OSR,,,"[0, -1]","['C29H53N2O8PRS', 'C402H635O143N96P1S3', 'C18H33OSR']",toctd2eACP_c,Trans-octadec-2-enoyl-[acyl-carrier protein],C29H53N2O8PRS,-1,C16221,generic:acp,,,,,,ChemAxon Error: [#6]-[#6]-[#6]-[#6]-[#6]-[#6]-[#6]-[#6]-[#6]-[#6]-
 C16267_c,Cyclopropanecarboxylate_C4H6O2,,,,,cproc_c,Cyclopropanecarboxylate,C4H5O2,-1,C16267,,,-1,C4H5O2,-1,,[]
 C16268_c,Cyclopropanecarboxyl-CoA_C25H40N7O17P3S,,,,,cproccoa_c,Cyclopropanecarboxyl-CoA,C25H36N7O17P3S,-4,C16268,,,-4,C25H36N7O17P3S,-3.97,,[]
-C16396_c,"2,4-Diamino-6-nitrotoluene_C7H9N3O2",,,,,24dia6nt_c <=> 24dia6hat_c + h2o_c,"2,4-Diamino-6-nitrotoluene",C7H9N3O2,0,C16396,,,0,C7H9N3O2,0,,[]
+C16396_c,"2,4-Diamino-6-nitrotoluene_C7H9N3O2",,,,,24dia6nt_c,"2,4-Diamino-6-nitrotoluene",C7H9N3O2,0,C16396,,,0,C7H9N3O2,0,,[]
 C16399_c,"2,4-Diamino-6-hydroxylaminotoluene_C7H11N3O",,,,,24dia6hat_c,"2,4-Diamino-6-hydroxylaminotoluene",C7H11N3O,0,C16399,,,0,C7H11N3O,0.04,,[]
 C16463_c,"3',5'-Cyclic diGMP_C20H24N10O14P2",,,,,35cdgmp_c,"3',5'-Cyclic diGMP",C20H22N10O14P2,-2,C16463,,,-2,C20H22N10O14P2,-2,,[]
 C16468_c,"(2E)-5-Methylhexa-2,4-dienoyl-CoA_C28H44N7O17P3S",,,,,5m24decoa_c,"(2E)-5-Methylhexa-2,4-dienoyl-CoA",C28H40N7O17P3S,-4,C16468,,,-4,C28H40N7O17P3S,-3.97,,[]

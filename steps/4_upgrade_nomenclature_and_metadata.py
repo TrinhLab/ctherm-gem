@@ -17,7 +17,6 @@ import cobra as cb
 import os
 from settings import PROJECT_ROOT
 import csv
-import re
 
 
 def main():
