@@ -874,7 +874,8 @@ delete:unused,EX_gluceq2_e,glucose equivalent exchange,glceq2_c --> ,glceq2_c --
 ,EX_mal__L_e,L-Malate exchange,mal__L_e --> ,mal__L_e <--> ,Exchange,,,Exchange,,,,,,,,0,1000,,,{}
 ,EX_btd_M_e,meso 2 3 Butanediol exchange,btd_M_e --> ,btd_M_e <--> ,Exchange,,,Exchange,,,TRUE,,,created met id,,0,1000,,,{}
 ,EX_btd_RR_e,R R 2 3 Butanediol exchange,btd_RR_e --> ,btd_RR_e <--> ,Exchange,,,Exchange,,,TRUE,,,,,0,1000,,,{}
-,EX_pyrg_e,Pyroglutamate exchange,5oxpro_e --> ,5oxpro_e <--> ,Exchange,,,Exchange,,,,,,created met id,,0,1000,,,{}
+delete:correct_id,EX_pyrg_e,Pyroglutamate exchange,5oxpro_e --> ,5oxpro_e <--> ,Exchange,,,Exchange,,,,,,created met id,,0,1000,,,{}
+add:correct_id,EX_5oxpro_e,Pyroglutamate exchange,5oxpro_e --> ,5oxpro_e <--> ,Exchange,,,Exchange,,,,,,created met id,,0,1000,,,{}
 ,EX_ibutoh_e,Isobutyl alcohol exchange,ibutoh_e --> ,ibutoh_e <--> ,Exchange,,,Exchange,,,TRUE,,,,,0,1000,,,{}
 ,EX_fum_e,Fumarate exchange,fum_e --> ,fum_e <--> ,Exchange,,,Exchange,,,,,,,,0,1000,,,{}
 ,EX_xylt_e,Xylitol exchange,xylt_e --> ,xylt_e <--> ,Exchange,,,Exchange,,,TRUE,,,,,0,1000,,,{}
@@ -921,11 +922,11 @@ add:overflow,4MOPDC,4 Methyl 2 oxopentanoate decarboxylase,,4mop_c + h_c => co2_
 add:overflow,ALCD3MBOH,Aldehyde dehydrogenase isobutyl alcohol NAD,,h_c + nadh_c + 3mbald_c => nad_c + 3mboh_c,,CLO1313_RS09095,,"Valine, leucine and isoleucine biosynthesis",2,,,,,,,0,1000,PMID28230109,Putative GPR based on ethanol metabolism,
 add:overflow,3MBOHt,Butanol transport by diffusion,,3mboh_c <=> 3mboh_e,,,,Transport between c and e,2,,,,,,,-1000,1000,,,
 add:overflow,EX_3mboh_e,Butanol exchange,,3mboh_e <=>,,,,Exchange,,,,,,,,0,1000,,,
-add:geq,EX_glceq_e,,,glceq_e <==>,,,,,,,,,,,,0,0,,,
-add:geq,GLCEQ3,,,3 glceq_e --> cell3_e,,,,Pseudoreaction,1,,,,,,,0,1000,,,
-add:geq,GLCEQ4,,,4 glceq_e --> cell4_e,,,,Pseudoreaction,1,,,,,,,0,1000,,,
-add:geq,GLCEQ5,,,5 glceq_e --> cell5_e,,,,Pseudoreaction,1,,,,,,,0,1000,,,
-add:geq,GLCEQ6,,,6 glceq_e --> cell6_e,,,,Pseudoreaction,1,,,,,,,0,1000,,,
+add:geq,EX_glceq_e,Glucose equivalent exchange,,glceq_e <==>,,,,,,,,,,,,0,0,,,
+add:geq,GLCEQ3,Glucose equivalent conversion 3,,3 glceq_e --> cell3_e,,,,Pseudoreaction,1,,,,,,,0,1000,,,
+add:geq,GLCEQ4,Glucose equivalent conversion 4,,4 glceq_e --> cell4_e,,,,Pseudoreaction,1,,,,,,,0,1000,,,
+add:geq,GLCEQ5,Glucose equivalent conversion 5,,5 glceq_e --> cell5_e,,,,Pseudoreaction,1,,,,,,,0,1000,,,
+add:geq,GLCEQ6,Glucose equivalent conversion 6,,6 glceq_e --> cell6_e,,,,Pseudoreaction,1,,,,,,,0,1000,,,
 add:gap_fill_folate,ADCL,4-aminobenzoate synthase,,4adcho_c  ==> 4abz_c + h_c + pyr_c,,,,Folate biosynthesis,1,,,,,,,0,1000,,Enables tetrahydrofolate biosynthesis. Present in iHN637 (C. ljungdahlii),{'KEGG':['R05553']}
 add:gap_fill_folate,GTPCI,GTP cyclohydrolase I,,gtp_c + h2o_c ==> ahdt_c + for_c + h_c,,CLO1313_RS14615,,Cofactor and Prosthetic Group Biosynthesis,2,,,,,,,0,1000,,,{'KEGG':['R00424']}
 add:gap_fill_folate,AKP1,Alkaline phosphatase Dihydroneopterin,,ahdt_c + 3.0 h2o_c ==> dhnpt_c + 2.0 h_c + 3.0 pi_c,,,,Folate biosynthesis,1,,,,,,,0,1000,,Enables tetrahydrofolate biosynthesis. Shortest option. Present in iLJ478 (T. maritima),{'KEGG':['R04620']}
@@ -942,4 +943,4 @@ add:sorbitol_growth,Ex_sbt__D_e,D-Sorbiol exchange,,sbt__D_e <==>,,,,,,,,,,,,0,1
 add:fuctose_growth,FRUabc,Fructose transport via ABC system,,atp_c + fru_e  + h2o_c --> adp_c + fru_c + h_c + pi_c,,,,Transport between c and e,2,,,,,,,0,1000,,Transport mechanism unknown; this is is assumed based on other sugar transporters; the study â€˜Mode of sugar phosphorylation in Clostridium thermocellumâ€™ shows that glucose phosphorilation is ATP dependent instead of PEP,
 add:fuctose_growth,EX_fru_e,Fructose exchange,,fru_e <==>,,,,,,,,,,,,0,1000,,,
 add:kbase_draft,CITt2,Citrate reversible transport via proton symport,,cit_c + h_c <=> cit_e + h_e,,CLO1313_RS03530,,Transport between c and e,2,,,,,,,-1000,1000,,,{}
-add:kbase_draft,EX_cit_e,Citrate exchange,,cit_e <==>,,,,,,,,,,,,-1000,1000,,,{}
+add:kbase_draft,EX_cit_e,Citrate exchange,,cit_e <==>,,,,,,,,,,,,0,1000,,,{}
