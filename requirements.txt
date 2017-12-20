@@ -1,6 +1,7 @@
-cobra
+cobra==0.9.1
 memote
 requests
 pandas
 python-libsbml
 biopython
+scikit-learn

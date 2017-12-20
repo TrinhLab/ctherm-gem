@@ -8474,6 +8474,16 @@
 "notes":{
 "KEGG_ID":"C01019"
 }
+},
+{
+"id":"cit_e",
+"name":"Citrate",
+"compartment":"",
+"charge":"-3",
+"formula":"C6H5O7",
+"notes":{
+"KEGG_ID":"C00158"
+}
 }
 ],
 "reactions":[
@@ -8789,12 +8799,12 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"CLO1313_RS12615 or CLO1313_RS12620 or CLO1313_RS12625",
+"gene_reaction_rule":"(CLO1313_RS12615 and CLO1313_RS12620 and CLO1313_RS12625) and (CLO1313_RS12595 and CLO1313_RS12600 and CLO1313_RS12605 and CLO1313_RS12610 and CLO1313_RS12615)",
 "subsystem":"Purine metabolism",
 "notes":{
 "DB_links":"{'BIGG': ['UREA'], 'BIOCYC': ['UREASE-RXN'], 'BIOPATH': ['RXN00445'], 'BRENDA': ['BR22694'], 'EC NUMBER': ['3.5.1.5'], 'KEGG': ['R00131'], 'METACYC': ['UREASE-RXN'], 'MXNREF': ['MNXR5297'], 'RHEA': ['20557, 20558, 20559, 20560, 25346'], 'SEED': ['rxn00101'], 'UPA': ['UCR00131, UER00370']}",
 "confidence_level":"2",
-"old_gpr":"Clo1313_2490 or Clo1313_2491 or Clo1313_2492"
+"old_gpr":"(Clo1313_2490 and Clo1313_2491 and Clo1313_2492) and (Clo1313_2486 and Clo1313_2487 and Clo1313_2488 and CLO1313_RS12610 and Clo1313_2490)"
 }
 },
 {
@@ -11055,12 +11065,12 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"CLO1313_RS05255",
+"gene_reaction_rule":"CLO1313_RS05255 or CLO1313_RS09110",
 "subsystem":"One carbon pool by folate",
 "notes":{
 "DB_links":"{'BIGG': ['DHFR, DHFRi, DHFRim'], 'BIOPATH': ['RXN00447'], 'BRENDA': ['BR36900, BS259281'], 'EC NUMBER': ['1.5.1.3'], 'KEGG': ['R00939'], 'METACYC': ['DIHYDROFOLATEREDUCT-RXN'], 'MXNREF': ['MNXR1561'], 'REACTOME': ['REACT_101075, REACT_105493, REACT_105841, REACT_105897, REACT_110727, REACT_11170, REACT_112218, REACT_114850, REACT_141616, REACT_153140, REACT_159160, REACT_28551, REACT_85130, REACT_87727, REACT_88957, REACT_91992'], 'RHEA': ['15009, 15010, 15011, 15012'], 'SEED': ['rxn00686'], 'UPA': ['UCR00939, UER00158']}",
 "confidence_level":"0",
-"old_gpr":"Clo1313_1031"
+"old_gpr":"Clo1313_1031 or Clo1313_1801"
 }
 },
 {
@@ -11075,12 +11085,12 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"CLO1313_RS05255",
+"gene_reaction_rule":"(CLO1313_RS09110 or CLO1313_RS05255)",
 "subsystem":"One carbon pool by folate",
 "notes":{
 "DB_links":"{'EC NUMBER': ['1.5.1.3'], 'KEGG': ['R00940'], 'MXNREF': ['MNXR14707'], 'SEED': ['rxn00687, rxn12649']}",
 "confidence_level":"0",
-"old_gpr":"Clo1313_1031"
+"old_gpr":"(Clo1313_1801 or Clo1313_1031)"
 }
 },
 {
@@ -12187,12 +12197,12 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"CLO1313_RS04395 or CLO1313_RS00545",
+"gene_reaction_rule":"CLO1313_RS04395 or CLO1313_RS00545 or  CLO1313_RS03665",
 "subsystem":"Valine, leucine and isoleucine biosynthesis",
 "notes":{
 "DB_links":"{'BIGG': ['IPPS, IPPSm'], 'BIOCYC': ['2-ISOPROPYLMALATESYN-RXN'], 'BIOPATH': ['RXN01115'], 'BRENDA': ['BR47381'], 'EC NUMBER': ['2.3.3.13'], 'KEGG': ['R01213'], 'METACYC': ['2-ISOPROPYLMALATESYN-RXN'], 'MXNREF': ['MNXR3135'], 'RHEA': ['21524, 21525, 21526, 21527'], 'SEED': ['rxn00902'], 'UPA': ['UCR01213, UER00070']}",
 "confidence_level":"2",
-"old_gpr":"Clo1313_0857 or Clo1313_0102"
+"old_gpr":"Clo1313_0857 or Clo1313_0102 or  Clo1313_0708"
 }
 },
 {
@@ -13526,26 +13536,6 @@
 "curation_notes":"GPR base on second reference",
 "literature_references":"PMC4207885, PMID28230109",
 "old_gpr":"Clo1313_0076 and unknown"
-}
-},
-{
-"id":"r0424",
-"name":"Isocitrate:NADP+ oxidoreductase (decarboxylating) Citrate cycle (TCA cycle) EC:1.1.1.42",
-"metabolites":{
-"h_c":1,
-"icit_c":-1,
-"nadp_c":-1,
-"nadph_c":1,
-"oxalosucc_c":1
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"CLO1313_RS09840",
-"subsystem":"Citrate cycle (TCA cycle)",
-"notes":{
-"DB_links":"{'EC NUMBER': ['1.1.1.42'], 'KEGG': ['R01899'], 'MXNREF': ['MNXR35657'], 'RHEA': ['25588, 25589, 25590, 25591'], 'SEED': ['rxn01387']}",
-"confidence_level":"2",
-"old_gpr":"Clo1313_1944"
 }
 },
 {
@@ -23181,12 +23171,12 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"CLO1313_RS12640 or CLO1313_RS12635 or CLO1313_RS12650 or CLO1313_RS12645 or CLO1313_RS12630",
+"gene_reaction_rule":"(CLO1313_RS12640 and CLO1313_RS12635 and CLO1313_RS12650 and CLO1313_RS12645 and CLO1313_RS12630)",
 "subsystem":"Transport between c and e",
 "notes":{
 "DB_links":"{}",
 "confidence_level":"2",
-"old_gpr":"Clo1313_2495 or Clo1313_2494 or Clo1313_2497 or Clo1313_2496 or Clo1313_2493"
+"old_gpr":"(Clo1313_2495 and Clo1313_2494 and Clo1313_2497 and Clo1313_2496 and Clo1313_2493)"
 }
 },
 {
@@ -23225,12 +23215,12 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"CLO1313_RS11780 or CLO1313_RS14675 or CLO1313_RS13085 or CLO1313_RS01980",
+"gene_reaction_rule":"CLO1313_RS11780 or CLO1313_RS14675 or CLO1313_RS13085 or CLO1313_RS01980 or (CLO1313_RS13255 or CLO1313_RS14675)",
 "subsystem":"Transport between c and e",
 "notes":{
 "DB_links":"{}",
 "confidence_level":"2",
-"old_gpr":"Clo1313_2321 or Clo1313_2888 or Clo1313_2577 or Clo1313_0391"
+"old_gpr":"Clo1313_2321 or Clo1313_2888 or Clo1313_2577 or Clo1313_0391 or (Clo1313_2610 or Clo1313_2888)"
 }
 },
 {
@@ -24766,6 +24756,26 @@
 }
 },
 {
+"id":"ICOR",
+"name":"Isocitrate:NADP+ oxidoreductase (decarboxylating) ",
+"metabolites":{
+"h_c":1,
+"icit_c":-1,
+"nadp_c":-1,
+"nadph_c":1,
+"oxalosucc_c":1
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"CLO1313_RS09840",
+"subsystem":"Citrate cycle (TCA cycle)",
+"notes":{
+"DB_links":"{'EC NUMBER': ['1.1.1.42'], 'KEGG': ['R01899'], 'MXNREF': ['MNXR35657'], 'RHEA': ['25588, 25589, 25590, 25591'], 'SEED': ['rxn01387']}",
+"confidence_level":"2",
+"old_gpr":"Clo1313_1944"
+}
+},
+{
 "id":"PGI",
 "name":"Glucose-6-phosphate isomerase",
 "metabolites":{
@@ -25911,6 +25921,40 @@
 "gene_reaction_rule":"",
 "notes":{
 "DB_links":"",
+"confidence_level":"",
+"old_gpr":""
+}
+},
+{
+"id":"CITt2",
+"name":"Citrate reversible transport via proton symport",
+"metabolites":{
+"cit_c":-1,
+"cit_e":1,
+"h_c":-1,
+"h_e":1
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"CLO1313_RS03530",
+"subsystem":"Transport between c and e",
+"notes":{
+"DB_links":"{}",
+"confidence_level":"2",
+"old_gpr":"Clo1313_0682"
+}
+},
+{
+"id":"EX_cit_e",
+"name":"Citrate exchange",
+"metabolites":{
+"cit_e":-1
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"",
+"notes":{
+"DB_links":"{}",
 "confidence_level":"",
 "old_gpr":""
 }
@@ -29322,6 +29366,10 @@
 "annotation":"threonine/serine exporter"
 },
 {
+"id":"CLO1313_RS02910",
+"name":""
+},
+{
 "id":"CLO1313_RS02905",
 "name":""
 },
@@ -29334,47 +29382,11 @@
 "name":""
 },
 {
-"id":"CLO1313_RS02885",
-"name":""
-},
-{
-"id":"CLO1313_RS02910",
-"name":""
-},
-{
 "id":"CLO1313_RS02900",
 "name":""
 },
 {
-"id":"CLO1313_RS00995",
-"name":""
-},
-{
-"id":"CLO1313_RS00980",
-"name":""
-},
-{
-"id":"CLO1313_RS00985",
-"name":""
-},
-{
-"id":"CLO1313_RS00975",
-"name":""
-},
-{
-"id":"CLO1313_RS05885",
-"name":""
-},
-{
-"id":"CLO1313_RS00990",
-"name":""
-},
-{
-"id":"CLO1313_RS14990",
-"name":""
-},
-{
-"id":"CLO1313_RS01000",
+"id":"CLO1313_RS02885",
 "name":""
 },
 {
@@ -29382,7 +29394,7 @@
 "name":""
 },
 {
-"id":"CLO1313_RS06805",
+"id":"CLO1313_RS05885",
 "name":""
 },
 {
@@ -29390,19 +29402,67 @@
 "name":""
 },
 {
-"id":"CLO1313_RS05475",
-"name":""
-},
-{
 "id":"CLO1313_RS09995",
 "name":""
 },
 {
-"id":"CLO1313_RS08680",
+"id":"CLO1313_RS00995",
+"name":""
+},
+{
+"id":"CLO1313_RS00990",
+"name":""
+},
+{
+"id":"CLO1313_RS06805",
+"name":""
+},
+{
+"id":"CLO1313_RS14990",
+"name":""
+},
+{
+"id":"CLO1313_RS00980",
+"name":""
+},
+{
+"id":"CLO1313_RS01000",
+"name":""
+},
+{
+"id":"CLO1313_RS05475",
+"name":""
+},
+{
+"id":"CLO1313_RS00975",
+"name":""
+},
+{
+"id":"CLO1313_RS00985",
+"name":""
+},
+{
+"id":"CLO1313_RS12605",
+"name":""
+},
+{
+"id":"CLO1313_RS12600",
+"name":""
+},
+{
+"id":"CLO1313_RS12595",
+"name":""
+},
+{
+"id":"CLO1313_RS12610",
 "name":""
 },
 {
 "id":"CLO1313_RS09160",
+"name":""
+},
+{
+"id":"CLO1313_RS08680",
 "name":""
 },
 {
@@ -29411,6 +29471,14 @@
 },
 {
 "id":"s0001",
+"name":""
+},
+{
+"id":"CLO1313_RS09110",
+"name":""
+},
+{
+"id":"CLO1313_RS03665",
 "name":""
 },
 {
@@ -29446,6 +29514,10 @@
 "name":""
 },
 {
+"id":"CLO1313_RS13255",
+"name":""
+},
+{
 "id":"CLO1313_RS01770",
 "name":""
 },
@@ -29454,11 +29526,11 @@
 "name":""
 },
 {
-"id":"CLO1313_RS00610",
+"id":"CLO1313_RS00615",
 "name":""
 },
 {
-"id":"CLO1313_RS00615",
+"id":"CLO1313_RS00610",
 "name":""
 },
 {
@@ -29474,6 +29546,106 @@
 "name":""
 },
 {
+"id":"CLO1313_RS03530",
+"name":""
+},
+{
+"id":"CLO1313_RS14110",
+"name":""
+},
+{
+"id":"CLO1313_RS10065",
+"name":""
+},
+{
+"id":"CLO1313_RS00705",
+"name":""
+},
+{
+"id":"CLO1313_RS14190",
+"name":""
+},
+{
+"id":"CLO1313_RS09905",
+"name":""
+},
+{
+"id":"CLO1313_RS12460",
+"name":""
+},
+{
+"id":"CLO1313_RS02010",
+"name":""
+},
+{
+"id":"CLO1313_RS14195",
+"name":""
+},
+{
+"id":"CLO1313_RS03545",
+"name":""
+},
+{
+"id":"CLO1313_RS11345",
+"name":""
+},
+{
+"id":"CLO1313_RS09035",
+"name":""
+},
+{
+"id":"CLO1313_RS10750",
+"name":""
+},
+{
+"id":"CLO1313_RS14960",
+"name":""
+},
+{
+"id":"CLO1313_RS09190",
+"name":""
+},
+{
+"id":"CLO1313_RS14345",
+"name":""
+},
+{
+"id":"CLO1313_RS02120",
+"name":""
+},
+{
+"id":"CLO1313_RS00915",
+"name":""
+},
+{
+"id":"CLO1313_RS02200",
+"name":""
+},
+{
+"id":"CLO1313_RS11085",
+"name":""
+},
+{
+"id":"CLO1313_RS13020",
+"name":""
+},
+{
+"id":"CLO1313_RS11010",
+"name":""
+},
+{
+"id":"CLO1313_RS06605",
+"name":""
+},
+{
+"id":"CLO1313_RS01780",
+"name":""
+},
+{
+"id":"CLO1313_RS14250",
+"name":""
+},
+{
 "id":"CLO1313_RS07895",
 "name":""
 },
@@ -29482,107 +29654,11 @@
 "name":""
 },
 {
-"id":"CLO1313_RS00915",
-"name":""
-},
-{
-"id":"CLO1313_RS10065",
-"name":""
-},
-{
-"id":"CLO1313_RS09035",
-"name":""
-},
-{
-"id":"CLO1313_RS06605",
-"name":""
-},
-{
-"id":"CLO1313_RS09190",
-"name":""
-},
-{
-"id":"CLO1313_RS00705",
-"name":""
-},
-{
-"id":"CLO1313_RS11085",
-"name":""
-},
-{
-"id":"CLO1313_RS14345",
-"name":""
-},
-{
-"id":"CLO1313_RS11010",
-"name":""
-},
-{
-"id":"CLO1313_RS14960",
-"name":""
-},
-{
-"id":"CLO1313_RS02010",
-"name":""
-},
-{
-"id":"CLO1313_RS02200",
-"name":""
-},
-{
-"id":"CLO1313_RS14190",
-"name":""
-},
-{
-"id":"CLO1313_RS11345",
-"name":""
-},
-{
-"id":"CLO1313_RS02120",
-"name":""
-},
-{
-"id":"CLO1313_RS03545",
-"name":""
-},
-{
-"id":"CLO1313_RS01780",
-"name":""
-},
-{
-"id":"CLO1313_RS10750",
-"name":""
-},
-{
-"id":"CLO1313_RS13020",
-"name":""
-},
-{
-"id":"CLO1313_RS14195",
-"name":""
-},
-{
-"id":"CLO1313_RS12460",
-"name":""
-},
-{
-"id":"CLO1313_RS09925",
-"name":""
-},
-{
-"id":"CLO1313_RS14110",
-"name":""
-},
-{
 "id":"CLO1313_RS06630",
 "name":""
 },
 {
-"id":"CLO1313_RS09905",
-"name":""
-},
-{
-"id":"CLO1313_RS14250",
+"id":"CLO1313_RS09925",
 "name":""
 },
 {
