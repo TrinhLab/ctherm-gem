@@ -761,8 +761,8 @@
 }
 },
 {
-"id":"glyc1p_c",
-"name":"Glycerone phosphate",
+"id":"dhap_c",
+"name":"Dihydroxyacetone phosphate",
 "compartment":"c",
 "charge":-2.0,
 "formula":"C3H5O6P",
@@ -8329,7 +8329,7 @@
 "id":"na1_e",
 "name":"Sodium",
 "compartment":"",
-"charge":"1",
+"charge":1.0,
 "formula":"Na",
 "notes":{
 "KEGG_ID":"C01330"
@@ -8339,7 +8339,7 @@
 "id":"na1_c",
 "name":"Sodium",
 "compartment":"",
-"charge":"1",
+"charge":1.0,
 "formula":"Na",
 "notes":{
 "KEGG_ID":"C01330"
@@ -8349,7 +8349,7 @@
 "id":"2mppal_c",
 "name":"2 methylpropanal",
 "compartment":"",
-"charge":"0",
+"charge":0.0,
 "formula":"C4H8O",
 "notes":{
 "KEGG_ID":""
@@ -8359,7 +8359,7 @@
 "id":"ppoh_c",
 "name":"1-Propanol",
 "compartment":"",
-"charge":"0",
+"charge":0.0,
 "formula":"C3H8O",
 "notes":{
 "KEGG_ID":"C05979"
@@ -8369,7 +8369,7 @@
 "id":"ppoh_e",
 "name":"1-Propanol",
 "compartment":"",
-"charge":"0",
+"charge":0.0,
 "formula":"C3H8O",
 "notes":{
 "KEGG_ID":"C05979"
@@ -8379,7 +8379,7 @@
 "id":"2mbald_c",
 "name":"2 Methylbutanal ",
 "compartment":"",
-"charge":"0",
+"charge":0.0,
 "formula":"C5H10O",
 "notes":{
 "KEGG_ID":"C02223"
@@ -8389,7 +8389,7 @@
 "id":"2mbtoh_c",
 "name":"2-methyl-1-butanol ",
 "compartment":"",
-"charge":"0",
+"charge":0.0,
 "formula":"C5H12O",
 "notes":{
 "KEGG_ID":""
@@ -8399,7 +8399,7 @@
 "id":"2mbtoh_e",
 "name":"2-methyl-1-butanol ",
 "compartment":"",
-"charge":"0",
+"charge":0.0,
 "formula":"C5H12O",
 "notes":{
 "KEGG_ID":""
@@ -8409,7 +8409,7 @@
 "id":"3mbald_c",
 "name":"3 Methylbutanal ",
 "compartment":"",
-"charge":"0",
+"charge":0.0,
 "formula":"C5H10O",
 "notes":{
 "KEGG_ID":"C07329"
@@ -8419,7 +8419,7 @@
 "id":"3mboh_c",
 "name":"3-Methylbutanol",
 "compartment":"",
-"charge":"0",
+"charge":0.0,
 "formula":"C5H12O",
 "notes":{
 "KEGG_ID":"C07328"
@@ -8429,7 +8429,7 @@
 "id":"3mboh_e",
 "name":"3-Methylbutanol",
 "compartment":"",
-"charge":"0",
+"charge":0.0,
 "formula":"C5H12O",
 "notes":{
 "KEGG_ID":"C07328"
@@ -8439,7 +8439,7 @@
 "id":"glc__D_e",
 "name":"D-Glucose",
 "compartment":"",
-"charge":"0",
+"charge":0.0,
 "formula":"C6H12O6",
 "notes":{
 "KEGG_ID":"C00031"
@@ -8449,7 +8449,7 @@
 "id":"fru_e",
 "name":"D-Fructose",
 "compartment":"",
-"charge":"0",
+"charge":0.0,
 "formula":"C6H12O6",
 "notes":{
 "KEGG_ID":"C00095"
@@ -8459,7 +8459,7 @@
 "id":"sbt__D_e",
 "name":"D-Sorbitol",
 "compartment":"",
-"charge":"0",
+"charge":0.0,
 "formula":"C6H14O6",
 "notes":{
 "KEGG_ID":"C00794"
@@ -8469,7 +8469,7 @@
 "id":"fuc__L_e",
 "name":"6-Deoxy-L-galactose",
 "compartment":"",
-"charge":"0",
+"charge":0.0,
 "formula":"C6H12O5",
 "notes":{
 "KEGG_ID":"C01019"
@@ -8479,10 +8479,20 @@
 "id":"cit_e",
 "name":"Citrate",
 "compartment":"",
-"charge":"-3",
+"charge":-3.0,
 "formula":"C6H5O7",
 "notes":{
 "KEGG_ID":"C00158"
+}
+},
+{
+"id":"s17bp_c",
+"name":"Sedoheptulose 1,7-bisphosphate",
+"compartment":"",
+"charge":-4.0,
+"formula":"C7H12O13P2",
+"notes":{
+"KEGG_ID":"C00447"
 }
 }
 ],
@@ -8625,25 +8635,6 @@
 "confidence_level":"2",
 "curation_notes":"reaction direction was not correct. Creating gap",
 "old_gpr":"Clo1313_0112"
-}
-},
-{
-"id":"RIBFS",
-"name":"Riboflavin synthase",
-"metabolites":{
-"4r5au_c":-1,
-"dmlz_c":2.0,
-"h_c":1,
-"ribflv_c":-1
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"CLO1313_RS10780",
-"subsystem":"Riboflavin metabolism",
-"notes":{
-"DB_links":"{'BIGG': ['RBFSb'], 'BRENDA': ['BR47473'], 'EC NUMBER': ['2.5.1.9'], 'KEGG': ['R00066'], 'METACYC': ['RIBOFLAVIN-SYN-RXN'], 'MXNREF': ['MNXR4584'], 'RHEA': ['20772, 20773, 20774, 20775'], 'SEED': ['rxn00048'], 'UPA': ['UCR00066, UER00405']}",
-"confidence_level":"2",
-"old_gpr":"Clo1313_2126"
 }
 },
 {
@@ -10691,7 +10682,7 @@
 "id":"G3PD1ir",
 "name":"Glycerol 3 phosphate dehydrogenase  NAD ",
 "metabolites":{
-"glyc1p_c":-1,
+"dhap_c":-1,
 "glyc3p_c":1,
 "h_c":-1,
 "nad_c":1,
@@ -10711,7 +10702,7 @@
 "id":"G3PD2",
 "name":"Glycerol-3-phosphate dehydrogenase (NADP)",
 "metabolites":{
-"glyc1p_c":-1,
+"dhap_c":-1,
 "glyc3p_c":1,
 "h_c":-1,
 "nadp_c":1,
@@ -11520,8 +11511,8 @@
 "id":"TPI",
 "name":"Triose-phosphate isomerase",
 "metabolites":{
-"g3p_c":-1,
-"glyc1p_c":1
+"dhap_c":1,
+"g3p_c":-1
 },
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
@@ -11537,7 +11528,7 @@
 "id":"MGSA",
 "name":"Methylglyoxal synthase",
 "metabolites":{
-"glyc1p_c":-1,
+"dhap_c":-1,
 "mthgxl_c":1,
 "pi_c":1
 },
@@ -11668,8 +11659,8 @@
 "id":"TGBPA",
 "name":"Tagatose-bisphosphate aldolase",
 "metabolites":{
+"dhap_c":1,
 "g3p_c":1,
-"glyc1p_c":1,
 "tagdp__D_c":-1
 },
 "lower_bound":0.0,
@@ -13703,8 +13694,8 @@
 "h_c":1,
 "nad_c":-1,
 "nadh_c":1,
-"rdxo_c":1,
-"rdxr_c":-1
+"rdxo_c":2.0,
+"rdxr_c":-2.0
 },
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
@@ -13713,7 +13704,7 @@
 "notes":{
 "DB_links":"{'EC NUMBER': ['1.18.1.1        1.18.1.3        1.18.1.4'], 'KEGG': ['R02000']}",
 "confidence_level":"0",
-"curation_notes":"There is very little information about rubredoxin related metabolism in C. therm. In the model, this is the only reaction using rubredoxin",
+"curation_notes":"There is very little information about rubredoxin related metabolism in C. therm. In the model, this is the only reaction using rubredoxin.",
 "old_gpr":"Clo1313_2033"
 }
 },
@@ -14313,8 +14304,8 @@
 "id":"FCLPA",
 "name":"L-fuculose 1-phosphate aldolase",
 "metabolites":{
+"dhap_c":1,
 "fc1p_c":-1,
-"glyc1p_c":1,
 "lald__L_c":1
 },
 "lower_bound":0.0,
@@ -17224,7 +17215,7 @@
 "id":"QULNS",
 "name":"Quinolinate synthase",
 "metabolites":{
-"glyc1p_c":-1,
+"dhap_c":-1,
 "h2o_c":2.0,
 "h_c":1,
 "iasp_c":-1,
@@ -19649,9 +19640,10 @@
 "amp_c":1,
 "atp_c":-1,
 "coa_c":-1,
-"h2o_c":7.0,
+"h_c":-1,
 "pecgon_c":-1,
-"pecgoncoa_c":1
+"pecgoncoa_c":1,
+"ppi_c":1
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
@@ -19660,6 +19652,7 @@
 "notes":{
 "DB_links":"{'EC NUMBER': ['6.2.1.-'], 'KEGG': ['R06731']}",
 "confidence_level":"0",
+"curation_notes":"Added missing phospahte",
 "old_gpr":"Clo1313_2099 or Clo1313_1994 or Clo1313_0677 or Clo1313_2577"
 }
 },
@@ -21035,9 +21028,9 @@
 "id":"FBA",
 "name":"Fructose-bisphosphate aldolase",
 "metabolites":{
+"dhap_c":1,
 "fdp_B_c":-1,
-"g3p_c":1,
-"glyc1p_c":1
+"g3p_c":1
 },
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
@@ -21105,24 +21098,6 @@
 "DB_links":"{'BIOCYC': ['1TRANSKETO-RXN'], 'EC NUMBER': ['2.2.1.1'], 'IAT CORE': ['PPP6r'], 'KEGG': ['R01641'], 'METACYC': ['1TRANSKETO-RXN'], 'MXNREF': ['MNXR56324']}",
 "confidence_level":"4",
 "old_gpr":"Clo1313_0074 or Clo1313_0075 or Clo1313_0295 or Clo1313_0296"
-}
-},
-{
-"id":"FBA3",
-"name":"Sedoheptulose 1,7-bisphosphate D-glyceraldehyde-3-phosphate-lyase",
-"metabolites":{
-"e4p_c":1,
-"glyc1p_c":1,
-"h2o_c":-3.0,
-"s7p_c":-1
-},
-"lower_bound":-1000.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"CLO1313_RS09480",
-"notes":{
-"DB_links":"{'BIGG': ['FBA3'], 'BIOPATH': ['RXN00156'], 'EC NUMBER': ['4.1.2.13'], 'IAT CORE': ['PPP7r'], 'KEGG': ['R01829'], 'METACYC': ['SEDOBISALDOL-RXN'], 'MXNREF': ['MNXR2186'], 'RHEA': ['30167, 30168, 30169, 30170'], 'SEED': ['rxn01334']}",
-"confidence_level":"4",
-"old_gpr":"Clo1313_1875"
 }
 },
 {
@@ -24712,6 +24687,25 @@
 }
 },
 {
+"id":"RBFSb",
+"name":"Riboflavin synthase",
+"metabolites":{
+"4r5au_c":1,
+"dmlz_c":-2.0,
+"h_c":-1,
+"ribflv_c":1
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"CLO1313_RS10780",
+"subsystem":"Riboflavin metabolism",
+"notes":{
+"DB_links":"{'BIGG': ['RBFSb'], 'BRENDA': ['BR47473'], 'EC NUMBER': ['2.5.1.9'], 'KEGG': ['R00066'], 'METACYC': ['RIBOFLAVIN-SYN-RXN'], 'MXNREF': ['MNXR4584'], 'RHEA': ['20772, 20773, 20774, 20775'], 'SEED': ['rxn00048'], 'UPA': ['UCR00066, UER00405']}",
+"confidence_level":"2",
+"old_gpr":"Clo1313_2126"
+}
+},
+{
 "id":"PPAKr",
 "name":"Propionate kinase reverse direction",
 "metabolites":{
@@ -24809,6 +24803,42 @@
 "DB_links":"{'BIGG': ['DHAD2, DHAD2m'], 'BIOCYC': ['DIHYDROXYMETVALDEHYDRAT-RXN'], 'BIOPATH': ['RXN00766'], 'EC NUMBER': ['4.2.1.9'], 'KEGG': ['R05070'], 'METACYC': ['DIHYDROXYMETVALDEHYDRAT-RXN'], 'MXNREF': ['MNXR1536'], 'RHEA': ['27694, 27695, 27696, 27697'], 'SEED': ['rxn03437, rxn09889'], 'UPA': ['UCR05070, UER00057']}",
 "confidence_level":"2",
 "old_gpr":"Clo1313_0304"
+}
+},
+{
+"id":"FBA3",
+"name":"Sedoheptulose 1,7-bisphosphate D-glyceraldehyde-3-phosphate-lyase",
+"metabolites":{
+"dhap_c":1,
+"e4p_c":1,
+"s17bp_c":-1
+},
+"lower_bound":-1000.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"CLO1313_RS09480",
+"notes":{
+"DB_links":"{'BIGG': ['FBA3'], 'BIOPATH': ['RXN00156'], 'EC NUMBER': ['4.1.2.13'], 'IAT CORE': ['PPP7r'], 'KEGG': ['R01829'], 'METACYC': ['SEDOBISALDOL-RXN'], 'MXNREF': ['MNXR2186'], 'RHEA': ['30167, 30168, 30169, 30170'], 'SEED': ['rxn01334']}",
+"confidence_level":"4",
+"old_gpr":"Clo1313_1875"
+}
+},
+{
+"id":"PFK_3",
+"name":"Phosphofructokinase (s7p)",
+"metabolites":{
+"adp_c":1,
+"atp_c":-1,
+"h_c":1,
+"s17bp_c":1,
+"s7p_c":-1
+},
+"lower_bound":0.0,
+"upper_bound":1000.0,
+"gene_reaction_rule":"CLO1313_RS05090",
+"notes":{
+"DB_links":"{'KEGG':['R01843']}",
+"confidence_level":"4",
+"old_gpr":"Clo1313_0997"
 }
 },
 {
@@ -29366,15 +29396,7 @@
 "annotation":"threonine/serine exporter"
 },
 {
-"id":"CLO1313_RS02910",
-"name":""
-},
-{
-"id":"CLO1313_RS02890",
-"name":""
-},
-{
-"id":"CLO1313_RS02895",
+"id":"CLO1313_RS02885",
 "name":""
 },
 {
@@ -29386,11 +29408,19 @@
 "name":""
 },
 {
-"id":"CLO1313_RS02885",
+"id":"CLO1313_RS02895",
 "name":""
 },
 {
-"id":"CLO1313_RS00995",
+"id":"CLO1313_RS02910",
+"name":""
+},
+{
+"id":"CLO1313_RS02890",
+"name":""
+},
+{
+"id":"CLO1313_RS06805",
 "name":""
 },
 {
@@ -29398,7 +29428,11 @@
 "name":""
 },
 {
-"id":"CLO1313_RS00980",
+"id":"CLO1313_RS00975",
+"name":""
+},
+{
+"id":"CLO1313_RS00995",
 "name":""
 },
 {
@@ -29406,19 +29440,27 @@
 "name":""
 },
 {
+"id":"CLO1313_RS09995",
+"name":""
+},
+{
 "id":"CLO1313_RS01000",
 "name":""
 },
 {
-"id":"CLO1313_RS00975",
+"id":"CLO1313_RS00990",
+"name":""
+},
+{
+"id":"CLO1313_RS05475",
+"name":""
+},
+{
+"id":"CLO1313_RS00980",
 "name":""
 },
 {
 "id":"CLO1313_RS14990",
-"name":""
-},
-{
-"id":"CLO1313_RS09995",
 "name":""
 },
 {
@@ -29430,15 +29472,7 @@
 "name":""
 },
 {
-"id":"CLO1313_RS06805",
-"name":""
-},
-{
-"id":"CLO1313_RS05475",
-"name":""
-},
-{
-"id":"CLO1313_RS00990",
+"id":"CLO1313_RS12610",
 "name":""
 },
 {
@@ -29450,19 +29484,15 @@
 "name":""
 },
 {
-"id":"CLO1313_RS12610",
-"name":""
-},
-{
 "id":"CLO1313_RS12595",
 "name":""
 },
 {
-"id":"CLO1313_RS09160",
+"id":"CLO1313_RS08680",
 "name":""
 },
 {
-"id":"CLO1313_RS08680",
+"id":"CLO1313_RS09160",
 "name":""
 },
 {
@@ -29490,11 +29520,11 @@
 "name":""
 },
 {
-"id":"CLO1313_RS07925",
+"id":"CLO1313_RS11095",
 "name":""
 },
 {
-"id":"CLO1313_RS11095",
+"id":"CLO1313_RS07925",
 "name":""
 },
 {
@@ -29510,11 +29540,11 @@
 "name":""
 },
 {
-"id":"CLO1313_RS01980",
+"id":"CLO1313_RS13255",
 "name":""
 },
 {
-"id":"CLO1313_RS13255",
+"id":"CLO1313_RS01980",
 "name":""
 },
 {
@@ -29550,43 +29580,7 @@
 "name":""
 },
 {
-"id":"CLO1313_RS02010",
-"name":""
-},
-{
-"id":"CLO1313_RS09905",
-"name":""
-},
-{
-"id":"CLO1313_RS12460",
-"name":""
-},
-{
 "id":"CLO1313_RS02200",
-"name":""
-},
-{
-"id":"CLO1313_RS11345",
-"name":""
-},
-{
-"id":"CLO1313_RS14250",
-"name":""
-},
-{
-"id":"CLO1313_RS14110",
-"name":""
-},
-{
-"id":"CLO1313_RS06605",
-"name":""
-},
-{
-"id":"CLO1313_RS11085",
-"name":""
-},
-{
-"id":"CLO1313_RS13020",
 "name":""
 },
 {
@@ -29594,11 +29588,11 @@
 "name":""
 },
 {
-"id":"CLO1313_RS09925",
+"id":"CLO1313_RS09905",
 "name":""
 },
 {
-"id":"CLO1313_RS13665",
+"id":"CLO1313_RS14110",
 "name":""
 },
 {
@@ -29606,35 +29600,7 @@
 "name":""
 },
 {
-"id":"CLO1313_RS10750",
-"name":""
-},
-{
-"id":"CLO1313_RS02120",
-"name":""
-},
-{
-"id":"CLO1313_RS09035",
-"name":""
-},
-{
-"id":"CLO1313_RS09190",
-"name":""
-},
-{
-"id":"CLO1313_RS03545",
-"name":""
-},
-{
 "id":"CLO1313_RS11010",
-"name":""
-},
-{
-"id":"CLO1313_RS10065",
-"name":""
-},
-{
-"id":"CLO1313_RS14190",
 "name":""
 },
 {
@@ -29642,7 +29608,19 @@
 "name":""
 },
 {
-"id":"CLO1313_RS14345",
+"id":"CLO1313_RS02120",
+"name":""
+},
+{
+"id":"CLO1313_RS13020",
+"name":""
+},
+{
+"id":"CLO1313_RS09190",
+"name":""
+},
+{
+"id":"CLO1313_RS12460",
 "name":""
 },
 {
@@ -29650,7 +29628,7 @@
 "name":""
 },
 {
-"id":"CLO1313_RS14195",
+"id":"CLO1313_RS03545",
 "name":""
 },
 {
@@ -29659,6 +29637,58 @@
 },
 {
 "id":"CLO1313_RS14960",
+"name":""
+},
+{
+"id":"CLO1313_RS09925",
+"name":""
+},
+{
+"id":"CLO1313_RS14250",
+"name":""
+},
+{
+"id":"CLO1313_RS09035",
+"name":""
+},
+{
+"id":"CLO1313_RS10750",
+"name":""
+},
+{
+"id":"CLO1313_RS02010",
+"name":""
+},
+{
+"id":"CLO1313_RS11345",
+"name":""
+},
+{
+"id":"CLO1313_RS11085",
+"name":""
+},
+{
+"id":"CLO1313_RS06605",
+"name":""
+},
+{
+"id":"CLO1313_RS10065",
+"name":""
+},
+{
+"id":"CLO1313_RS13665",
+"name":""
+},
+{
+"id":"CLO1313_RS14195",
+"name":""
+},
+{
+"id":"CLO1313_RS14190",
+"name":""
+},
+{
+"id":"CLO1313_RS14345",
 "name":""
 },
 {

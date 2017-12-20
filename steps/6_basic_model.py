@@ -44,7 +44,7 @@ def main():
                 id=row['isg_id'],
                 name=row['isg_name'],
                 formula=row['isg_formula'],
-                charge=row['isg_charge'])
+                charge=float(row['isg_charge']))
             metabolite.notes = dict(row['notes'])
             metabolite.notes['KEGG_ID'] = row['isg_kegg']
             metabolites.append(metabolite)
@@ -90,7 +90,7 @@ def main():
     update_gene_names(model)
     add_generic_genes(model)
     remove_unused_met(model)
-
+    change_met_name(model)
     cb.io.save_json_model(model, os.path.join(INTERMEDIATE_MODEL_ROOT, 'iSG_3.json'))
 
     print('{} duplicated reactions deleted'.format(duplicate_coutner))
@@ -122,6 +122,7 @@ def update_gene_names(model):
     for gene in model.genes:
         if gene.id not in ['s0001', 'unknown']:
             gene.Name = repdict[gene.id]
+
 
 def remove_unused_met(model):
     unusedmet = cb.manipulation.delete.prune_unused_metabolites(model)
@@ -227,6 +228,12 @@ def add_generic_genes(model):
         rxn.notes['confidence_level'] = 2
         rxn.gene_reaction_rule = 'CLO1313_RS15000 or CLO1313_RS15005 or CLO1313_RS15010 or CLO1313_RS04075'
 
+
+def change_met_name(model):
+    """Updates glycerol phosphate to dihydroxyacetone phosphate"""
+    met = model.metabolites.get_by_id('glyc1p_c')
+    met.id = 'dhap_c'
+    met.name = 'Dihydroxyacetone phosphate'
 
 main()
 
