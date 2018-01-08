@@ -944,3 +944,4 @@ add:fuctose_growth,FRUabc,Fructose transport via ABC system,,atp_c + fru_e  + h2
 add:fuctose_growth,EX_fru_e,Fructose exchange,,fru_e <==>,,,,,,,,,,,,0,1000,,,
 add:kbase_draft,CITt2,Citrate reversible transport via proton symport,,cit_c + h_c <=> cit_e + h_e,,CLO1313_RS03530,,Transport between c and e,2,,,,,,,-1000,1000,,,{}
 add:kbase_draft,EX_cit_e,Citrate exchange,,cit_e <==>,,,,,,,,,,,,0,1000,,,{}
+add:gap_fill_enable_growth_without_succinate_secretion,HSERTA,Homoserine O trans acetylase,,accoa_c + hom__L_c <=> coa_c + achms_c,,,,Cysteine and methionine metabolism,1,,,,,,,-1000,1000,,Allows methionine synthesis (required for growth) without succinate secretion. Reaction is present in other clostridial and thermophilic BiGG GEMs,
