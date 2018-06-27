@@ -910,7 +910,7 @@ add:correct_id,EX_trp__L_e,L-Tryptophan  exchange ,trp__L_e --> ,trp__L_e <--> ,
 add:gap_fill,DPR,2-dehydropantoate 2-reductase,,2dhp_c + h_c + nadph_c --> nadp_c + pant__R_c,,,,Pantothenate and CoA biosynthesis,1,,,,,,,0,1000,,gap filling. Fix panthoate synthesis gap with common BiGG reaction,{'KEGG':['R02472']}
 add:overflow,PROCOARx,Propanoyl-CoA reductase (NADH),,ppcoa_c + h_c + nadh_c =>  ppal_c + coa_c + nad_c,,CLO1313_RS09095 or CLO1313_RS14795,,Propanoate metabolism,2,,,,,,,0,1000,PMC4207885,Putative GPR based on ethanol metabolism,
 add:overflow,ALCD3x,Aldehyde dehydrogenase propanal NAD ,,h_c + nadh_c + ppal_c => nad_c + ppoh_c,,CLO1313_RS09095,,Propanoate metabolism,2,,,,,,,0,1000,PMC4207885,Putative GPR based on ethanol metabolism,
-add:overflow,IBUTCOARx2,Propanoyl-CoA reductase (NADPH),,ppcoa_c + h_c + nadph_c =>  ppal_c + coa_c + nadp_c,,CLO1313_RS09095 or CLO1313_RS14795,,Propanoate metabolism,2,,,,,,,0,1000,PMC4207885,Putative GPR based on ethanol metabolism,
+add:overflow,PROCOARx2,Propanoyl-CoA reductase (NADPH),,ppcoa_c + h_c + nadph_c =>  ppal_c + coa_c + nadp_c,,CLO1313_RS09095 or CLO1313_RS14795,,Propanoate metabolism,2,,,,,,,0,1000,PMC4207885,Putative GPR based on ethanol metabolism,
 add:overflow,ALCD23xi2,Aldehyde dehydrogenase propanal NADP,,h_c + nadph_c + ppal_c => nadp_c + ppoh_c,,CLO1313_RS09095,,Propanoate metabolism,2,,,,,,,0,1000,PMC4207885,Putative GPR based on ethanol metabolism,
 add:overflow,PPOHt,propanol transport via diffusion,,ppoh_c <=> ppoh_e,,,,Transport between c and e,2,,,,,,,-1000,1000,PMID28230109,,
 add:overflow,EX_ppoh_e,propanol exchange,,ppoh_e <=>,,,,Exchange,,,,,,,,0,1000,,,
