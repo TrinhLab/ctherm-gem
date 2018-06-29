@@ -15,7 +15,7 @@ The following variations of comp\_minimal are included:
 # Secretion product setup
 ## common_secretion
 This allows the secretion of products which are consistently observed in _C. therm_ fermentaitons:
-ethanol, acetate, formate, hydrogen, valine, lactate, pyruvate, and carbon dioxide. Currently phenylalanine secretion is also allowed to enable growth.  See issue #44
+ethanol, acetate, formate, hydrogen, valine, lactate, pyruvate, and carbon dioxide. Currently phenylalanine secretion is also allowed to enable growth(See issue #44). Similarly, small amounts of glycine must be secreted to ensure correct prediction of gene lethality (e.g. PFL mutant, which is not lethal, becomes lethal if glycine cannot be secreted)
 
 ## all_secretion
 The most general configuration where all possible secretable metabolites (they have been observed experimentally even in small amounts) are included. 

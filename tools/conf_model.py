@@ -28,11 +28,12 @@ def set_experimental_data(model, dataset_index, constraint_mode,apply_knockouts=
     set_experimental_flux_reaction_bounds(row, bof_id, model, constraint_mode)
 
 
-def set_conditions(model, medium_str, secretion='all', verbose=False):
+def set_conditions(model, medium_str, secretion='all', reactor_type='batch', verbose=False):
     """ Configures the model according to the medium string provided in the input file.
     Args:
-        Secretion(string, optional): 'all' every exchange reaction is open (Warning: This can lead to inaccuarate
+        secretion(string, optional): 'all' every exchange reaction is open (Warning: This can lead to inaccuarate
         in some cases). Alternatively one can specify a secretion file id, e.g. 'common_secretion'.
+        reactor_type(string, optional): 'batch' (default) or 'chemostat'. Changes GAM/NGAM parameters.
     Notes:
         - Strict constraitns on secretion tend to make the model infeasible, specially when additional constraints
         (such as experimental data) are impossed, thus the default setup is 'all'.
@@ -64,7 +65,7 @@ def set_conditions(model, medium_str, secretion='all', verbose=False):
     block_all_exchanges(model)
     set_medium(model, medium_id)
     set_secretion(model, secretion)
-    set_atp_param(model, medium_id, bof_id)
+    set_atp_param(model, medium_id, bof_id, reactor_type)
     
     # Change objective to appropriate BOF
     set_bof(model, bof_id)
