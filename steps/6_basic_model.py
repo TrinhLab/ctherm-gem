@@ -125,7 +125,13 @@ def update_gene_names(model):
 
 
 def remove_unused_met(model):
-    unusedmet = cb.manipulation.delete.prune_unused_metabolites(model)
+
+    # For some reason some unused metabolites will not be picked up on the first run...
+    lastdeletedmet = cb.manipulation.delete.prune_unused_metabolites(model)
+    unusedmet = lastdeletedmet
+    while lastdeletedmet:
+        lastdeletedmet = cb.manipulation.delete.prune_unused_metabolites(model)
+        unusedmet.extend(lastdeletedmet)
 
     with open(os.path.join(PROJECT_ROOT, 'iSG', 'unused_metabolites_after_basic_curation.csv'), 'w') as f:
         writer = csv.writer(f, delimiter=',', lineterminator='\n')

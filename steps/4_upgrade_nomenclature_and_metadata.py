@@ -119,7 +119,7 @@ def add_gene_fields(modelfinal, model):
     # Add missing fields
     for gene in modelfinal.genes:
         gene.name = genedict[gene.id]['gene']
-        gene.annotation = genedict[gene.id]['product']
+        gene.annotation['product'] = genedict[gene.id]['product']
 
     # include old gpr as reaction note
     for reaction in modelfinal.reactions:
