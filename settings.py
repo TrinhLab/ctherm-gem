@@ -6,6 +6,7 @@ Paths and files which are accessed repeatedly throughout the project
 import os
 PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
 INTERMEDIATE_MODEL_ROOT = os.path.join(PROJECT_ROOT, 'iSG')
+FINAL_MODEL_ROOT = os.path.join(PROJECT_ROOT, 'iSG676')
 MEDIA_ROOT = os.path.join(PROJECT_ROOT, 'media')
 EXTRACELLULAR_FLUX_DATA = os.path.join(PROJECT_ROOT, 'datasets', 'flux', 'ctherm_extracellular_flux.csv')
 ESSENTIALITY_DATA = os.path.join(PROJECT_ROOT,'datasets', 'essentiality','ctherm-gene-essentiality.csv')
