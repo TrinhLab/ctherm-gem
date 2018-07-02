@@ -21,7 +21,7 @@
       <parameter constant="true" id="cobra_default_lb" sboTerm="SBO:0000626" units="mmol_per_gDW_per_hr" value="-1000"/>
       <parameter constant="true" id="cobra_default_ub" sboTerm="SBO:0000626" units="mmol_per_gDW_per_hr" value="1000"/>
       <parameter constant="true" id="cobra_0_bound" sboTerm="SBO:0000626" units="mmol_per_gDW_per_hr" value="0"/>
-      <parameter constant="true" id="R_ATPM_lower_bound" sboTerm="SBO:0000625" units="mmol_per_gDW_per_hr" value="1.09707756493"/>
+      <parameter constant="true" id="R_ATPM_lower_bound" sboTerm="SBO:0000625" units="mmol_per_gDW_per_hr" value="1.09707756493434"/>
       <parameter constant="true" id="R_EX_glceq_e_lower_bound" sboTerm="SBO:0000625" units="mmol_per_gDW_per_hr" value="-6"/>
     </listOfParameters>
     <listOfCompartments>
@@ -8664,80 +8664,80 @@
           </rdf:RDF>
         </sbml:annotation>
       </fbc:geneProduct>
+      <fbc:geneProduct fbc:id="G_CLO1313_RS02885" fbc:label="CLO1313_RS02885" fbc:name="CLO1313_RS02885"/>
+      <fbc:geneProduct fbc:id="G_CLO1313_RS02890" fbc:label="CLO1313_RS02890" fbc:name="CLO1313_RS02890"/>
+      <fbc:geneProduct fbc:id="G_CLO1313_RS02895" fbc:label="CLO1313_RS02895" fbc:name="CLO1313_RS02895"/>
       <fbc:geneProduct fbc:id="G_CLO1313_RS02905" fbc:label="CLO1313_RS02905" fbc:name="CLO1313_RS02905"/>
       <fbc:geneProduct fbc:id="G_CLO1313_RS02910" fbc:label="CLO1313_RS02910" fbc:name="CLO1313_RS02910"/>
-      <fbc:geneProduct fbc:id="G_CLO1313_RS02885" fbc:label="CLO1313_RS02885" fbc:name="CLO1313_RS02885"/>
-      <fbc:geneProduct fbc:id="G_CLO1313_RS02895" fbc:label="CLO1313_RS02895" fbc:name="CLO1313_RS02895"/>
       <fbc:geneProduct fbc:id="G_CLO1313_RS02900" fbc:label="CLO1313_RS02900" fbc:name="CLO1313_RS02900"/>
-      <fbc:geneProduct fbc:id="G_CLO1313_RS02890" fbc:label="CLO1313_RS02890" fbc:name="CLO1313_RS02890"/>
-      <fbc:geneProduct fbc:id="G_CLO1313_RS00980" fbc:label="CLO1313_RS00980" fbc:name="CLO1313_RS00980"/>
-      <fbc:geneProduct fbc:id="G_CLO1313_RS00995" fbc:label="CLO1313_RS00995" fbc:name="CLO1313_RS00995"/>
-      <fbc:geneProduct fbc:id="G_CLO1313_RS01005" fbc:label="CLO1313_RS01005" fbc:name="CLO1313_RS01005"/>
       <fbc:geneProduct fbc:id="G_CLO1313_RS14990" fbc:label="CLO1313_RS14990" fbc:name="CLO1313_RS14990"/>
-      <fbc:geneProduct fbc:id="G_CLO1313_RS01000" fbc:label="CLO1313_RS01000" fbc:name="CLO1313_RS01000"/>
-      <fbc:geneProduct fbc:id="G_CLO1313_RS05475" fbc:label="CLO1313_RS05475" fbc:name="CLO1313_RS05475"/>
-      <fbc:geneProduct fbc:id="G_CLO1313_RS00985" fbc:label="CLO1313_RS00985" fbc:name="CLO1313_RS00985"/>
-      <fbc:geneProduct fbc:id="G_CLO1313_RS06805" fbc:label="CLO1313_RS06805" fbc:name="CLO1313_RS06805"/>
-      <fbc:geneProduct fbc:id="G_CLO1313_RS01010" fbc:label="CLO1313_RS01010" fbc:name="CLO1313_RS01010"/>
+      <fbc:geneProduct fbc:id="G_CLO1313_RS01005" fbc:label="CLO1313_RS01005" fbc:name="CLO1313_RS01005"/>
       <fbc:geneProduct fbc:id="G_CLO1313_RS05885" fbc:label="CLO1313_RS05885" fbc:name="CLO1313_RS05885"/>
       <fbc:geneProduct fbc:id="G_CLO1313_RS00975" fbc:label="CLO1313_RS00975" fbc:name="CLO1313_RS00975"/>
+      <fbc:geneProduct fbc:id="G_CLO1313_RS01000" fbc:label="CLO1313_RS01000" fbc:name="CLO1313_RS01000"/>
+      <fbc:geneProduct fbc:id="G_CLO1313_RS00980" fbc:label="CLO1313_RS00980" fbc:name="CLO1313_RS00980"/>
       <fbc:geneProduct fbc:id="G_CLO1313_RS09995" fbc:label="CLO1313_RS09995" fbc:name="CLO1313_RS09995"/>
+      <fbc:geneProduct fbc:id="G_CLO1313_RS00995" fbc:label="CLO1313_RS00995" fbc:name="CLO1313_RS00995"/>
+      <fbc:geneProduct fbc:id="G_CLO1313_RS06805" fbc:label="CLO1313_RS06805" fbc:name="CLO1313_RS06805"/>
+      <fbc:geneProduct fbc:id="G_CLO1313_RS00985" fbc:label="CLO1313_RS00985" fbc:name="CLO1313_RS00985"/>
+      <fbc:geneProduct fbc:id="G_CLO1313_RS05475" fbc:label="CLO1313_RS05475" fbc:name="CLO1313_RS05475"/>
+      <fbc:geneProduct fbc:id="G_CLO1313_RS01010" fbc:label="CLO1313_RS01010" fbc:name="CLO1313_RS01010"/>
       <fbc:geneProduct fbc:id="G_CLO1313_RS00990" fbc:label="CLO1313_RS00990" fbc:name="CLO1313_RS00990"/>
-      <fbc:geneProduct fbc:id="G_CLO1313_RS12610" fbc:label="CLO1313_RS12610" fbc:name="CLO1313_RS12610"/>
       <fbc:geneProduct fbc:id="G_CLO1313_RS12605" fbc:label="CLO1313_RS12605" fbc:name="CLO1313_RS12605"/>
+      <fbc:geneProduct fbc:id="G_CLO1313_RS12610" fbc:label="CLO1313_RS12610" fbc:name="CLO1313_RS12610"/>
       <fbc:geneProduct fbc:id="G_CLO1313_RS12600" fbc:label="CLO1313_RS12600" fbc:name="CLO1313_RS12600"/>
       <fbc:geneProduct fbc:id="G_CLO1313_RS12595" fbc:label="CLO1313_RS12595" fbc:name="CLO1313_RS12595"/>
-      <fbc:geneProduct fbc:id="G_CLO1313_RS09160" fbc:label="CLO1313_RS09160" fbc:name="CLO1313_RS09160"/>
       <fbc:geneProduct fbc:id="G_CLO1313_RS08680" fbc:label="CLO1313_RS08680" fbc:name="CLO1313_RS08680"/>
+      <fbc:geneProduct fbc:id="G_CLO1313_RS09160" fbc:label="CLO1313_RS09160" fbc:name="CLO1313_RS09160"/>
       <fbc:geneProduct fbc:id="G_s0001" fbc:label="s0001" fbc:name="s0001"/>
       <fbc:geneProduct fbc:id="G_CLO1313_RS06500" fbc:label="CLO1313_RS06500" fbc:name="CLO1313_RS06500"/>
       <fbc:geneProduct fbc:id="G_CLO1313_RS09110" fbc:label="CLO1313_RS09110" fbc:name="CLO1313_RS09110"/>
       <fbc:geneProduct fbc:id="G_CLO1313_RS03665" fbc:label="CLO1313_RS03665" fbc:name="CLO1313_RS03665"/>
       <fbc:geneProduct fbc:id="G_CLO1313_RS06445" fbc:label="CLO1313_RS06445" fbc:name="CLO1313_RS06445"/>
       <fbc:geneProduct fbc:id="G_unknown" fbc:label="unknown" fbc:name="unknown"/>
-      <fbc:geneProduct fbc:id="G_CLO1313_RS07925" fbc:label="CLO1313_RS07925" fbc:name="CLO1313_RS07925"/>
       <fbc:geneProduct fbc:id="G_CLO1313_RS11095" fbc:label="CLO1313_RS11095" fbc:name="CLO1313_RS11095"/>
-      <fbc:geneProduct fbc:id="G_CLO1313_RS10430" fbc:label="CLO1313_RS10430" fbc:name="CLO1313_RS10430"/>
+      <fbc:geneProduct fbc:id="G_CLO1313_RS07925" fbc:label="CLO1313_RS07925" fbc:name="CLO1313_RS07925"/>
       <fbc:geneProduct fbc:id="G_CLO1313_RS10995" fbc:label="CLO1313_RS10995" fbc:name="CLO1313_RS10995"/>
+      <fbc:geneProduct fbc:id="G_CLO1313_RS10430" fbc:label="CLO1313_RS10430" fbc:name="CLO1313_RS10430"/>
       <fbc:geneProduct fbc:id="G_CLO1313_RS06085" fbc:label="CLO1313_RS06085" fbc:name="CLO1313_RS06085"/>
       <fbc:geneProduct fbc:id="G_CLO1313_RS13255" fbc:label="CLO1313_RS13255" fbc:name="CLO1313_RS13255"/>
       <fbc:geneProduct fbc:id="G_CLO1313_RS01980" fbc:label="CLO1313_RS01980" fbc:name="CLO1313_RS01980"/>
       <fbc:geneProduct fbc:id="G_CLO1313_RS01770" fbc:label="CLO1313_RS01770" fbc:name="CLO1313_RS01770"/>
+      <fbc:geneProduct fbc:id="G_CLO1313_RS00605" fbc:label="CLO1313_RS00605" fbc:name="CLO1313_RS00605"/>
       <fbc:geneProduct fbc:id="G_CLO1313_RS00615" fbc:label="CLO1313_RS00615" fbc:name="CLO1313_RS00615"/>
       <fbc:geneProduct fbc:id="G_CLO1313_RS00610" fbc:label="CLO1313_RS00610" fbc:name="CLO1313_RS00610"/>
-      <fbc:geneProduct fbc:id="G_CLO1313_RS00605" fbc:label="CLO1313_RS00605" fbc:name="CLO1313_RS00605"/>
       <fbc:geneProduct fbc:id="G_CLO1313_RS02825" fbc:label="CLO1313_RS02825" fbc:name="CLO1313_RS02825"/>
       <fbc:geneProduct fbc:id="G_CLO1313_RS00440" fbc:label="CLO1313_RS00440" fbc:name="CLO1313_RS00440"/>
       <fbc:geneProduct fbc:id="G_CLO1313_RS15335" fbc:label="CLO1313_RS15335" fbc:name="CLO1313_RS15335"/>
       <fbc:geneProduct fbc:id="G_CLO1313_RS03530" fbc:label="CLO1313_RS03530" fbc:name="CLO1313_RS03530"/>
-      <fbc:geneProduct fbc:id="G_CLO1313_RS03545" fbc:label="CLO1313_RS03545" fbc:name="CLO1313_RS03545"/>
-      <fbc:geneProduct fbc:id="G_CLO1313_RS07895" fbc:label="CLO1313_RS07895" fbc:name="CLO1313_RS07895"/>
+      <fbc:geneProduct fbc:id="G_CLO1313_RS11010" fbc:label="CLO1313_RS11010" fbc:name="CLO1313_RS11010"/>
+      <fbc:geneProduct fbc:id="G_CLO1313_RS14960" fbc:label="CLO1313_RS14960" fbc:name="CLO1313_RS14960"/>
       <fbc:geneProduct fbc:id="G_CLO1313_RS00705" fbc:label="CLO1313_RS00705" fbc:name="CLO1313_RS00705"/>
-      <fbc:geneProduct fbc:id="G_CLO1313_RS09905" fbc:label="CLO1313_RS09905" fbc:name="CLO1313_RS09905"/>
-      <fbc:geneProduct fbc:id="G_CLO1313_RS14190" fbc:label="CLO1313_RS14190" fbc:name="CLO1313_RS14190"/>
+      <fbc:geneProduct fbc:id="G_CLO1313_RS02010" fbc:label="CLO1313_RS02010" fbc:name="CLO1313_RS02010"/>
+      <fbc:geneProduct fbc:id="G_CLO1313_RS14250" fbc:label="CLO1313_RS14250" fbc:name="CLO1313_RS14250"/>
+      <fbc:geneProduct fbc:id="G_CLO1313_RS02200" fbc:label="CLO1313_RS02200" fbc:name="CLO1313_RS02200"/>
+      <fbc:geneProduct fbc:id="G_CLO1313_RS03545" fbc:label="CLO1313_RS03545" fbc:name="CLO1313_RS03545"/>
       <fbc:geneProduct fbc:id="G_CLO1313_RS09925" fbc:label="CLO1313_RS09925" fbc:name="CLO1313_RS09925"/>
-      <fbc:geneProduct fbc:id="G_CLO1313_RS14345" fbc:label="CLO1313_RS14345" fbc:name="CLO1313_RS14345"/>
+      <fbc:geneProduct fbc:id="G_CLO1313_RS13020" fbc:label="CLO1313_RS13020" fbc:name="CLO1313_RS13020"/>
+      <fbc:geneProduct fbc:id="G_CLO1313_RS06605" fbc:label="CLO1313_RS06605" fbc:name="CLO1313_RS06605"/>
+      <fbc:geneProduct fbc:id="G_CLO1313_RS14190" fbc:label="CLO1313_RS14190" fbc:name="CLO1313_RS14190"/>
+      <fbc:geneProduct fbc:id="G_CLO1313_RS12460" fbc:label="CLO1313_RS12460" fbc:name="CLO1313_RS12460"/>
+      <fbc:geneProduct fbc:id="G_CLO1313_RS00915" fbc:label="CLO1313_RS00915" fbc:name="CLO1313_RS00915"/>
+      <fbc:geneProduct fbc:id="G_CLO1313_RS09905" fbc:label="CLO1313_RS09905" fbc:name="CLO1313_RS09905"/>
+      <fbc:geneProduct fbc:id="G_CLO1313_RS11085" fbc:label="CLO1313_RS11085" fbc:name="CLO1313_RS11085"/>
+      <fbc:geneProduct fbc:id="G_CLO1313_RS10750" fbc:label="CLO1313_RS10750" fbc:name="CLO1313_RS10750"/>
+      <fbc:geneProduct fbc:id="G_CLO1313_RS09190" fbc:label="CLO1313_RS09190" fbc:name="CLO1313_RS09190"/>
+      <fbc:geneProduct fbc:id="G_CLO1313_RS14195" fbc:label="CLO1313_RS14195" fbc:name="CLO1313_RS14195"/>
+      <fbc:geneProduct fbc:id="G_CLO1313_RS14110" fbc:label="CLO1313_RS14110" fbc:name="CLO1313_RS14110"/>
+      <fbc:geneProduct fbc:id="G_CLO1313_RS06630" fbc:label="CLO1313_RS06630" fbc:name="CLO1313_RS06630"/>
+      <fbc:geneProduct fbc:id="G_CLO1313_RS10065" fbc:label="CLO1313_RS10065" fbc:name="CLO1313_RS10065"/>
+      <fbc:geneProduct fbc:id="G_CLO1313_RS01780" fbc:label="CLO1313_RS01780" fbc:name="CLO1313_RS01780"/>
       <fbc:geneProduct fbc:id="G_CLO1313_RS11345" fbc:label="CLO1313_RS11345" fbc:name="CLO1313_RS11345"/>
       <fbc:geneProduct fbc:id="G_CLO1313_RS13665" fbc:label="CLO1313_RS13665" fbc:name="CLO1313_RS13665"/>
       <fbc:geneProduct fbc:id="G_CLO1313_RS09035" fbc:label="CLO1313_RS09035" fbc:name="CLO1313_RS09035"/>
-      <fbc:geneProduct fbc:id="G_CLO1313_RS10065" fbc:label="CLO1313_RS10065" fbc:name="CLO1313_RS10065"/>
-      <fbc:geneProduct fbc:id="G_CLO1313_RS11085" fbc:label="CLO1313_RS11085" fbc:name="CLO1313_RS11085"/>
-      <fbc:geneProduct fbc:id="G_CLO1313_RS11010" fbc:label="CLO1313_RS11010" fbc:name="CLO1313_RS11010"/>
-      <fbc:geneProduct fbc:id="G_CLO1313_RS14250" fbc:label="CLO1313_RS14250" fbc:name="CLO1313_RS14250"/>
-      <fbc:geneProduct fbc:id="G_CLO1313_RS06630" fbc:label="CLO1313_RS06630" fbc:name="CLO1313_RS06630"/>
-      <fbc:geneProduct fbc:id="G_CLO1313_RS00915" fbc:label="CLO1313_RS00915" fbc:name="CLO1313_RS00915"/>
-      <fbc:geneProduct fbc:id="G_CLO1313_RS01780" fbc:label="CLO1313_RS01780" fbc:name="CLO1313_RS01780"/>
-      <fbc:geneProduct fbc:id="G_CLO1313_RS02200" fbc:label="CLO1313_RS02200" fbc:name="CLO1313_RS02200"/>
-      <fbc:geneProduct fbc:id="G_CLO1313_RS13020" fbc:label="CLO1313_RS13020" fbc:name="CLO1313_RS13020"/>
-      <fbc:geneProduct fbc:id="G_CLO1313_RS14195" fbc:label="CLO1313_RS14195" fbc:name="CLO1313_RS14195"/>
-      <fbc:geneProduct fbc:id="G_CLO1313_RS09190" fbc:label="CLO1313_RS09190" fbc:name="CLO1313_RS09190"/>
-      <fbc:geneProduct fbc:id="G_CLO1313_RS10750" fbc:label="CLO1313_RS10750" fbc:name="CLO1313_RS10750"/>
-      <fbc:geneProduct fbc:id="G_CLO1313_RS14960" fbc:label="CLO1313_RS14960" fbc:name="CLO1313_RS14960"/>
-      <fbc:geneProduct fbc:id="G_CLO1313_RS14110" fbc:label="CLO1313_RS14110" fbc:name="CLO1313_RS14110"/>
-      <fbc:geneProduct fbc:id="G_CLO1313_RS02010" fbc:label="CLO1313_RS02010" fbc:name="CLO1313_RS02010"/>
-      <fbc:geneProduct fbc:id="G_CLO1313_RS12460" fbc:label="CLO1313_RS12460" fbc:name="CLO1313_RS12460"/>
+      <fbc:geneProduct fbc:id="G_CLO1313_RS14345" fbc:label="CLO1313_RS14345" fbc:name="CLO1313_RS14345"/>
+      <fbc:geneProduct fbc:id="G_CLO1313_RS07895" fbc:label="CLO1313_RS07895" fbc:name="CLO1313_RS07895"/>
       <fbc:geneProduct fbc:id="G_CLO1313_RS02120" fbc:label="CLO1313_RS02120" fbc:name="CLO1313_RS02120"/>
-      <fbc:geneProduct fbc:id="G_CLO1313_RS06605" fbc:label="CLO1313_RS06605" fbc:name="CLO1313_RS06605"/>
       <fbc:geneProduct fbc:id="G_CLO1313_RS15000" fbc:label="CLO1313_RS15000" fbc:name="CLO1313_RS15000"/>
     </fbc:listOfGeneProducts>
     <listOfReactions>
@@ -20397,14 +20397,14 @@
           <fbc:geneProductRef fbc:geneProduct="G_CLO1313_RS09480"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction fast="false" id="R_PFK_3" reversible="false" name="Phosphofructokinase (s7p)" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
+      <reaction fast="false" id="R_PFK3_ppi" reversible="false" name="Phosphofructokinase (s7p)" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
         <listOfReactants>
-          <speciesReference constant="true" species="M_atp_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_ppi_c" stoichiometry="1"/>
           <speciesReference constant="true" species="M_s7p_c" stoichiometry="1"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference constant="true" species="M_adp_c" stoichiometry="1"/>
           <speciesReference constant="true" species="M_h_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_pi_c" stoichiometry="1"/>
           <speciesReference constant="true" species="M_s17bp_c" stoichiometry="1"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
@@ -21417,7 +21417,7 @@
           <speciesReference constant="true" species="M_arg__L_c" stoichiometry="0.137318628575553"/>
           <speciesReference constant="true" species="M_asn__L_c" stoichiometry="0.215131020358229"/>
           <speciesReference constant="true" species="M_asp__L_c" stoichiometry="0.221707090346292"/>
-          <speciesReference constant="true" species="M_atp_c" stoichiometry="63.2637018414"/>
+          <speciesReference constant="true" species="M_atp_c" stoichiometry="63.2637018414416"/>
           <speciesReference constant="true" species="M_ca2_c" stoichiometry="0.0043097597481671"/>
           <speciesReference constant="true" species="M_cdp_c" stoichiometry="0.000647759481187439"/>
           <speciesReference constant="true" species="M_clpn_gen_c" stoichiometry="0.00039862121919227"/>
@@ -21439,7 +21439,7 @@
           <speciesReference constant="true" species="M_glygly_tea_c" stoichiometry="0.00158750900543322"/>
           <speciesReference constant="true" species="M_gmp_c" stoichiometry="0.00131711094508113"/>
           <speciesReference constant="true" species="M_gtp_c" stoichiometry="0.0235934808278765"/>
-          <speciesReference constant="true" species="M_h2o_c" stoichiometry="63.2637018414"/>
+          <speciesReference constant="true" species="M_h2o_c" stoichiometry="63.2637018414416"/>
           <speciesReference constant="true" species="M_his__L_c" stoichiometry="0.0506300524365263"/>
           <speciesReference constant="true" species="M_ile__L_c" stoichiometry="0.269338479694671"/>
           <speciesReference constant="true" species="M_k_c" stoichiometry="0.949831319247849"/>
@@ -21467,9 +21467,9 @@
           <speciesReference constant="true" species="M_val__L_c" stoichiometry="0.244798360888147"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference constant="true" species="M_adp_c" stoichiometry="63.2637018414"/>
-          <speciesReference constant="true" species="M_h_c" stoichiometry="63.2637018414"/>
-          <speciesReference constant="true" species="M_pi_c" stoichiometry="63.2637018414"/>
+          <speciesReference constant="true" species="M_adp_c" stoichiometry="63.2637018414416"/>
+          <speciesReference constant="true" species="M_h_c" stoichiometry="63.2637018414416"/>
+          <speciesReference constant="true" species="M_pi_c" stoichiometry="63.2637018414416"/>
           <speciesReference constant="true" species="M_ppi_c" stoichiometry="0.161679857368271"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
@@ -21568,7 +21568,7 @@
           <speciesReference constant="true" species="M_arg__L_c" stoichiometry="0.152834432829489"/>
           <speciesReference constant="true" species="M_asn__L_c" stoichiometry="0.19337686956005"/>
           <speciesReference constant="true" species="M_asp__L_c" stoichiometry="0.203565776332897"/>
-          <speciesReference constant="true" species="M_atp_c" stoichiometry="63.2637018414"/>
+          <speciesReference constant="true" species="M_atp_c" stoichiometry="63.2637018414416"/>
           <speciesReference constant="true" species="M_ca2_c" stoichiometry="0.00431378642200049"/>
           <speciesReference constant="true" species="M_cdp_c" stoichiometry="0.000648364692685445"/>
           <speciesReference constant="true" species="M_clpn_gen_c" stoichiometry="0.000398993657037197"/>
@@ -21590,7 +21590,7 @@
           <speciesReference constant="true" species="M_glygly_tea_c" stoichiometry="0.00158899223915064"/>
           <speciesReference constant="true" species="M_gmp_c" stoichiometry="0.00131834154179374"/>
           <speciesReference constant="true" species="M_gtp_c" stoichiometry="0.0236155245744981"/>
-          <speciesReference constant="true" species="M_h2o_c" stoichiometry="63.2637018414"/>
+          <speciesReference constant="true" species="M_h2o_c" stoichiometry="63.2637018414416"/>
           <speciesReference constant="true" species="M_his__L_c" stoichiometry="0.0505986081135555"/>
           <speciesReference constant="true" species="M_ile__L_c" stoichiometry="0.297230937300123"/>
           <speciesReference constant="true" species="M_k_c" stoichiometry="0.950718761041091"/>
@@ -21618,9 +21618,9 @@
           <speciesReference constant="true" species="M_val__L_c" stoichiometry="0.251074983559902"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference constant="true" species="M_adp_c" stoichiometry="63.2637018414"/>
-          <speciesReference constant="true" species="M_h_c" stoichiometry="63.2637018414"/>
-          <speciesReference constant="true" species="M_pi_c" stoichiometry="63.2637018414"/>
+          <speciesReference constant="true" species="M_adp_c" stoichiometry="63.2637018414416"/>
+          <speciesReference constant="true" species="M_h_c" stoichiometry="63.2637018414416"/>
+          <speciesReference constant="true" species="M_pi_c" stoichiometry="63.2637018414416"/>
           <speciesReference constant="true" species="M_ppi_c" stoichiometry="0.161830917308754"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
