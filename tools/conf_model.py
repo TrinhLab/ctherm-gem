@@ -10,7 +10,7 @@ import settings
 
 
 
-def set_experimental_data(model, dataset_index, constraint_mode,apply_knockouts=True, flux_dataset_path=settings.EXTRACELLULAR_FLUX_DATA, secretion='all'):
+def set_experimental_data(model, dataset_index, constraint_mode, reactor_type='batch', apply_knockouts=True, flux_dataset_path=settings.EXTRACELLULAR_FLUX_DATA, secretion='all'):
 
     #if full_dataset is None:
     df = pd.read_csv(flux_dataset_path)
@@ -24,7 +24,7 @@ def set_experimental_data(model, dataset_index, constraint_mode,apply_knockouts=
         if isinstance(row['deleted_genes'], str):
             knock_out_genes(model, row['deleted_genes'])
 
-    bof_id = set_conditions(model, row['Medium'], secretion)
+    bof_id = set_conditions(model, row['Medium'], secretion, reactor_type)
     set_experimental_flux_reaction_bounds(row, bof_id, model, constraint_mode)
 
 
@@ -270,9 +270,9 @@ def set_atp_param(model, medium_id, bof_id, reactor_type='batch'):
     param = pd.read_csv(os.path.join(settings.MEDIA_ROOT, 'atp_param.csv'))
     param = param.set_index('parameter')
 
-    if reactor_type == 'batch':
+    if reactor_type.lower() == 'batch':
         p = param['batch']
-    elif reactor_type == 'chemostat':
+    elif reactor_type.lower() == 'chemostat':
         if 'cellulose' in medium_id:
             p = param['cellulose_chemostat']
         elif 'cellobiose' in medium_id:
