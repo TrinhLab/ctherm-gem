@@ -1,5 +1,5 @@
 """
-Explores the kbase draft to see if any metabolic gese are present which are not present in iSG3
+Explores the kbase draft to see if any metabolic genes are present which are not present in iSG3
 """
 
 import os
