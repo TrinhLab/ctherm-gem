@@ -21,7 +21,7 @@
       <parameter constant="true" id="cobra_default_lb" sboTerm="SBO:0000626" units="mmol_per_gDW_per_hr" value="-1000"/>
       <parameter constant="true" id="cobra_default_ub" sboTerm="SBO:0000626" units="mmol_per_gDW_per_hr" value="1000"/>
       <parameter constant="true" id="cobra_0_bound" sboTerm="SBO:0000626" units="mmol_per_gDW_per_hr" value="0"/>
-      <parameter constant="true" id="R_ATPM_lower_bound" sboTerm="SBO:0000625" units="mmol_per_gDW_per_hr" value="1.09707756493434"/>
+      <parameter constant="true" id="R_ATPM_lower_bound" sboTerm="SBO:0000625" units="mmol_per_gDW_per_hr" value="2.57383288275"/>
       <parameter constant="true" id="R_EX_glceq_e_lower_bound" sboTerm="SBO:0000625" units="mmol_per_gDW_per_hr" value="-6"/>
     </listOfParameters>
     <listOfCompartments>
@@ -21417,7 +21417,7 @@
           <speciesReference constant="true" species="M_arg__L_c" stoichiometry="0.137318628575553"/>
           <speciesReference constant="true" species="M_asn__L_c" stoichiometry="0.215131020358229"/>
           <speciesReference constant="true" species="M_asp__L_c" stoichiometry="0.221707090346292"/>
-          <speciesReference constant="true" species="M_atp_c" stoichiometry="63.2637018414416"/>
+          <speciesReference constant="true" species="M_atp_c" stoichiometry="59.8313047366"/>
           <speciesReference constant="true" species="M_ca2_c" stoichiometry="0.0043097597481671"/>
           <speciesReference constant="true" species="M_cdp_c" stoichiometry="0.000647759481187439"/>
           <speciesReference constant="true" species="M_clpn_gen_c" stoichiometry="0.00039862121919227"/>
@@ -21439,7 +21439,7 @@
           <speciesReference constant="true" species="M_glygly_tea_c" stoichiometry="0.00158750900543322"/>
           <speciesReference constant="true" species="M_gmp_c" stoichiometry="0.00131711094508113"/>
           <speciesReference constant="true" species="M_gtp_c" stoichiometry="0.0235934808278765"/>
-          <speciesReference constant="true" species="M_h2o_c" stoichiometry="63.2637018414416"/>
+          <speciesReference constant="true" species="M_h2o_c" stoichiometry="59.8313047366"/>
           <speciesReference constant="true" species="M_his__L_c" stoichiometry="0.0506300524365263"/>
           <speciesReference constant="true" species="M_ile__L_c" stoichiometry="0.269338479694671"/>
           <speciesReference constant="true" species="M_k_c" stoichiometry="0.949831319247849"/>
@@ -21467,9 +21467,9 @@
           <speciesReference constant="true" species="M_val__L_c" stoichiometry="0.244798360888147"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference constant="true" species="M_adp_c" stoichiometry="63.2637018414416"/>
-          <speciesReference constant="true" species="M_h_c" stoichiometry="63.2637018414416"/>
-          <speciesReference constant="true" species="M_pi_c" stoichiometry="63.2637018414416"/>
+          <speciesReference constant="true" species="M_adp_c" stoichiometry="59.8313047366"/>
+          <speciesReference constant="true" species="M_h_c" stoichiometry="59.8313047366"/>
+          <speciesReference constant="true" species="M_pi_c" stoichiometry="59.8313047366"/>
           <speciesReference constant="true" species="M_ppi_c" stoichiometry="0.161679857368271"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
@@ -21568,7 +21568,7 @@
           <speciesReference constant="true" species="M_arg__L_c" stoichiometry="0.152834432829489"/>
           <speciesReference constant="true" species="M_asn__L_c" stoichiometry="0.19337686956005"/>
           <speciesReference constant="true" species="M_asp__L_c" stoichiometry="0.203565776332897"/>
-          <speciesReference constant="true" species="M_atp_c" stoichiometry="63.2637018414416"/>
+          <speciesReference constant="true" species="M_atp_c" stoichiometry="59.8313047366"/>
           <speciesReference constant="true" species="M_ca2_c" stoichiometry="0.00431378642200049"/>
           <speciesReference constant="true" species="M_cdp_c" stoichiometry="0.000648364692685445"/>
           <speciesReference constant="true" species="M_clpn_gen_c" stoichiometry="0.000398993657037197"/>
@@ -21590,7 +21590,7 @@
           <speciesReference constant="true" species="M_glygly_tea_c" stoichiometry="0.00158899223915064"/>
           <speciesReference constant="true" species="M_gmp_c" stoichiometry="0.00131834154179374"/>
           <speciesReference constant="true" species="M_gtp_c" stoichiometry="0.0236155245744981"/>
-          <speciesReference constant="true" species="M_h2o_c" stoichiometry="63.2637018414416"/>
+          <speciesReference constant="true" species="M_h2o_c" stoichiometry="59.8313047366"/>
           <speciesReference constant="true" species="M_his__L_c" stoichiometry="0.0505986081135555"/>
           <speciesReference constant="true" species="M_ile__L_c" stoichiometry="0.297230937300123"/>
           <speciesReference constant="true" species="M_k_c" stoichiometry="0.950718761041091"/>
@@ -21618,9 +21618,9 @@
           <speciesReference constant="true" species="M_val__L_c" stoichiometry="0.251074983559902"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference constant="true" species="M_adp_c" stoichiometry="63.2637018414416"/>
-          <speciesReference constant="true" species="M_h_c" stoichiometry="63.2637018414416"/>
-          <speciesReference constant="true" species="M_pi_c" stoichiometry="63.2637018414416"/>
+          <speciesReference constant="true" species="M_adp_c" stoichiometry="59.8313047366"/>
+          <speciesReference constant="true" species="M_h_c" stoichiometry="59.8313047366"/>
+          <speciesReference constant="true" species="M_pi_c" stoichiometry="59.8313047366"/>
           <speciesReference constant="true" species="M_ppi_c" stoichiometry="0.161830917308754"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
