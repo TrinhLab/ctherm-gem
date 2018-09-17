@@ -12,7 +12,7 @@ blockedReactions = findBlockedReaction(model);
 assert(length(blockedReactions) == expected_blocked)
 
 % Knockout phenotype
-max_expected_growth_frac = 0.21;
+max_expected_growth_frac = 0.20;
 
 s = optimizeCbModel(model);
 wt_gr = s.f;
