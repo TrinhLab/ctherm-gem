@@ -1,3 +1,8 @@
+# Files in this directory
+## Models
+- iCBI676.xml, corresponds to the model as downloaded from KBase in 10/3/2018
+- The remaning models are generated from the notebook steps, which are executed in the order indicated by their file name. 
+
 # Consesus model
 The consensus model, iCBI676, was constructed from iSG676 with the following changes:
 - ACS is not blocked
