@@ -1,0 +1,1 @@
+Generate a table comparing previous genome scale models of C. therm. Also includes latest E. coli model as a references. 
