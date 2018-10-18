@@ -4,11 +4,7 @@
 - The remaning models are generated from the notebook steps, which are executed in the order indicated by their file name. 
 ## Notebooks 
 These are executed sequentially to obtain the final model.
-## ID mapping
-Since KBase must use MS ids for metabolites these must be mapped backed into the bigg-based ids used in iSG. Thus several mapping tables are included. 
 
-- compund.tsv is a reduced version (less columns) of the modelSEED/KBase compound database. Used to map the modelSEED ids to BiGG IDs
-- bigg2ms_{met,rxn}.csv  is a manually extended version of the output of 0_create_id_map.ipynb (bigg2ms_{met,rxn}_raw.csv)
 
 # Consesus model
 The consensus model, iCBI676.xml, was constructed from iSG676 with the following changes:
