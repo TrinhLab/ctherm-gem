@@ -11,7 +11,7 @@ import cobra as cb
 def get_ms2bigg_met():
     # Metabolite map between and modelSEED ids and BiGG ids.
     ms2bigg = {}
-    with open(os.path.join(PROJECT_ROOT, 'iCBI', 'bigg2ms_met.csv'), 'r') as f:
+    with open(os.path.join(PROJECT_ROOT, 'iCBI', 'id_map', 'bigg2ms_met.csv'), 'r') as f:
         reader = csv.DictReader(f)
         for row in reader:
             ms2bigg[row['ms']] = row['bigg']
@@ -21,7 +21,7 @@ def get_ms2bigg_met():
 def get_ms2bigg_rxn():
     # Reaction map between and modelSEED ids and BiGG ids.
     ms2bigg = {}
-    with open(os.path.join(PROJECT_ROOT, 'iCBI', 'bigg2ms_rxn.csv'), 'r') as f:
+    with open(os.path.join(PROJECT_ROOT, 'iCBI', 'id_map', 'bigg2ms_rxn.csv'), 'r') as f:
         reader = csv.DictReader(f)
         for row in reader:
             ms2bigg[row['ms']] = row['bigg']
