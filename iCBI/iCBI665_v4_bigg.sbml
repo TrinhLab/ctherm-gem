@@ -21,7 +21,7 @@
       <parameter constant="true" id="cobra_default_lb" sboTerm="SBO:0000626" units="mmol_per_gDW_per_hr" value="-1000"/>
       <parameter constant="true" id="cobra_default_ub" sboTerm="SBO:0000626" units="mmol_per_gDW_per_hr" value="1000"/>
       <parameter constant="true" id="cobra_0_bound" sboTerm="SBO:0000626" units="mmol_per_gDW_per_hr" value="0"/>
-      <parameter constant="true" id="R_ATPM_lower_bound" sboTerm="SBO:0000625" units="mmol_per_gDW_per_hr" value="1.96466029060555"/>
+      <parameter constant="true" id="R_EX_cellb_e_upper_bound" sboTerm="SBO:0000625" units="mmol_per_gDW_per_hr" value="-4"/>
       <parameter constant="true" id="R_EX_cellb_e_lower_bound" sboTerm="SBO:0000625" units="mmol_per_gDW_per_hr" value="-4"/>
     </listOfParameters>
     <listOfCompartments>
@@ -11857,7 +11857,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_U"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction fast="false" id="R_ATPM" reversible="false" name="ATP_phosphohydrolase_c0" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="R_ATPM_lower_bound">
+      <reaction fast="false" id="R_ATPM" reversible="false" name="ATP_phosphohydrolase_c0" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
         <listOfReactants>
           <speciesReference constant="true" species="M_atp_c" stoichiometry="1"/>
           <speciesReference constant="true" species="M_h2o_c" stoichiometry="1"/>
@@ -13078,7 +13078,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_CLO1313_RS09095"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction fast="false" id="R_EX_ppoh_e" reversible="false" name="CustomReaction_e0" fbc:upperFluxBound="cobra_0_bound" fbc:lowerFluxBound="cobra_0_bound">
+      <reaction fast="false" id="R_EX_ppoh_e" reversible="false" name="CustomReaction_e0" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
         <listOfReactants>
           <speciesReference constant="true" species="M_ppoh_c" stoichiometry="1"/>
         </listOfReactants>
@@ -13127,7 +13127,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_CLO1313_RS09095"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction fast="false" id="R_EX_2mbtoh_e" reversible="false" name="CustomReaction_e0" fbc:upperFluxBound="cobra_0_bound" fbc:lowerFluxBound="cobra_0_bound">
+      <reaction fast="false" id="R_EX_2mbtoh_e" reversible="false" name="CustomReaction_e0" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
         <listOfReactants>
           <speciesReference constant="true" species="M_2mbtoh_c" stoichiometry="1"/>
         </listOfReactants>
@@ -13162,7 +13162,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_CLO1313_RS09095"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction fast="false" id="R_EX_3mboh_e" reversible="false" name="CustomReaction_e0" fbc:upperFluxBound="cobra_0_bound" fbc:lowerFluxBound="cobra_0_bound">
+      <reaction fast="false" id="R_EX_3mboh_e" reversible="false" name="CustomReaction_e0" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
         <listOfReactants>
           <speciesReference constant="true" species="M_iamoh_c" stoichiometry="1"/>
         </listOfReactants>
@@ -13337,7 +13337,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_CLO1313_RS03530"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction fast="false" id="R_EX_cit_e" reversible="false" name="CustomReaction_e0" fbc:upperFluxBound="cobra_0_bound" fbc:lowerFluxBound="cobra_0_bound">
+      <reaction fast="false" id="R_EX_cit_e" reversible="false" name="CustomReaction_e0" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
         <listOfReactants>
           <speciesReference constant="true" species="M_cit_c" stoichiometry="1"/>
         </listOfReactants>
@@ -13358,7 +13358,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_U"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction fast="false" id="R_EX_g1p_e" reversible="false" name="CustomReaction_e0" fbc:upperFluxBound="cobra_0_bound" fbc:lowerFluxBound="cobra_0_bound">
+      <reaction fast="false" id="R_EX_g1p_e" reversible="false" name="CustomReaction_e0" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
         <listOfReactants>
           <speciesReference constant="true" species="M_g1p_c" stoichiometry="1"/>
         </listOfReactants>
@@ -13380,7 +13380,7 @@
           <fbc:geneProductRef fbc:geneProduct="G_U"/>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction fast="false" id="R_BIOMASS_CELLULOSE" reversible="false" name="CustomReaction_c0" fbc:upperFluxBound="cobra_0_bound" fbc:lowerFluxBound="cobra_0_bound">
+      <reaction fast="false" id="R_BIOMASS_CELLULOSE" reversible="false" name="CustomReaction_c0" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
         <listOfReactants>
           <speciesReference constant="true" species="M_3g12dgr_SA2_c" stoichiometry="0.00748743523382814"/>
           <speciesReference constant="true" species="M_ala__L_c" stoichiometry="0.237768553303984"/>
@@ -13523,7 +13523,7 @@
           <speciesReference constant="true" species="M_arg__L_c" stoichiometry="0.152834432829489"/>
           <speciesReference constant="true" species="M_asn__L_c" stoichiometry="0.19337686956005"/>
           <speciesReference constant="true" species="M_asp__L_c" stoichiometry="0.203565776332897"/>
-          <speciesReference constant="true" species="M_atp_c" stoichiometry="64.6444792184998"/>
+          <speciesReference constant="true" species="M_atp_c" stoichiometry="27.72660887039"/>
           <speciesReference constant="true" species="M_ca2_c" stoichiometry="0.00431378642200049"/>
           <speciesReference constant="true" species="M_cdp_c" stoichiometry="0.000648364692685445"/>
           <speciesReference constant="true" species="M_clpn_SC_c" stoichiometry="0.000398993657037197"/>
@@ -13551,7 +13551,7 @@
           <speciesReference constant="true" species="M_gly_c" stoichiometry="0.238689992949084"/>
           <speciesReference constant="true" species="M_gmp_c" stoichiometry="0.00131834154179374"/>
           <speciesReference constant="true" species="M_gtp_c" stoichiometry="0.0236155245744981"/>
-          <speciesReference constant="true" species="M_h2o_c" stoichiometry="64.6444792184998"/>
+          <speciesReference constant="true" species="M_h2o_c" stoichiometry="27.72660887039"/>
           <speciesReference constant="true" species="M_his__L_c" stoichiometry="0.0505986081135555"/>
           <speciesReference constant="true" species="M_ile__L_c" stoichiometry="0.297230937300123"/>
           <speciesReference constant="true" species="M_k_c" stoichiometry="0.950718761041091"/>
@@ -13575,9 +13575,9 @@
           <speciesReference constant="true" species="M_val__L_c" stoichiometry="0.251074983559902"/>
         </listOfReactants>
         <listOfProducts>
-          <speciesReference constant="true" species="M_adp_c" stoichiometry="64.6444792184998"/>
-          <speciesReference constant="true" species="M_h_c" stoichiometry="64.6444792184998"/>
-          <speciesReference constant="true" species="M_pi_c" stoichiometry="64.6444792184998"/>
+          <speciesReference constant="true" species="M_adp_c" stoichiometry="27.72660887039"/>
+          <speciesReference constant="true" species="M_h_c" stoichiometry="27.72660887039"/>
+          <speciesReference constant="true" species="M_pi_c" stoichiometry="27.72660887039"/>
           <speciesReference constant="true" species="M_ppi_c" stoichiometry="0.161830917308754"/>
         </listOfProducts>
         <fbc:geneProductAssociation>
@@ -13650,7 +13650,7 @@
           </fbc:or>
         </fbc:geneProductAssociation>
       </reaction>
-      <reaction fast="false" id="R_BIOMASS_NO_CELLULOSOME" reversible="false" name="CustomReaction_c0" fbc:upperFluxBound="cobra_0_bound" fbc:lowerFluxBound="cobra_0_bound">
+      <reaction fast="false" id="R_BIOMASS_NO_CELLULOSOME" reversible="false" name="CustomReaction_c0" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
         <listOfReactants>
           <speciesReference constant="true" species="M_3g12dgr_SA2_c" stoichiometry="0.00749520895660359"/>
           <speciesReference constant="true" species="M_ala__L_c" stoichiometry="0.225781837571386"/>
@@ -13719,12 +13719,79 @@
           <fbc:geneProductRef fbc:geneProduct="G_U"/>
         </fbc:geneProductAssociation>
       </reaction>
+      <reaction fast="false" id="R_bio1" reversible="false" name="Biomass" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
+        <listOfReactants>
+          <speciesReference constant="true" species="M_3g12dgr_SA2_c" stoichiometry="0.00749443085801535"/>
+          <speciesReference constant="true" species="M_ala__L_c" stoichiometry="0.226981629081658"/>
+          <speciesReference constant="true" species="M_amp_c" stoichiometry="0.0116446298806306"/>
+          <speciesReference constant="true" species="M_arg__L_c" stoichiometry="0.152834432829489"/>
+          <speciesReference constant="true" species="M_asn__L_c" stoichiometry="0.19337686956005"/>
+          <speciesReference constant="true" species="M_asp__L_c" stoichiometry="0.203565776332897"/>
+          <speciesReference constant="true" species="M_atp_c" stoichiometry="27.72660887039"/>
+          <speciesReference constant="true" species="M_ca2_c" stoichiometry="0.00431378642200049"/>
+          <speciesReference constant="true" species="M_cdp_c" stoichiometry="0.000648364692685445"/>
+          <speciesReference constant="true" species="M_clpn_SC_c" stoichiometry="0.000398993657037197"/>
+          <speciesReference constant="true" species="M_cmp_c" stoichiometry="0.00255887932046522"/>
+          <speciesReference constant="true" species="M_cpd11428_c" stoichiometry="0.00966229639458412"/>
+          <speciesReference constant="true" species="M_cpd11442_c" stoichiometry="0.00315836729016361"/>
+          <speciesReference constant="true" species="M_cpd11443_c" stoichiometry="0.00364879699360517"/>
+          <speciesReference constant="true" species="M_cpd11445_c" stoichiometry="0.000598490485555795"/>
+          <speciesReference constant="true" species="M_cpd11446_c" stoichiometry="0.000534651500429844"/>
+          <speciesReference constant="true" species="M_cpd11447_c" stoichiometry="0.00159065471272163"/>
+          <speciesReference constant="true" species="M_cpd11448_c" stoichiometry="0.00128475957565977"/>
+          <speciesReference constant="true" species="M_cpd11452_c" stoichiometry="0.089081651333124"/>
+          <speciesReference constant="true" species="M_cpd11458_c" stoichiometry="0.00580535770989122"/>
+          <speciesReference constant="true" species="M_cpd12556_c" stoichiometry="0.00190186976521064"/>
+          <speciesReference constant="true" species="M_ctp_c" stoichiometry="0.0240139232409941"/>
+          <speciesReference constant="true" species="M_cys__L_c" stoichiometry="0.0410739907802319"/>
+          <speciesReference constant="true" species="M_datp_c" stoichiometry="0.0151967584110132"/>
+          <speciesReference constant="true" species="M_dctp_c" stoichiometry="0.00837186690906119"/>
+          <speciesReference constant="true" species="M_dgtp_c" stoichiometry="0.00837186690906119"/>
+          <speciesReference constant="true" species="M_dttp_c" stoichiometry="0.0151967584110132"/>
+          <speciesReference constant="true" species="M_fe3_c" stoichiometry="0.00463796876834322"/>
+          <speciesReference constant="true" species="M_gdp_c" stoichiometry="0.000492757166440938"/>
+          <speciesReference constant="true" species="M_gln__L_c" stoichiometry="0.0907475198501415"/>
+          <speciesReference constant="true" species="M_glu__L_c" stoichiometry="0.267038054788532"/>
+          <speciesReference constant="true" species="M_gly_c" stoichiometry="0.238689992949084"/>
+          <speciesReference constant="true" species="M_gmp_c" stoichiometry="0.00131834154179374"/>
+          <speciesReference constant="true" species="M_gtp_c" stoichiometry="0.0236155245744981"/>
+          <speciesReference constant="true" species="M_h2o_c" stoichiometry="27.72660887039"/>
+          <speciesReference constant="true" species="M_his__L_c" stoichiometry="0.0505986081135555"/>
+          <speciesReference constant="true" species="M_ile__L_c" stoichiometry="0.297230937300123"/>
+          <speciesReference constant="true" species="M_k_c" stoichiometry="0.950718761041091"/>
+          <speciesReference constant="true" species="M_leu__L_c" stoichiometry="0.30404751643422"/>
+          <speciesReference constant="true" species="M_lys__L_c" stoichiometry="0.283396269735403"/>
+          <speciesReference constant="true" species="M_met__L_c" stoichiometry="0.088041844113358"/>
+          <speciesReference constant="true" species="M_mg2_c" stoichiometry="0.136964880114158"/>
+          <speciesReference constant="true" species="M_nad_c" stoichiometry="0.0403931203543032"/>
+          <speciesReference constant="true" species="M_nadp_c" stoichiometry="0.023341128936676"/>
+          <speciesReference constant="true" species="M_nadph_c" stoichiometry="0.000523014185432926"/>
+          <speciesReference constant="true" species="M_pg_SC_c" stoichiometry="0.0154610042101914"/>
+          <speciesReference constant="true" species="M_phe__L_c" stoichiometry="0.149324601126697"/>
+          <speciesReference constant="true" species="M_pro__L_c" stoichiometry="0.123899561568787"/>
+          <speciesReference constant="true" species="M_psetha_BS_c" stoichiometry="0.0491959179126864"/>
+          <speciesReference constant="true" species="M_ser__L_c" stoichiometry="0.214473177933542"/>
+          <speciesReference constant="true" species="M_tcam_c" stoichiometry="0.00272678915113504"/>
+          <speciesReference constant="true" species="M_thr__L_c" stoichiometry="0.181493989716975"/>
+          <speciesReference constant="true" species="M_trp__L_c" stoichiometry="0.0331727351396739"/>
+          <speciesReference constant="true" species="M_tyr__L_c" stoichiometry="0.149596153059727"/>
+          <speciesReference constant="true" species="M_utp_c" stoichiometry="0.0354242930957506"/>
+          <speciesReference constant="true" species="M_val__L_c" stoichiometry="0.251074983559902"/>
+        </listOfReactants>
+        <listOfProducts>
+          <speciesReference constant="true" species="M_adp_c" stoichiometry="27.72660887039"/>
+          <speciesReference constant="true" species="M_biomass_c" stoichiometry="1"/>
+          <speciesReference constant="true" species="M_h_c" stoichiometry="27.72660887039"/>
+          <speciesReference constant="true" species="M_pi_c" stoichiometry="27.72660887039"/>
+          <speciesReference constant="true" species="M_ppi_c" stoichiometry="0.161830917308754"/>
+        </listOfProducts>
+      </reaction>
       <reaction fast="false" id="R_EX_h_e" reversible="true" name="EX_H_plus__e0" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
         <listOfReactants>
           <speciesReference constant="true" species="M_h_e" stoichiometry="1"/>
         </listOfReactants>
       </reaction>
-      <reaction fast="false" id="R_EX_cpd02701_c0" reversible="false" name="EX_S_Adenosyl_4_methylthio_2_oxobutanoate_c0" fbc:upperFluxBound="cobra_0_bound" fbc:lowerFluxBound="cobra_0_bound">
+      <reaction fast="false" id="R_EX_cpd02701_c0" reversible="false" name="EX_S_Adenosyl_4_methylthio_2_oxobutanoate_c0" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
         <listOfReactants>
           <speciesReference constant="true" species="M_amob_c" stoichiometry="1"/>
         </listOfReactants>
@@ -13744,32 +13811,32 @@
           <speciesReference constant="true" species="M_co2_e" stoichiometry="1"/>
         </listOfReactants>
       </reaction>
-      <reaction fast="false" id="R_EX_cellb_e" reversible="true" name="EX_CELB_e0" fbc:upperFluxBound="cobra_0_bound" fbc:lowerFluxBound="R_EX_cellb_e_lower_bound">
+      <reaction fast="false" id="R_EX_cellb_e" reversible="true" name="EX_CELB_e0" fbc:upperFluxBound="R_EX_cellb_e_upper_bound" fbc:lowerFluxBound="R_EX_cellb_e_lower_bound">
         <listOfReactants>
           <speciesReference constant="true" species="M_cellb_e" stoichiometry="1"/>
         </listOfReactants>
       </reaction>
-      <reaction fast="false" id="R_EX_cell3_e" reversible="false" name="EX_Cellotriose_e0" fbc:upperFluxBound="cobra_0_bound" fbc:lowerFluxBound="cobra_0_bound">
+      <reaction fast="false" id="R_EX_cell3_e" reversible="false" name="EX_Cellotriose_e0" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
         <listOfReactants>
           <speciesReference constant="true" species="M_cell3_e" stoichiometry="1"/>
         </listOfReactants>
       </reaction>
-      <reaction fast="false" id="R_EX_cell4_e" reversible="false" name="EX_Cellotetraose_e0" fbc:upperFluxBound="cobra_0_bound" fbc:lowerFluxBound="cobra_0_bound">
+      <reaction fast="false" id="R_EX_cell4_e" reversible="false" name="EX_Cellotetraose_e0" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
         <listOfReactants>
           <speciesReference constant="true" species="M_cell4_e" stoichiometry="1"/>
         </listOfReactants>
       </reaction>
-      <reaction fast="false" id="R_EX_cell5_e" reversible="false" name="EX_Cellopentaose_e0" fbc:upperFluxBound="cobra_0_bound" fbc:lowerFluxBound="cobra_0_bound">
+      <reaction fast="false" id="R_EX_cell5_e" reversible="false" name="EX_Cellopentaose_e0" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
         <listOfReactants>
           <speciesReference constant="true" species="M_cell5_e" stoichiometry="1"/>
         </listOfReactants>
       </reaction>
-      <reaction fast="false" id="R_EX_cell6_e" reversible="false" name="EX_Cellohexaose_e0" fbc:upperFluxBound="cobra_0_bound" fbc:lowerFluxBound="cobra_0_bound">
+      <reaction fast="false" id="R_EX_cell6_e" reversible="false" name="EX_Cellohexaose_e0" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
         <listOfReactants>
           <speciesReference constant="true" species="M_cell6_e" stoichiometry="1"/>
         </listOfReactants>
       </reaction>
-      <reaction fast="false" id="R_EX_urea_e" reversible="false" name="EX_Urea_e0" fbc:upperFluxBound="cobra_0_bound" fbc:lowerFluxBound="cobra_0_bound">
+      <reaction fast="false" id="R_EX_urea_e" reversible="true" name="EX_Urea_e0" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
         <listOfReactants>
           <speciesReference constant="true" species="M_urea_e" stoichiometry="1"/>
         </listOfReactants>
@@ -13804,42 +13871,42 @@
           <speciesReference constant="true" species="M_fe3_e" stoichiometry="1"/>
         </listOfReactants>
       </reaction>
-      <reaction fast="false" id="R_EX_h2s_e" reversible="false" name="EX_H2S_e0" fbc:upperFluxBound="cobra_0_bound" fbc:lowerFluxBound="cobra_0_bound">
+      <reaction fast="false" id="R_EX_h2s_e" reversible="false" name="EX_H2S_e0" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
         <listOfReactants>
           <speciesReference constant="true" species="M_h2s_e" stoichiometry="1"/>
         </listOfReactants>
       </reaction>
-      <reaction fast="false" id="R_EX_ala__L_e" reversible="false" name="EX_L_Alanine_e0" fbc:upperFluxBound="cobra_0_bound" fbc:lowerFluxBound="cobra_0_bound">
+      <reaction fast="false" id="R_EX_ala__L_e" reversible="false" name="EX_L_Alanine_e0" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
         <listOfReactants>
           <speciesReference constant="true" species="M_ala__L_e" stoichiometry="1"/>
         </listOfReactants>
       </reaction>
-      <reaction fast="false" id="R_EX_arg__L_e" reversible="false" name="EX_L_Arginine_e0" fbc:upperFluxBound="cobra_0_bound" fbc:lowerFluxBound="cobra_0_bound">
+      <reaction fast="false" id="R_EX_arg__L_e" reversible="false" name="EX_L_Arginine_e0" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
         <listOfReactants>
           <speciesReference constant="true" species="M_arg__L_e" stoichiometry="1"/>
         </listOfReactants>
       </reaction>
-      <reaction fast="false" id="R_EX_asn__L_e" reversible="false" name="EX_L_Asparagine_e0" fbc:upperFluxBound="cobra_0_bound" fbc:lowerFluxBound="cobra_0_bound">
+      <reaction fast="false" id="R_EX_asn__L_e" reversible="false" name="EX_L_Asparagine_e0" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
         <listOfReactants>
           <speciesReference constant="true" species="M_asn__L_e" stoichiometry="1"/>
         </listOfReactants>
       </reaction>
-      <reaction fast="false" id="R_EX_asp__L_e" reversible="false" name="EX_L_Aspartate_e0" fbc:upperFluxBound="cobra_0_bound" fbc:lowerFluxBound="cobra_0_bound">
+      <reaction fast="false" id="R_EX_asp__L_e" reversible="false" name="EX_L_Aspartate_e0" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
         <listOfReactants>
           <speciesReference constant="true" species="M_asp__L_e" stoichiometry="1"/>
         </listOfReactants>
       </reaction>
-      <reaction fast="false" id="R_EX_cys__L_e" reversible="false" name="EX_L_Cysteine_e0" fbc:upperFluxBound="cobra_0_bound" fbc:lowerFluxBound="cobra_0_bound">
+      <reaction fast="false" id="R_EX_cys__L_e" reversible="false" name="EX_L_Cysteine_e0" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
         <listOfReactants>
           <speciesReference constant="true" species="M_cys__L_e" stoichiometry="1"/>
         </listOfReactants>
       </reaction>
-      <reaction fast="false" id="R_EX_glu__L_e" reversible="false" name="EX_L_Glutamate_e0" fbc:upperFluxBound="cobra_0_bound" fbc:lowerFluxBound="cobra_0_bound">
+      <reaction fast="false" id="R_EX_glu__L_e" reversible="false" name="EX_L_Glutamate_e0" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
         <listOfReactants>
           <speciesReference constant="true" species="M_glu__L_e" stoichiometry="1"/>
         </listOfReactants>
       </reaction>
-      <reaction fast="false" id="R_EX_gln__L_e" reversible="false" name="EX_L_Glutamine_e0" fbc:upperFluxBound="cobra_0_bound" fbc:lowerFluxBound="cobra_0_bound">
+      <reaction fast="false" id="R_EX_gln__L_e" reversible="false" name="EX_L_Glutamine_e0" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
         <listOfReactants>
           <speciesReference constant="true" species="M_gln__L_e" stoichiometry="1"/>
         </listOfReactants>
@@ -13849,27 +13916,27 @@
           <speciesReference constant="true" species="M_gly_e" stoichiometry="1"/>
         </listOfReactants>
       </reaction>
-      <reaction fast="false" id="R_EX_his__L_e" reversible="false" name="EX_L_Histidine_e0" fbc:upperFluxBound="cobra_0_bound" fbc:lowerFluxBound="cobra_0_bound">
+      <reaction fast="false" id="R_EX_his__L_e" reversible="false" name="EX_L_Histidine_e0" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
         <listOfReactants>
           <speciesReference constant="true" species="M_his__L_e" stoichiometry="1"/>
         </listOfReactants>
       </reaction>
-      <reaction fast="false" id="R_EX_ile__L_e" reversible="false" name="EX_L_Isoleucine_e0" fbc:upperFluxBound="cobra_0_bound" fbc:lowerFluxBound="cobra_0_bound">
+      <reaction fast="false" id="R_EX_ile__L_e" reversible="false" name="EX_L_Isoleucine_e0" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
         <listOfReactants>
           <speciesReference constant="true" species="M_ile__L_e" stoichiometry="1"/>
         </listOfReactants>
       </reaction>
-      <reaction fast="false" id="R_EX_leu__L_e" reversible="false" name="EX_L_Leucine_e0" fbc:upperFluxBound="cobra_0_bound" fbc:lowerFluxBound="cobra_0_bound">
+      <reaction fast="false" id="R_EX_leu__L_e" reversible="false" name="EX_L_Leucine_e0" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
         <listOfReactants>
           <speciesReference constant="true" species="M_leu__L_e" stoichiometry="1"/>
         </listOfReactants>
       </reaction>
-      <reaction fast="false" id="R_EX_lys__L_e" reversible="false" name="EX_L_Lysine_e0" fbc:upperFluxBound="cobra_0_bound" fbc:lowerFluxBound="cobra_0_bound">
+      <reaction fast="false" id="R_EX_lys__L_e" reversible="false" name="EX_L_Lysine_e0" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
         <listOfReactants>
           <speciesReference constant="true" species="M_lys__L_e" stoichiometry="1"/>
         </listOfReactants>
       </reaction>
-      <reaction fast="false" id="R_EX_met__L_e" reversible="false" name="EX_L_Methionine_e0" fbc:upperFluxBound="cobra_0_bound" fbc:lowerFluxBound="cobra_0_bound">
+      <reaction fast="false" id="R_EX_met__L_e" reversible="false" name="EX_L_Methionine_e0" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
         <listOfReactants>
           <speciesReference constant="true" species="M_met__L_e" stoichiometry="1"/>
         </listOfReactants>
@@ -13879,27 +13946,27 @@
           <speciesReference constant="true" species="M_phe__L_e" stoichiometry="1"/>
         </listOfReactants>
       </reaction>
-      <reaction fast="false" id="R_EX_pro__L_e" reversible="false" name="EX_L_Proline_e0" fbc:upperFluxBound="cobra_0_bound" fbc:lowerFluxBound="cobra_0_bound">
+      <reaction fast="false" id="R_EX_pro__L_e" reversible="false" name="EX_L_Proline_e0" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
         <listOfReactants>
           <speciesReference constant="true" species="M_pro__L_e" stoichiometry="1"/>
         </listOfReactants>
       </reaction>
-      <reaction fast="false" id="R_EX_ser__L_e" reversible="false" name="EX_L_Serine_e0" fbc:upperFluxBound="cobra_0_bound" fbc:lowerFluxBound="cobra_0_bound">
+      <reaction fast="false" id="R_EX_ser__L_e" reversible="false" name="EX_L_Serine_e0" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
         <listOfReactants>
           <speciesReference constant="true" species="M_ser__L_e" stoichiometry="1"/>
         </listOfReactants>
       </reaction>
-      <reaction fast="false" id="R_EX_thr__L_e" reversible="false" name="EX_L_Threonine_e0" fbc:upperFluxBound="cobra_0_bound" fbc:lowerFluxBound="cobra_0_bound">
+      <reaction fast="false" id="R_EX_thr__L_e" reversible="false" name="EX_L_Threonine_e0" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
         <listOfReactants>
           <speciesReference constant="true" species="M_thr__L_e" stoichiometry="1"/>
         </listOfReactants>
       </reaction>
-      <reaction fast="false" id="R_EX_trp__L_e" reversible="false" name="EX_L_Tryptophan_e0" fbc:upperFluxBound="cobra_0_bound" fbc:lowerFluxBound="cobra_0_bound">
+      <reaction fast="false" id="R_EX_trp__L_e" reversible="false" name="EX_L_Tryptophan_e0" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
         <listOfReactants>
           <speciesReference constant="true" species="M_trp__L_e" stoichiometry="1"/>
         </listOfReactants>
       </reaction>
-      <reaction fast="false" id="R_EX_tyr__L_e" reversible="false" name="EX_L_Tyrosine_e0" fbc:upperFluxBound="cobra_0_bound" fbc:lowerFluxBound="cobra_0_bound">
+      <reaction fast="false" id="R_EX_tyr__L_e" reversible="false" name="EX_L_Tyrosine_e0" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
         <listOfReactants>
           <speciesReference constant="true" species="M_tyr__L_e" stoichiometry="1"/>
         </listOfReactants>
@@ -13934,47 +14001,47 @@
           <speciesReference constant="true" species="M_pyr_e" stoichiometry="1"/>
         </listOfReactants>
       </reaction>
-      <reaction fast="false" id="R_EX_succ_e" reversible="false" name="EX_Succinate_e0" fbc:upperFluxBound="cobra_0_bound" fbc:lowerFluxBound="cobra_0_bound">
+      <reaction fast="false" id="R_EX_succ_e" reversible="false" name="EX_Succinate_e0" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
         <listOfReactants>
           <speciesReference constant="true" species="M_succ_e" stoichiometry="1"/>
         </listOfReactants>
       </reaction>
-      <reaction fast="false" id="R_EX_mal__L_e" reversible="false" name="EX_L_Malate_e0" fbc:upperFluxBound="cobra_0_bound" fbc:lowerFluxBound="cobra_0_bound">
+      <reaction fast="false" id="R_EX_mal__L_e" reversible="false" name="EX_L_Malate_e0" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
         <listOfReactants>
           <speciesReference constant="true" species="M_mal__L_e" stoichiometry="1"/>
         </listOfReactants>
       </reaction>
-      <reaction fast="false" id="R_EX_btd_M_e" reversible="false" name="EX_S_S_2_3_Butanediol_e0" fbc:upperFluxBound="cobra_0_bound" fbc:lowerFluxBound="cobra_0_bound">
+      <reaction fast="false" id="R_EX_btd_M_e" reversible="false" name="EX_S_S_2_3_Butanediol_e0" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
         <listOfReactants>
           <speciesReference constant="true" species="M_btd_M_e" stoichiometry="1"/>
         </listOfReactants>
       </reaction>
-      <reaction fast="false" id="R_EX_btd_RR_e" reversible="false" name="EX_BDOH_e0" fbc:upperFluxBound="cobra_0_bound" fbc:lowerFluxBound="cobra_0_bound">
+      <reaction fast="false" id="R_EX_btd_RR_e" reversible="false" name="EX_BDOH_e0" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
         <listOfReactants>
           <speciesReference constant="true" species="M_btd_RR_e" stoichiometry="1"/>
         </listOfReactants>
       </reaction>
-      <reaction fast="false" id="R_EX_5oxpro_e" reversible="false" name="EX_5_Oxoproline_e0" fbc:upperFluxBound="cobra_0_bound" fbc:lowerFluxBound="cobra_0_bound">
+      <reaction fast="false" id="R_EX_5oxpro_e" reversible="false" name="EX_5_Oxoproline_e0" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
         <listOfReactants>
           <speciesReference constant="true" species="M_5oxpro_e" stoichiometry="1"/>
         </listOfReactants>
       </reaction>
-      <reaction fast="false" id="R_EX_ibutoh_e" reversible="false" name="EX_Isobutyl_alcohol_e0" fbc:upperFluxBound="cobra_0_bound" fbc:lowerFluxBound="cobra_0_bound">
+      <reaction fast="false" id="R_EX_ibutoh_e" reversible="false" name="EX_Isobutyl_alcohol_e0" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
         <listOfReactants>
           <speciesReference constant="true" species="M_ibutoh_e" stoichiometry="1"/>
         </listOfReactants>
       </reaction>
-      <reaction fast="false" id="R_EX_fum_e" reversible="false" name="EX_Fumarate_e0" fbc:upperFluxBound="cobra_0_bound" fbc:lowerFluxBound="cobra_0_bound">
+      <reaction fast="false" id="R_EX_fum_e" reversible="false" name="EX_Fumarate_e0" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
         <listOfReactants>
           <speciesReference constant="true" species="M_fum_e" stoichiometry="1"/>
         </listOfReactants>
       </reaction>
-      <reaction fast="false" id="R_EX_xylt_e" reversible="false" name="EX_Xylitol_e0" fbc:upperFluxBound="cobra_0_bound" fbc:lowerFluxBound="cobra_0_bound">
+      <reaction fast="false" id="R_EX_xylt_e" reversible="false" name="EX_Xylitol_e0" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
         <listOfReactants>
           <speciesReference constant="true" species="M_xylt_e" stoichiometry="1"/>
         </listOfReactants>
       </reaction>
-      <reaction fast="false" id="R_EX_pnto__R_e" reversible="false" name="EX_PAN_e0" fbc:upperFluxBound="cobra_0_bound" fbc:lowerFluxBound="cobra_0_bound">
+      <reaction fast="false" id="R_EX_pnto__R_e" reversible="true" name="EX_PAN_e0" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
         <listOfReactants>
           <speciesReference constant="true" species="M_pnto__R_e" stoichiometry="1"/>
         </listOfReactants>
@@ -13989,12 +14056,12 @@
           <speciesReference constant="true" species="M_na1_e" stoichiometry="1"/>
         </listOfReactants>
       </reaction>
-      <reaction fast="false" id="R_EX_cpd11416_c0" reversible="false" name="EX_Biomass_c0" fbc:upperFluxBound="cobra_0_bound" fbc:lowerFluxBound="cobra_0_bound">
+      <reaction fast="false" id="R_EX_cpd11416_c0" reversible="false" name="EX_Biomass_c0" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
         <listOfReactants>
           <speciesReference constant="true" species="M_biomass_c" stoichiometry="1"/>
         </listOfReactants>
       </reaction>
-      <reaction fast="false" id="R_EX_glceq_e" reversible="false" name="Glucose equivalents exchange" fbc:upperFluxBound="cobra_0_bound" fbc:lowerFluxBound="cobra_0_bound">
+      <reaction fast="false" id="R_EX_glceq_e" reversible="true" name="Glucose equivalents exchange" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_default_lb">
         <listOfReactants>
           <speciesReference constant="true" species="M_glceq_e" stoichiometry="1"/>
         </listOfReactants>
@@ -14031,22 +14098,22 @@
           <speciesReference constant="true" species="M_cell6_e" stoichiometry="1"/>
         </listOfProducts>
       </reaction>
-      <reaction fast="false" id="R_EX_fuc__L_e" reversible="false" name="L_Fucose_c0 exchange" fbc:upperFluxBound="cobra_0_bound" fbc:lowerFluxBound="cobra_0_bound">
+      <reaction fast="false" id="R_EX_fuc__L_e" reversible="false" name="L_Fucose_c0 exchange" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
         <listOfReactants>
           <speciesReference constant="true" species="M_fuc__L_e" stoichiometry="1"/>
         </listOfReactants>
       </reaction>
-      <reaction fast="false" id="R_EX_glc__D_e" reversible="false" name="D_Glucose_c0 exchange" fbc:upperFluxBound="cobra_0_bound" fbc:lowerFluxBound="cobra_0_bound">
+      <reaction fast="false" id="R_EX_glc__D_e" reversible="false" name="D_Glucose_c0 exchange" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
         <listOfReactants>
           <speciesReference constant="true" species="M_glc__D_e" stoichiometry="1"/>
         </listOfReactants>
       </reaction>
-      <reaction fast="false" id="R_EX_sbt__D_e" reversible="false" name="Sorbitol_c0 exchange" fbc:upperFluxBound="cobra_0_bound" fbc:lowerFluxBound="cobra_0_bound">
+      <reaction fast="false" id="R_EX_sbt__D_e" reversible="false" name="Sorbitol_c0 exchange" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
         <listOfReactants>
           <speciesReference constant="true" species="M_sbt__D_e" stoichiometry="1"/>
         </listOfReactants>
       </reaction>
-      <reaction fast="false" id="R_EX_fru_e" reversible="false" name="D_Fructose_c0 exchange" fbc:upperFluxBound="cobra_0_bound" fbc:lowerFluxBound="cobra_0_bound">
+      <reaction fast="false" id="R_EX_fru_e" reversible="false" name="D_Fructose_c0 exchange" fbc:upperFluxBound="cobra_default_ub" fbc:lowerFluxBound="cobra_0_bound">
         <listOfReactants>
           <speciesReference constant="true" species="M_fru_e" stoichiometry="1"/>
         </listOfReactants>

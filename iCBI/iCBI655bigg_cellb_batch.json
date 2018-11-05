@@ -4737,6 +4737,30 @@
 "compartment":"e0",
 "charge":0,
 "formula":"C6H12O6"
+},
+{
+"id":"fuc__L_e",
+"name":"L_Fucose_c0",
+"compartment":"e0",
+"charge":0
+},
+{
+"id":"glc__D_e",
+"name":"D_Glucose_c0",
+"compartment":"e0",
+"charge":0
+},
+{
+"id":"sbt__D_e",
+"name":"Sorbitol_c0",
+"compartment":"e0",
+"charge":0
+},
+{
+"id":"fru_e",
+"name":"D_Fructose_c0",
+"compartment":"e0",
+"charge":0
 }
 ],
 "reactions":[
@@ -4765,7 +4789,7 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"(CLO1313_RS00530 and CLO1313_RS00535) or CLO1313_RS01575"
+"gene_reaction_rule":"( CLO1313_RS00530 and CLO1313_RS00535 ) or CLO1313_RS01575"
 },
 {
 "id":"PDHam1hi",
@@ -4791,7 +4815,7 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"CLO1313_RS02885 and CLO1313_RS02890 and CLO1313_RS02895 and CLO1313_RS02900 and CLO1313_RS02905 and CLO1313_RS02910 and CLO1313_RS15535 and CLO1313_RS02915 and CLO1313_RS02920 and CLO1313_RS02925 and CLO1313_RS02930 and CLO1313_RS02935 and (CLO1313_RS09510 or CLO1313_RS09060)"
+"gene_reaction_rule":"CLO1313_RS02885 and CLO1313_RS02890 and CLO1313_RS02895 and CLO1313_RS02900 and CLO1313_RS02905 and CLO1313_RS02910 and CLO1313_RS15535 and CLO1313_RS02915 and CLO1313_RS02920 and CLO1313_RS02925 and CLO1313_RS02930 and CLO1313_RS02935 and ( CLO1313_RS09510 or CLO1313_RS09060 )"
 },
 {
 "id":"AHEXASE3",
@@ -4856,7 +4880,7 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"CLO1313_RS01005 or (CLO1313_RS14915 and CLO1313_RS14920 and CLO1313_RS14925 and CLO1313_RS14930 and CLO1313_RS14935 and CLO1313_RS14940 and CLO1313_RS14945 and CLO1313_RS14950) or (CLO1313_RS00975 and CLO1313_RS00980 and CLO1313_RS00985 and CLO1313_RS00990 and CLO1313_RS00995 and CLO1313_RS01000) or CLO1313_RS01005 or CLO1313_RS01010 or CLO1313_RS10355 or CLO1313_RS14910 or CLO1313_RS14915 or CLO1313_RS14920 or CLO1313_RS14925 or CLO1313_RS05885 or CLO1313_RS06805 or CLO1313_RS05475 or CLO1313_RS14990 or CLO1313_RS09995"
+"gene_reaction_rule":"CLO1313_RS01005 or ( CLO1313_RS14915 and CLO1313_RS14920 and CLO1313_RS14925 and CLO1313_RS14930 and CLO1313_RS14935 and CLO1313_RS14940 and CLO1313_RS14945 and CLO1313_RS14950 ) or ( CLO1313_RS00975 and CLO1313_RS00980 and CLO1313_RS00985 and CLO1313_RS00990 and CLO1313_RS00995 and CLO1313_RS01000 ) or CLO1313_RS01005 or CLO1313_RS01010 or CLO1313_RS10355 or CLO1313_RS14910 or CLO1313_RS14915 or CLO1313_RS14920 or CLO1313_RS14925 or CLO1313_RS05885 or CLO1313_RS06805 or CLO1313_RS05475 or CLO1313_RS14990 or CLO1313_RS09995"
 },
 {
 "id":"GLUS",
@@ -5107,7 +5131,7 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"(CLO1313_RS08685 and CLO1313_RS08680) or CLO1313_RS09160"
+"gene_reaction_rule":"( CLO1313_RS08685 and CLO1313_RS08680 ) or CLO1313_RS09160"
 },
 {
 "id":"ME2",
@@ -6628,17 +6652,6 @@
 "gene_reaction_rule":"CLO1313_RS00770"
 },
 {
-"id":"PGCM",
-"name":"alpha_D_Glucose_1_phosphate_1_6_phosphomutase_c0",
-"metabolites":{
-"g1p_c":-1.0,
-"g6p_c":1.0
-},
-"lower_bound":-1000.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"CLO1313_RS05070"
-},
-{
 "id":"ITCY",
 "name":"ITP_cytidine_5_phosphotransferase_c0",
 "metabolites":{
@@ -7252,7 +7265,7 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"CLO1313_RS00125 or CLO1313_RS01945 or CLO1313_RS00130 or CLO1313_RS01950 or CLO1313_RS00120 or CLO1313_RS00115 or (CLO1313_RS01940 and CLO1313_RS01935)"
+"gene_reaction_rule":"CLO1313_RS00125 or CLO1313_RS01945 or CLO1313_RS00130 or CLO1313_RS01950 or CLO1313_RS00120 or CLO1313_RS00115 or ( CLO1313_RS01940 and CLO1313_RS01935 )"
 },
 {
 "id":"DHAD1",
@@ -8331,20 +8344,6 @@
 "gene_reaction_rule":"CLO1313_RS10295"
 },
 {
-"id":"GRTT",
-"name":"CustomReaction_c0",
-"metabolites":{
-"frdp_c":1.0,
-"ggdp_c":-1.0,
-"h_c":1.0,
-"ipdp_c":-1.0,
-"ppi_c":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"CLO1313_RS07040"
-},
-{
 "id":"RNTR1",
 "name":"2_Deoxyadenosine_5_triphosphate_oxydized_thioredoxin_2_oxidoreductase_c0",
 "metabolites":{
@@ -8533,7 +8532,7 @@
 "ipdp_c":-1.0,
 "ppi_c":1.0
 },
-"lower_bound":0.0,
+"lower_bound":-1000.0,
 "upper_bound":1000.0,
 "gene_reaction_rule":"CLO1313_RS07040"
 },
@@ -14276,7 +14275,7 @@
 "h_c":1.0,
 "pi_c":1.0
 },
-"lower_bound":1.964660290605579,
+"lower_bound":1.964660290605554,
 "upper_bound":1000,
 "gene_reaction_rule":"U"
 },
@@ -15163,12 +15162,14 @@
 },
 {
 "id":"NA1abc",
-"name":"ATP_phosphohydrolase_c0",
+"name":"Sodium transport via ABC system",
 "metabolites":{
 "adp_c":1.0,
 "atp_c":-1.0,
 "h2o_c":-1.0,
 "h_c":1.0,
+"na1_c":1.0,
+"na1_e":-1.0,
 "pi_c":1.0
 },
 "lower_bound":0.0,
@@ -15245,16 +15246,6 @@
 },
 "lower_bound":-1000.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"U"
-},
-{
-"id":"EX_na1_e_e0",
-"name":"CustomReaction_e0",
-"metabolites":{
-"na1_c":-1.0
-},
-"lower_bound":0,
-"upper_bound":0,
 "gene_reaction_rule":"U"
 },
 {
@@ -15523,71 +15514,47 @@
 },
 {
 "id":"FUCabc",
-"name":"ATP_phosphohydrolase_c0",
+"name":"Fucose transport via ABC system",
 "metabolites":{
 "adp_c":1.0,
 "atp_c":-1.0,
+"fuc__L_c":1.0,
+"fuc__L_e":-1.0,
 "h2o_c":-1.0,
 "h_c":1.0,
 "pi_c":1.0
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"U"
-},
-{
-"id":"EX_fuc__L_e",
-"name":"CustomReaction_e0",
-"metabolites":{
-"fuc__L_c":-1.0
-},
-"lower_bound":0,
-"upper_bound":0,
 "gene_reaction_rule":"U"
 },
 {
 "id":"GLCabc",
-"name":"ATP_phosphohydrolase_c0",
+"name":"Glucose transport via ABC system",
 "metabolites":{
 "adp_c":1.0,
 "atp_c":-1.0,
+"glc__D_c":1.0,
+"glc__D_e":-1.0,
 "h2o_c":-1.0,
 "h_c":1.0,
 "pi_c":1.0
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"U"
-},
-{
-"id":"EX_glc__D_e",
-"name":"CustomReaction_e0",
-"metabolites":{
-"glc__D_c":-1.0
-},
-"lower_bound":0,
-"upper_bound":0,
 "gene_reaction_rule":"U"
 },
 {
 "id":"SBTabc",
-"name":"ATP_phosphohydrolase_c0",
+"name":"Sorbitol transport via ABC system",
 "metabolites":{
 "adp_c":1.0,
 "atp_c":-1.0,
 "h2o_c":-1.0,
 "h_c":1.0,
-"pi_c":1.0
-},
-"lower_bound":0.0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"U"
-},
-{
-"id":"Ex_sbt__D_e",
-"name":"CustomReaction_e0",
-"metabolites":{
-"sbt__D_c":-1.0
+"pi_c":1.0,
+"sbt__D_c":1.0,
+"sbt__D_e":-1.0
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
@@ -15595,26 +15562,18 @@
 },
 {
 "id":"FRUabc",
-"name":"ATP_phosphohydrolase_c0",
+"name":"Fructose transport via ABC system",
 "metabolites":{
 "adp_c":1.0,
 "atp_c":-1.0,
+"fru_c":1.0,
+"fru_e":-1.0,
 "h2o_c":-1.0,
 "h_c":1.0,
 "pi_c":1.0
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
-"gene_reaction_rule":"U"
-},
-{
-"id":"EX_fru_e",
-"name":"CustomReaction_e0",
-"metabolites":{
-"fru_c":-1.0
-},
-"lower_bound":0,
-"upper_bound":0,
 "gene_reaction_rule":"U"
 },
 {
@@ -15749,13 +15708,13 @@
 "name":"CustomReaction_c0",
 "metabolites":{
 "3g12dgr_SA2_c":-0.00749443085801535,
-"adp_c":64.64447921849973,
+"adp_c":64.6444792184998,
 "ala__L_c":-0.226981629081658,
 "amp_c":-0.0116446298806306,
 "arg__L_c":-0.152834432829489,
 "asn__L_c":-0.19337686956005,
 "asp__L_c":-0.203565776332897,
-"atp_c":-64.64447921849973,
+"atp_c":-64.6444792184998,
 "ca2_c":-0.00431378642200049,
 "cdp_c":-0.000648364692685445,
 "clpn_SC_c":-0.000398993657037197,
@@ -15783,8 +15742,8 @@
 "gly_c":-0.238689992949084,
 "gmp_c":-0.00131834154179374,
 "gtp_c":-0.0236155245744981,
-"h2o_c":-64.64447921849973,
-"h_c":64.64447921849973,
+"h2o_c":-64.6444792184998,
+"h_c":64.6444792184998,
 "his__L_c":-0.0505986081135555,
 "ile__L_c":-0.297230937300123,
 "k_c":-0.950718761041091,
@@ -15797,7 +15756,7 @@
 "nadph_c":-0.000523014185432926,
 "pg_SC_c":-0.0154610042101914,
 "phe__L_c":-0.149324601126697,
-"pi_c":64.64447921849973,
+"pi_c":64.6444792184998,
 "ppi_c":0.161830917308754,
 "pro__L_c":-0.123899561568787,
 "psetha_BS_c":-0.0491959179126864,
@@ -16485,6 +16444,46 @@
 },
 "lower_bound":0.0,
 "upper_bound":1000.0,
+"gene_reaction_rule":""
+},
+{
+"id":"EX_fuc__L_e",
+"name":"L_Fucose_c0 exchange",
+"metabolites":{
+"fuc__L_e":-1.0
+},
+"lower_bound":0,
+"upper_bound":0,
+"gene_reaction_rule":""
+},
+{
+"id":"EX_glc__D_e",
+"name":"D_Glucose_c0 exchange",
+"metabolites":{
+"glc__D_e":-1.0
+},
+"lower_bound":0,
+"upper_bound":0,
+"gene_reaction_rule":""
+},
+{
+"id":"EX_sbt__D_e",
+"name":"Sorbitol_c0 exchange",
+"metabolites":{
+"sbt__D_e":-1.0
+},
+"lower_bound":0,
+"upper_bound":0,
+"gene_reaction_rule":""
+},
+{
+"id":"EX_fru_e",
+"name":"D_Fructose_c0 exchange",
+"metabolites":{
+"fru_e":-1.0
+},
+"lower_bound":0,
+"upper_bound":0,
 "gene_reaction_rule":""
 }
 ],
