@@ -2,7 +2,7 @@
 This script generates the final version of the model and does two things:
 
 1. Update the model according to the essentiality analysis findings (see /analysis/essentiality/known_essentiality.ipynb)
-2. Re-add metabolite formulas
+2. Re-add missing metadata
 """
 import os, sys
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -20,9 +20,16 @@ model.reactions.DRPA.notes['curation_notes'] = 'The bounds are set to zero to co
 
 # 2
 isg = cb.io.load_json_model(os.path.join(settings.PROJECT_ROOT,'iSG676','iSG676_cb.json'))
+# Metabolite formulas
 for met in model.metabolites:
     if met in isg.metabolites:
         met.formula = isg.metabolites.get_by_id(met.id).formula
+# Reaction subsystems
+for rxn in model.reactions:
+    if rxn.id in isg.reactions:
+        rxn.subsystem = isg.reactions.get_by_id(rxn.id).subsystem
+
+# Save
 cb.io.save_json_model(model, os.path.join(settings.PROJECT_ROOT,'iCBI','iCBI655bigg_cellb_batch_v2.json'))
 cb.io.write_sbml_model(model, os.path.join(settings.PROJECT_ROOT,'iCBI','iCBI655bigg_cellb_batch_v2.sbml'))
 cb.io.save_matlab_model(model, os.path.join(settings.PROJECT_ROOT,'iCBI','iCBI655bigg_cellb_batch_v2.mat'))
