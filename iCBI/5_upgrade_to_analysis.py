@@ -2,7 +2,7 @@
 This script generates the final version of the model and does two things:
 
 1. Update the model according to the essentiality analysis findings (see /analysis/essentiality/known_essentiality.ipynb)
-2.
+2. Re-add metabolite formulas
 """
 import os, sys
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
