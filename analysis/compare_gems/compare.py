@@ -10,9 +10,6 @@ Compares two or more genome scale models, including:
 - lethal single-reaction deletions
 - lethal signle-gene deletions
 - confidence level distribution
-
-
-
 """
 
 import cobra as cb
@@ -22,17 +19,18 @@ import pandas as pd
 from collections import Counter
 from matplotlib import pyplot
 
+
 ## Compares
 def compare_ctherm_models():
     models = [
-        cb.io.load_json_model(os.path.join(settings.PROJECT_ROOT, 'analysis', 'comparison', 'iSR432_w_exch.json')),
-        cb.io.read_sbml_model(os.path.join(settings.PROJECT_ROOT, 'analysis', 'comparison', 'iCth446.xml')),
+        cb.io.load_json_model(os.path.join(settings.PROJECT_ROOT, 'analysis', 'compare_gems', 'iSR432_w_exch.json')),
+        cb.io.read_sbml_model(os.path.join(settings.PROJECT_ROOT, 'analysis', 'compare_gems', 'iCth446.xml')),
         cb.io.read_sbml_model(os.path.join(settings.PROJECT_ROOT, 'iAT601', 'iAT601_CB_fixed_GPR.xml')),
-        cb.io.load_json_model(os.path.join(settings.PROJECT_ROOT, 'iCBI', 'iCBI655bigg_cellb_batch.json')),
-        cb.io.load_json_model(os.path.join(settings.PROJECT_ROOT, 'analysis', 'comparison', 'iML1515.json'))
+        cb.io.load_json_model(os.path.join(settings.PROJECT_ROOT, 'iCBI', 'iCBI655bigg_cellb_batch_v2.json')),
+        cb.io.load_json_model(os.path.join(settings.PROJECT_ROOT, 'analysis', 'compare_gems', 'iML1515.json'))
     ]
 
-    t = get_table(models, os.path.join(settings.PROJECT_ROOT, 'analysis', 'comparison', 'all_ct_gems.csv'))
+    t = get_table(models, os.path.join(settings.PROJECT_ROOT, 'analysis', 'compare_gems', 'all_ct_gems.csv'))
     print(t)
 
 
