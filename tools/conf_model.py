@@ -10,22 +10,18 @@ import settings
 
 
 
-def set_experimental_data(model, dataset_index, constraint_mode, reactor_type='batch', apply_knockouts=True, flux_dataset_path=settings.EXTRACELLULAR_FLUX_DATA, secretion='all'):
+def set_experimental_data(model, dataset_index, constraint_mode, reactor_type='batch', apply_knockouts=True, flux_dataset_path=settings.EXTRACELLULAR_FLUX_DATA, secretion='all', verbose=False):
 
-    #if full_dataset is None:
     df = pd.read_csv(flux_dataset_path)
-    
-    #else:
-    #    df = full_dataset
     target_row = df[df['index'] == dataset_index]
     row = target_row.to_dict(orient='records')[0]
 
     if apply_knockouts:
         if isinstance(row['deleted_genes'], str):
-            knock_out_genes(model, row['deleted_genes'])
+            knock_out_genes(model, row['deleted_genes'], verbose)
 
-    bof_id = set_conditions(model, row['Medium'], secretion, reactor_type)
-    set_experimental_flux_reaction_bounds(row, bof_id, model, constraint_mode)
+    bof_id = set_conditions(model, row['Medium'], secretion, reactor_type, verbose)
+    set_experimental_flux_reaction_bounds(row, bof_id, model, constraint_mode, verbose)
 
 
 def set_conditions(model, medium_str, secretion='all', reactor_type='batch', verbose=False):
@@ -66,12 +62,12 @@ def set_conditions(model, medium_str, secretion='all', reactor_type='batch', ver
     set_medium(model, medium_id)
     set_secretion(model, secretion)
     set_atp_param(model, medium_id, bof_id, reactor_type)
-    
+
     # Change objective to appropriate BOF
     set_bof(model, bof_id)
-    
+
     if verbose:
-        print('Model conditions set: ')
+        print('Model({}) conditions set: '.format(model.name))
         print('\t Medium: \t {}'.format(medium_id))
         print('\t Biomass reaction id: \t {}'.format(bof_id))
 
@@ -83,16 +79,16 @@ def set_bof(model, bof_id, reset_bounds=True):
         model(cobra_model)
         bof_id(rxn_id)
     """
-    
+
     # Block all BOF
     model.reactions.BIOMASS_CELLOBIOSE.bounds = (0,0)
     model.reactions.BIOMASS_NO_CELLULOSOME.bounds = (0,0)
     model.reactions.BIOMASS_CELLULOSE.bounds = (0,0)
-    
+
     # Set target
     model.objective = bof_id
     model.reactions.get_by_id(bof_id).bounds = (0,1000)
-    
+
 def knock_out_genes(model, deleted_gene_list, verbose=False):
     """ This function identifies genes to be delted from a list of the form:
     gene1-gene3 or gene1-3. Both meaning gene1, gene2, and gene3 are deleted. Instead of a range, a list of genes,
@@ -141,7 +137,7 @@ def knock_out_genes(model, deleted_gene_list, verbose=False):
         print('Deleted genes:{}'.format(','.join(deleted_gene_ids)))
 
 
-def set_experimental_flux_reaction_bounds(flux_row, bof_rxn_id, model, constraint_mode):
+def set_experimental_flux_reaction_bounds(flux_row, bof_rxn_id, model, constraint_mode, verbose=False):
     """
     Enforces measured fluxes, including growth rate
     :param flux_row: dictionary, k: column_id, v: flux_value
@@ -153,6 +149,7 @@ def set_experimental_flux_reaction_bounds(flux_row, bof_rxn_id, model, constrain
         'mean': sets lower bound to mean, upper bound is 1000
         'max': sets lower bound to mean + std, upper bound is a 1000
         'both': sets lower bound to mean - std and upper bound to mean + std
+    :param verbose: Print output, default is false.
     Notes:
         - See file 'ctherm_extracellular_flux.csv' for reference
     """
@@ -180,7 +177,10 @@ def set_experimental_flux_reaction_bounds(flux_row, bof_rxn_id, model, constrain
             ub = float(flux_row[met_id]) + float(flux_row[met_id + '_std'])
 
         if not (np.isnan(lb) or np.isnan(ub)):
+            if verbose:
+                print('Experimental bounds of {} changed from {} to {}'.format(rxn_id, model.reactions.get_by_id(rxn_id).bounds, (lb, ub)))
             model.reactions.get_by_id(rxn_id).bounds = (lb, ub)
+
 
 
 def block_all_exchanges(model):
