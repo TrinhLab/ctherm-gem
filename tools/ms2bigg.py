@@ -1,5 +1,5 @@
 """
-Sets reaction and metabolite IDs from modelSEED to BiGG to make exiting configuration code functional.
+Sets reaction and metabolite IDs from modelSEED to BiGG to make existing configuration code functional.
 Also corrects gene IDs
 """
 
