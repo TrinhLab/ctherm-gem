@@ -1,4 +1,5 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
+
 # coding: utf-8
 # Description: Compare iCBI and iAT quantiative growth predictions on gene deletion phenotypes
 # Notes: The iCBI model is refered to as iSG throughout the code
@@ -6,8 +7,7 @@
 # ## Setup
 
 
-import os
-import sys
+import os, sys
 sys.path.append('../../')
 
 import csv
@@ -30,8 +30,8 @@ from collections import OrderedDict
 
 
 # Load models
-isg = cb.io.load_json_model(os.path.join(settings.PROJECT_ROOT,'iCBI', 'iCBI655bigg_cellb_batch_v2.json'))
-iat = cb.io.read_sbml_model(os.path.join(settings.PROJECT_ROOT,"iAT601","iAT601_CB_fixed_GPR.xml"))
+isg = cb.io.load_json_model(os.path.join(settings.PROJECT_ROOT,'iCBI', 'iCBI655_cellobiose_batch.json'))
+iat = cb.io.read_sbml_model(os.path.join(settings.PROJECT_ROOT,'iAT601','iAT601_CB_fixed_GPR.xml'))
 
 # ID map to iAT
 df = pd.read_csv(os.path.join(settings.PROJECT_ROOT, 'iSG', 'reaction_nomenclature-curated.csv'))

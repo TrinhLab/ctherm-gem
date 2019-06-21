@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 """
 There are two methods:
 
@@ -12,9 +14,11 @@ Compares two or more genome scale models, including:
 - confidence level distribution
 """
 
+import os, sys
+sys.path.append('../../')
+
 import cobra as cb
 import settings
-import os
 import pandas as pd
 from collections import Counter
 from matplotlib import pyplot
@@ -26,7 +30,7 @@ def compare_ctherm_models():
         cb.io.load_json_model(os.path.join(settings.PROJECT_ROOT, 'analysis', 'compare_gems', 'iSR432_w_exch.json')),
         cb.io.read_sbml_model(os.path.join(settings.PROJECT_ROOT, 'analysis', 'compare_gems', 'iCth446.xml')),
         cb.io.read_sbml_model(os.path.join(settings.PROJECT_ROOT, 'iAT601', 'iAT601_CB_fixed_GPR.xml')),
-        cb.io.load_json_model(os.path.join(settings.PROJECT_ROOT, 'iCBI', 'iCBI655bigg_cellb_batch_v2.json')),
+        cb.io.load_json_model(os.path.join(settings.PROJECT_ROOT, 'iCBI', 'iCBI655_cellobiose_batch.json')),
         cb.io.load_json_model(os.path.join(settings.PROJECT_ROOT, 'analysis', 'compare_gems', 'iML1515.json'))
     ]
 
