@@ -1,13 +1,14 @@
-# Files in this directory
-## Models
-- iCBI676.xml, corresponds to the model as downloaded from KBase in 10/3/2018
-- The remaning models are generated from the notebook steps, which are executed in the order indicated by their file name. 
-## Notebooks 
-These are executed sequentially to obtain the final model.
+# Contents
+- The final model is generated from the kbase consensus model by correcting a variety of issues. These corrections are done in numbered steps, and executed in that order. Some steps are duplicated in the form of a python script and and ipython notebook. The python script is more current and the notebooks are included for reference to illustarte the rationale behind some modifications.
+- The final model `iCBI655_cellbiose_batch`
+- Outdated references:
+	- The final model `iCBI655_cellbiose_batch` might be refered elsewhere as `iCBI655bigg_cellb_batch_v2`
+	- `iCBI655bigg_cellb_batch` was the previous name for the model after the ATP training step, which is currently `intermediate/iCBI655_v7.json`.
+- Check each subdirectory for its own README
 
 
 # Consesus model
-The consensus model, iCBI676.xml, was constructed from iSG676 with the following changes:
+The consensus model, kbase/iCBI676.xml, was constructed from iSG676 with the following changes:
 0. ACS is not blocked
 1. Remove amino acid (ATP consuming) uptake reactions
 2. Link trna cycling to biomass reactions
@@ -15,7 +16,4 @@ The consensus model, iCBI676.xml, was constructed from iSG676 with the following
 4. Remove nad and nadp dependent hydrogenases. Keep ferredoxin hydrogenases with and without external protons
 5. Add fumarate reductase
 6. update all reactions based on ModelSEED metabolite charges
-
-iCBI676.xml was downloaded from KBase
-
 
