@@ -363,6 +363,12 @@ model.metabolites.shcl_c.charge = isg.metabolites.shcl_c.charge
 #model.reactions.SHCHD2.remove_from_model()
 #model.add_reactions(SHCHD2)
 
+## PNTO transporter:
+# PNTOt2r uses symport
+# PNTOt2r2 does not use symport. Allowing to convert h_e to h_c without cost.
+
+
+
 # # Save updated model
 cb.io.save_json_model(model,os.path.join('intermediate','iCBI665_v4_bigg.json'))
 

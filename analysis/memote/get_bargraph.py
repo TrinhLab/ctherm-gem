@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+# Program
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -25,7 +26,8 @@ rename = {
 }
 
 # Plot
-data = pd.read_csv('memote_scores_iCBI655_cellobiose_batch.csv')
+data = pd.read_csv('memote_scores.csv')
+
 data['section'] = data['section'].map(rename)
 data = data.set_index('section')
 ax = data.plot.barh()
@@ -34,7 +36,6 @@ ax.grid(b=True,which='major',axis='x', zorder=-3) # zorder not working, just edi
 plt.xlim(right=1)
 plt.xlabel('Score')
 plt.ylabel('Section')
-ax.get_legend().remove()
+#ax.get_legend().remove()
 plt.tight_layout()
-#plt.show()
-plt.savefig('memote_scores_iCBI.svg')
+plt.savefig('memote_scores.svg')
