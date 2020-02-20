@@ -7,7 +7,7 @@ import seaborn as sns
 from matplotlib.ticker import FuncFormatter
 # plot configuration
 params = {'legend.fontsize': 'x-large',
-          'figure.figsize': (6, 3),
+          'figure.figsize': (5, 4),
          'axes.labelsize': 'x-large',
          'axes.titlesize':'x-large',
          'xtick.labelsize':'x-large',
@@ -38,4 +38,5 @@ plt.xlabel('Score')
 plt.ylabel('Section')
 #ax.get_legend().remove()
 plt.tight_layout()
+sns.despine()
 plt.savefig('memote_scores.svg')
