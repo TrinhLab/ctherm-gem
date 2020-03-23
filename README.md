@@ -2,6 +2,13 @@
 This repository contains all code and data used to develop and analyze the
 iCBI655 genome scale model of _C. thermocellum_ DSM1313.
 
+If you use any part of this software please cite:
+~~~
+ Development of a genome-scale metabolic model of Clostridium thermocellum and its applications for integration of multi-omics datasets and strain design.
+ Garcia, S.,Thompson, R.A., Giannone, R., Dash, S., Maranas, C., and Trinh, C. T. 
+ In preparation.
+~~~
+
 ## Directory description
 
 Models:
