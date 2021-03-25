@@ -72,7 +72,7 @@ python-dateutil==2.8.0
 python-libsbml==5.17.0
 python-libsbml-experimental==5.18.0
 pytz==2018.9
-PyYAML==3.13
+PyYAML==5.4
 requests==2.21.0
 rfc3986==0.4.1
 ruamel.yaml==0.15.88
