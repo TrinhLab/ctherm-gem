@@ -3,7 +3,7 @@ arrow==0.13.1
 asn1crypto==0.24.0
 atomicwrites==1.3.0
 attrs==18.2.0
-Babel==2.6.0
+Babel==2.9.1
 binaryornot==0.4.4
 cchardet==2.1.4
 certifi==2018.11.29
