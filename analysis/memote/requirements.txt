@@ -62,7 +62,7 @@ py==1.8.0
 pycparser==2.19
 PyGithub==1.43.5
 Pygments==2.3.1
-PyJWT==1.7.1
+PyJWT==2.4.0
 pylru==1.1.0
 pyparsing==2.3.1
 pyperclip==1.6.0
