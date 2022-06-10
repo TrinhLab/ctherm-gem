@@ -14,7 +14,7 @@ click-configfile==0.2.3
 click-log==0.3.2
 cobra==0.15.3
 configparser==3.7.3
-cookiecutter==1.6.0
+cookiecutter==2.1.1
 cryptography==2.6
 cycler==0.10.0
 datapackage==0.8.9
