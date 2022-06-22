@@ -48,7 +48,7 @@ memote==0.9.12
 more-itertools==6.0.0
 mpmath==1.1.0
 nltk==3.4
-numpy==1.16.2
+numpy==1.22.0
 numpydoc==0.8.0
 odfpy==1.4.0
 openpyxl==2.4.11
